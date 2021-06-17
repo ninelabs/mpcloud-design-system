@@ -1,0 +1,39 @@
+.toc {
+
+  &-section {
+    display: flex;
+  }
+  &-sequence {
+    padding-top: .25rem;
+    padding-right: 1.5rem;
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: $gray-60;
+  }
+  &-metadata {
+    display: none;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+
+    .fa {
+      color: $pink;
+    }
+  }
+  &-content {
+    margin-bottom: 3rem;
+    h5 {
+      .optional {
+        font-family: $font-family-body;
+        font-style: italic;
+        font-size: 1.15rem;
+        font-weight: 300;
+        color: $gray-60;
+      }
+    }
+    dd { margin-left: 3rem; }
+    dt span {
+      font-weight: 300;
+      color: $gray-60;
+    }
+  }
+}

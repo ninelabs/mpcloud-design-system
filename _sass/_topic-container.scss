@@ -1,0 +1,49 @@
+.topic-container, .topic-container-right {
+  @extend .container;
+  @extend .my-5;
+
+  h2 {
+    line-height: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .topic-image, .topic-content {
+    @extend .col-sm-12;
+    @extend .col-lg-6;
+  }
+
+  .topic-image {
+    min-height: 10rem;
+    background-size: cover;
+    background-position: center;
+  }
+  .topic-content {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+
+    @include media-breakpoint-up(lg) {
+      padding: 5rem;
+      padding-right: 0;
+    }
+  }
+  .related-actions a {
+    @extend .btn;
+    @extend .btn-sm;
+    @extend .btn-outline-primary;
+    margin-bottom: .25rem;
+  }
+}
+
+.topic-container-right {
+  @include media-breakpoint-up(lg) {
+    .topic-content {
+      padding: 5rem;
+      padding-left: 0;
+    }
+  }
+  @include media-breakpoint-up(md) {
+    .row {
+      flex-direction: row-reverse;
+    }
+  }
+}

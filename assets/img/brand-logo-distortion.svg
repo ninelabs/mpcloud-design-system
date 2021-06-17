@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400px" height="400px" viewBox="0 0 400 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Horizontal Distortion</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Horizontal-Distortion" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(65.000000, 65.000000)" fill="#F280B1">
+            <rect id="Rectangle" x="156" y="8" width="57" height="255" rx="28.5"></rect>
+            <rect id="Rectangle" x="58" y="8" width="57" height="255" rx="28.5"></rect>
+            <path d="M156.747361,9.02085053 L167.168546,6.47331265 C179.819877,3.38059897 192.582947,11.1293889 195.67566,23.7807194 C196.580975,27.4840814 196.574911,31.3517256 195.657988,35.0522305 L147.974427,227.492806 C143.915983,243.871814 131.302809,256.766781 115.017457,261.186076 L103.817859,264.225269 C91.5632912,267.550745 78.9331699,260.312285 75.6076939,248.057717 C74.5904933,244.309275 74.5394907,240.364233 75.4594458,236.590747 L122.612671,43.1769087 C126.724022,26.3129051 139.885933,13.1427543 156.747361,9.02085053 Z" id="Rectangle" style="mix-blend-mode: multiply;" transform="translate(135.577704, 135.413398) rotate(-45.000000) translate(-135.577704, -135.413398) "></path>
+        </g>
+        <g id="X" transform="translate(64.000000, 72.000000)" stroke="#CC0000" stroke-linecap="round" stroke-width="18">
+            <path d="M1,1 L286.41458,256" id="Line"></path>
+            <path d="M16.5,-14.5 L271.5,271.5" id="Line" transform="translate(144.000000, 128.500000) rotate(-90.000000) translate(-144.000000, -128.500000) "></path>
+        </g>
+        <g id="X" transform="translate(64.000000, 72.000000)" stroke="#CC0000" stroke-linecap="round" stroke-width="18">
+            <path d="M1,1 L286.41458,256" id="Line"></path>
+            <path d="M16.5,-14.5 L271.5,271.5" id="Line" transform="translate(144.000000, 128.500000) rotate(-90.000000) translate(-144.000000, -128.500000) "></path>
+        </g>
+    </g>
+</svg>

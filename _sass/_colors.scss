@@ -1,0 +1,93 @@
+// Primaries
+$pink:         #eb3b86 !default;
+$purple:       #2f2f8e !default;
+$teal:         #3fc6c9 !default;
+$yellow:       #fecd44 !default;
+
+// Lights
+$pink-light:   #f280b1 !default;
+$purple-light: #7694cc !default;
+$teal-light:   #7ddbdb !default;
+$yellow-light: #f9d98a !default;
+
+// Darks
+$pink-dark:    #db036a !default;
+$purple-dark:  #030387 !default;
+$teal-dark:    #05aaaa !default;
+$yellow-dark:  #f9b303 !default;
+
+// Greys
+$black:        #000 !default;
+$gray-90:      #333 !default;
+$gray-80:      #4c4c4c !default;
+$gray-70:      #666 !default;
+$gray-60:      #7f7f7f !default;
+$gray-50:      #999 !default;
+$gray-40:      #b2b2b2 !default;
+$gray-30:      #ccc !default;
+$gray-20:      #e5e5e5 !default;
+$gray-10:      #f0f0f0 !default;
+$gray-5:       #fafafa !default;
+$white:        #fff !default;
+
+/*************************************************
+ * Utilities
+ */
+
+// Text Colors
+.text-pink     { color: $pink !important; }
+.text-purple   { color: $purple !important; }
+.text-teal     { color: $teal !important; }
+.text-yellow   { color: $yellow !important; }
+
+.text-pink-light     { color: $pink-light !important; }
+.text-purple-light   { color: $purple-light !important; }
+.text-teal-light     { color: $teal-light !important; }
+.text-yellow-light   { color: $yellow-light !important; }
+
+.text-pink-dark     { color: $pink-dark !important; }
+.text-purple-dark   { color: $purple-dark !important; }
+.text-teal-dark     { color: $teal-dark !important; }
+.text-yellow-dark   { color: $yellow-dark !important; }
+
+.text-black    { color: $black !important; }
+.text-gray-90  { color: $gray-90 !important; }
+.text-gray-80  { color: $gray-80 !important; }
+.text-gray-70  { color: $gray-70 !important; }
+.text-gray-60  { color: $gray-60 !important; }
+.text-gray-50  { color: $gray-50 !important; }
+.text-gray-40  { color: $gray-40 !important; }
+.text-gray-30  { color: $gray-30 !important; }
+.text-gray-20  { color: $gray-20 !important; }
+.text-gray-10  { color: $gray-10 !important; }
+.text-gray-5   { color: $gray-5 !important; }
+.text-white    { color: $white !important; }
+
+// Background Colors
+.bg-pink          { background-color: $pink !important; }
+.bg-purple        { background-color: $purple !important; }
+.bg-teal          { background-color: $teal !important; }
+.bg-yellow        { background-color: $yellow !important; }
+
+.bg-pink-light    { background-color: $pink-light !important; }
+.bg-purple-light  { background-color: $purple-light !important; }
+.bg-teal-light    { background-color: $teal-light !important; }
+.bg-yellow-light  { background-color: $yellow-light!important; }
+
+.bg-pink-dark     { background-color: $pink-dark !important; }
+.bg-purple-dark   { background-color: $purple-dark !important; }
+.bg-teal-dark     { background-color: $teal-dark !important; }
+.bg-yellow-dark   { background-color: $yellow-dark !important; }
+
+.bg-black         { background-color: $black !important; }
+.bg-gray-90       { background-color: $gray-90 !important; }
+.bg-gray-80       { background-color: $gray-80 !important; }
+.bg-gray-70       { background-color: $gray-70 !important; }
+.bg-gray-60       { background-color: $gray-60 !important; }
+.bg-gray-50       { background-color: $gray-50 !important; }
+.bg-gray-40       { background-color: $gray-40 !important; }
+.bg-gray-30       { background-color: $gray-30 !important; }
+.bg-gray-20       { background-color: $gray-20 !important; }
+.bg-gray-10       { background-color: $gray-10 !important; }
+.bg-gray-5        { background-color: $gray-5 !important; }
+.bg-white         { background-color: $white !important; }

@@ -1,0 +1,89 @@
+// Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;800&family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+$font-family-headings: "Fira Sans", helvetica, arial, sans-serif !important;
+$font-family-body: "Merriweather", Georgia, serif !important;
+
+body, p {
+  font-family: $font-family-body;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-headings;
+  font-style: normal;
+  font-weight: 800;
+}
+
+h1 {
+  font-size: 72px;
+  line-height: 1.4;
+}
+h2 {
+  font-size: 45px;
+}
+h3 {
+  font-size: 36px;
+}
+
+h4 {
+  font-size: 27px;
+  text-transform: uppercase;
+  color: $pink;
+}
+h5 {
+  font-size: 27px;
+}
+h6 {
+  font-size: 18px;
+}
+
+.btn,
+.navbar .nav-item .nav-link,
+.pagination .page-item, .page-link
+{
+  font-family: "Fira Sans", helvetica, arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+a {
+  color: $pink;
+  &:hover {
+    color: $pink-dark;
+  }
+}
+
+blockquote {
+  display: block;
+  margin: 2rem auto;
+  text-align: center;
+  q {
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    font-style: italic;
+    color: $pink-dark;
+    quotes: "“" "”" "‘" "’";
+  }
+  q::before {
+    content: open-quote;
+  }
+  q::after {
+    content: close-quote;
+  }
+  cite {
+    display: block;
+    font-size: .9rem;
+    color: $gray-70;
+  }
+  cite::before {
+    content: "\2014 \000A0";
+  }
+  cite::after {
+    content: "\000A0 \2014";
+  }
+}

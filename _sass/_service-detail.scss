@@ -1,0 +1,24 @@
+dl.service-details {
+  display: flex;
+  flex-flow: row wrap;
+
+  dt {
+    flex-basis: 20%;
+    @include media-breakpoint-down(md) {
+      flex-basis: 100%;
+      color: $pink;
+    }
+  }
+  dd {
+    flex-basis: 80%;
+
+    ul {
+      margin-top: 1rem;
+    }
+
+    @include media-breakpoint-down(md) {
+      flex-basis: 100%;
+      margin-bottom: 1rem;
+    }
+  }
+}

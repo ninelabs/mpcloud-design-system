@@ -1,0 +1,104 @@
+.form-group {
+  font-family: $font-family-headings;
+  font-weight: 600;
+  color: $gray-80;
+}
+.form-group label {
+  font-weight: 600;
+}
+
+
+/**
+ * Overrides default HubSpot form styles.
+ */
+
+ul.inputs-list {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+input[type="file"] {
+  border: none;
+}
+
+
+.hs-button {
+  @extend .btn;
+
+  &.primary {
+    @extend .btn-primary;
+  }
+  &.large {
+    @extend .btn-lg;
+  }
+
+}
+.hs-input {
+  @extend .form-control;
+}
+.hs-form-field, .hs-submit {
+  @extend .form-group;
+}
+.hs-form-field label span {
+  @extend .form-group;
+}
+.hs-form-required {
+  padding-left: .25rem;
+  font-size: .85rem;
+  color: $pink;
+}
+.hs-field-desc {
+  font-size: .75rem;
+  font-weight: 300;
+}
+.hs-input.invalid, .hs-input.error {
+  border-color: #d00;
+}
+.hs-error-msgs {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: .5rem;
+  .hs-error-msg {
+    font-size: .8rem;
+    font-weight: 400;
+    color: #d00;
+  }
+}
+.legal-consent-container p {
+    font-size: .75rem !important;
+    color: #999 !important;
+}
+
+.insights-contact-form {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  padding: 2rem;
+  background-color: $gray-10;
+  border-top: 3px solid $pink;
+
+  form {
+    width: 70%;
+    margin: 0 auto;
+
+    fieldset {
+      max-width: 100% !important;
+
+      &.form-columns-1 div.input input,
+      &.form-columns-1 div.input textarea {
+        width: 100% !important;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .insights-contact-form
+  {
+    margin-left:-15px;
+    margin-right:-15px;
+
+    form {
+      width:100%;
+    }
+  }
+}

@@ -1,0 +1,244 @@
+[{
+    "name": "Brand Colors",
+    "colors": [{
+        "name": "Pink",
+        "shades": [{
+            "name": "Primary",
+            "Hex": "#eb3b86",
+            "HSL": "334, 81, 58",
+            "RGB": "235, 59, 134",
+            "Pantone": "2039",
+            "Sass": "pink",
+            "CSS": [".text-pink", ".bg-pink"]
+          },
+          {
+            "name": "Dark",
+            "Hex": "#db036a",
+            "HSL": "331, 97, 44",
+            "RGB": "219, 3, 106",
+            "Pantone": "226",
+            "Sass": "pink-dark",
+            "CSS": [".text-pink-dark", ".bg-pink-dark"]
+          },
+          {
+            "name": "Light",
+            "Hex": "#f280b1",
+            "HSL": "334, 81, 73",
+            "RGB": "242, 128, 177",
+            "Pantone": "211",
+            "Sass": "pink-light",
+            "CSS": [".text-pink-light", ".bg-pink-light"]
+          }
+        ]
+      },
+      {
+        "name": "Purple",
+        "shades": [{
+            "name": "Primary",
+            "Hex": "#2f2f8e",
+            "HSL": "240, 50, 37",
+            "RGB": "47, 47, 142",
+            "Pantone": "2370",
+            "Sass": "purple",
+            "CSS": [".text-purple", ".bg-purple"]
+          },
+          {
+            "name": "Dark",
+            "Hex": "#030387",
+            "HSL": "240, 96, 27",
+            "RGB": "3, 3, 135",
+            "Pantone": "2738",
+            "Sass": "purple-dark",
+            "CSS": [".text-purple-dark", ".bg-purple-dark"]
+          },
+          {
+            "name": "Light",
+            "Hex": "#7694cc",
+            "HSL": "219, 46, 63",
+            "RGB": "118, 148,204",
+            "Pantone": "2135",
+            "Sass": "purple-light",
+            "CSS": [".text-purple-light", ".bg-purple-light"]
+          }
+        ]
+      },
+      {
+        "name": "Teal",
+        "shades": [{
+            "name": "Primary",
+            "Hex": "#3fc6c9",
+            "HSL": "181, 56, 52",
+            "RGB": "63, 198, 201",
+            "Pantone": "2226",
+            "Sass": "teal",
+            "CSS": [".text-teal", ".bg-teal"]
+          },
+          {
+            "name": "Dark",
+            "Hex": "#05aaaa",
+            "HSL": "180, 94, 34",
+            "RGB": "5, 170, 170",
+            "Pantone": "7467",
+            "Sass": "teal-dark",
+            "CSS": [".text-teal-dark", ".bg-teal-dark"]
+          },
+          {
+            "name": "Light",
+            "Hex": "#7ddbdb",
+            "HSL": "180, 57, 67",
+            "RGB": "125, 219, 219",
+            "Pantone": "7471",
+            "Sass": "teal-light",
+            "CSS": [".text-teal-light", ".bg-teal-light"]
+          }
+        ]
+      },
+      {
+        "name": "Yellow",
+        "shades": [{
+            "name": "Primary",
+            "Hex": "#fecd44",
+            "HSL": "44, 99, 67",
+            "RGB": "254, 205, 68",
+            "Pantone": "122",
+            "Sass": "yellow",
+            "CSS": [".text-yellow", ".bg-yellow"]
+          },
+          {
+            "name": "Dark",
+            "Hex": "#f9b303",
+            "HSL": "43, 98, 49",
+            "RGB": "254, 205, 68",
+            "Pantone": "122",
+            "Sass": "yellow-dark",
+            "CSS": [".text-yellow-dark", ".bg-yellow-dark"]
+          },
+          {
+            "name": "Light",
+            "Hex": "#f9d98a",
+            "HSL": "43, 90, 76",
+            "RGB": "249, 217, 138",
+            "Pantone": "1205",
+            "Sass": "yellow-light",
+            "CSS": [".text-yellow-light", ".bg-yellow-light"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Grayscale",
+    "colors": [{
+      "name": "Shades from Black to White",
+      "shades": [{
+          "name": "Black",
+          "Hex": "#000000",
+          "HSL": "0, 0, 0",
+          "RGB": "0, 0, 0",
+          "Pantone": "Black 6",
+          "Sass": "black",
+          "CSS": [".text-black", ".bg-black"]
+        },
+        {
+          "name": "Gray 90%",
+          "Hex": "#333333",
+          "RGB": "51, 51, 51",
+          "HSL": "0, 0, 20",
+          "Pantone": "447",
+          "Sass": "gray-90",
+          "CSS": [".text-gray-90", ".bg-gray-90"]
+        },
+        {
+          "name": "Gray 80%",
+          "Hex": "#4c4c4c",
+          "HSL": "0, 0, 30",
+          "RGB": "76, 76, 76",
+          "Pantone": "2336",
+          "Sass": "gray-80",
+          "CSS": [".text-gray-80", ".bg-gray-80"]
+        },
+        {
+          "name": "Gray 70%",
+          "Hex": "#666666",
+          "HSL": "0, 0, 40",
+          "RGB": "102, 102, 102",
+          "Pantone": "4195",
+          "Sass": "gray-70",
+          "CSS": [".text-gray-70", ".bg-gray-70"]
+        },
+        {
+          "name": "Gray 60%",
+          "Hex": "#7f7f7f",
+          "HSL": "0, 0, 50",
+          "RGB": "127, 127, 127",
+          "Pantone": "4278",
+          "Sass": "gray-60",
+          "CSS": [".text-gray-60", ".bg-gray-60"]
+        },
+        {
+          "name": "Gray 50%",
+          "Hex": "#999999",
+          "HSL": "0, 0, 60",
+          "RGB": "153, 153, 153",
+          "Pantone": "4289",
+          "Sass": "gray-50",
+          "CSS": [".text-gray-50", ".bg-gray-50"]
+        },
+        {
+          "name": "Gray 40%",
+          "Hex": "#b2b2b2",
+          "HSL": "0, 0, 70",
+          "RGB": "178, 178, 178",
+          "Pantone": "4281",
+          "Sass": "gray-40",
+          "CSS": [".text-gray-40", ".bg-gray-40"]
+        },
+        {
+          "name": "Gray 30%",
+          "Hex": "#cccccc",
+          "HSL": "0, 0, 80",
+          "RGB": "204, 204, 204",
+          "Pantone": "2330",
+          "Sass": "gray-30",
+          "CSS": [".text-gray-30", ".bg-gray-30"]
+        },
+        {
+          "name": "Gray 20%",
+          "Hex": "#e5e5e5",
+          "HSL": "0, 0, 90",
+          "RGB": "229, 229, 229",
+          "Pantone": "663",
+          "Sass": "gray-20",
+          "CSS": [".text-gray-20", ".bg-gray-20"]
+        },
+        {
+          "name": "Gray 10%",
+          "Hex": "#f0f0f0",
+          "HSL": "0, 0, 94",
+          "RGB": "240, 240, 240",
+          "Pantone": "n/a",
+          "Sass": "gray-10",
+          "CSS": [".text-gray-10", ".bg-gray-10"]
+        },
+        {
+          "name": "Gray 5%",
+          "Hex": "#fafafa",
+          "HSL": "0, 0, 98",
+          "RGB": "250, 250, 250",
+          "Pantone": "n/a",
+          "Sass": "gray-5",
+          "CSS": [".text-gray-5", ".bg-gray-5"]
+        },
+        {
+          "name": "White",
+          "Hex": "#ffffff",
+          "HSL": "0, 0, 100",
+          "RGB": "255, 255, 255",
+          "Pantone": "n/a",
+          "Sass": "white",
+          "CSS": [".text-white", ".bg-white"]
+        }
+      ]
+    }]
+  }
+]

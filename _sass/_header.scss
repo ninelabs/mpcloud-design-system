@@ -1,0 +1,66 @@
+header {
+
+  .navbar-brand .brand-tagline {
+    @extend .align-middle;
+    display: inline-block;
+    margin-top:3px;
+    width: 200px;
+    white-space: normal;
+    font-family: $font-family-headings;
+    font-size: .75rem;
+    font-weight: 600;
+    line-height: .9rem;
+    color: $gray-70;
+  }
+
+  ul.navbar-nav li.nav-item {
+
+    a.nav-link {
+      padding-left: .65rem;
+      padding-right: .65rem;
+      font-weight: 600;
+      color: #000;
+      span {
+        padding: .25rem .5rem;
+      }
+
+      &:hover, &.hovered {
+        background-color: $pink;
+        color: $white !important;
+      }
+      &.active {
+        color: $pink;
+        span {
+          border-bottom: 2px solid $pink;
+        }
+      }
+    }
+  }
+  .btn {
+    font-weight: 600;
+    padding: .5rem 1.5rem;
+  }
+  // .dropdown:hover .dropdown-menu {
+  //  display: block !important;
+  // }
+  .dropdown-toggle::after {
+    border: none;
+  }
+  .dropdown-menu {
+    margin: 0;
+    padding: .5rem 0;
+    border: none;
+    border-radius: 0;
+    background-color: $pink;
+
+    .dropdown-item {
+      font-family: $font-family-headings;
+      font-weight: 400;
+      line-height: 2rem;
+      color: $white;
+      &:hover {
+        background-color: $pink-dark;
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+/**
+ * Overrides default HubSpot form styles.
+ */
+
+ .header-container.container-fluid,
+ .body-container.container-fluid,
+ .footer-container.container-fluid{
+     padding: 0;
+ }
+
+ .container-fluid:before,
+ .container-fluid:after {
+     display: none;
+ }
+
+ .row-fluid [class*="span"] {
+     min-height: 0;
+ }

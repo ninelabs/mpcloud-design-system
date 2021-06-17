@@ -1,0 +1,239 @@
+
+.article-list, .article-content, .insights-content-embed {
+  @extend .col-sm-12;
+  @extend .col-md-11;
+}
+
+.article-preview {
+  @extend .mb-5;
+
+  .card-title {
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 27px;
+    line-height: 1.1em;
+    color: $gray-90;
+  }
+
+  .card-text p {
+    color: $gray-90;
+  }
+
+  a:hover {
+    text-decoration: none !important;
+
+    h6.card-title {
+      color: $pink;
+      text-decoration: underline;
+    }
+    .card-text p {
+      color: $black;
+    }
+  }
+
+}
+
+.pub-info {
+  display: block;
+  margin-bottom: 1.2em;
+  font-size: .85rem;
+  color: $gray-50;
+}
+
+.masthead-article {
+  @extend .mt-5;
+
+  h1 {
+    line-height: 1.15;
+    @include media-breakpoint-down(md) {
+      font-size:2.5rem;
+    }
+  }
+}
+
+.insights-content-embed {
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 2rem;
+
+  &.embed-podcast {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid $pink;
+  }
+}
+
+.article-content {
+  padding-left: 0;
+  padding-right: 0;
+
+  h2,h3,h4,h5,h5 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+  }
+
+  .article-text {
+    a {
+      text-decoration: underline;
+    }
+    &>p:first-of-type {
+      @extend .mb-4;
+      font-size: 1.5rem;
+    }
+    img {
+      @extend .img-fluid;
+      @extend .my-2;
+    }
+  }
+}
+
+.article-meta {
+  @extend .mt-5;
+  @extend .py-2;
+  border-top: 1px solid $gray-20;
+}
+
+.article-image {
+  @extend .mb-5;
+  @extend .img-fluid;
+  @extend .rounded;
+}
+
+.article-topics {
+  font-size: .9rem;
+  font-style: italic;
+
+}
+.article-newsletter-block {
+  @extend .my-5;
+  @extend .p-3;
+  @extend .bg-gray-5;
+  border-left: 3px solid $purple;
+
+  p {
+    font-size: .9rem;
+  }
+  .newsletter-subscribe {
+    @extend .form-inline;
+    label {
+      @extend .sr-only;
+    }
+    input[type=text] {
+      @extend .form-control;
+      @extend .form-control-sm;
+      @extend .mr-sm-2;
+      @extend .w-100;
+      font-size: .75rem;
+    }
+    button {
+      @extend .btn;
+      @extend .btn-sm;
+      @extend .btn-tertiary;
+      font-size: .75rem;
+    }
+  }
+}
+
+.sidebar {
+
+  .book-callout {
+    p {
+      margin-bottom: 0;
+      padding-bottom: .5rem;
+      font-size: .85rem;
+    }
+    a {
+      @extend .btn;
+      @extend .btn-sm;
+      @extend .btn-primary;
+    }
+    .subtle {
+      font-size: .65rem;
+      color: $gray-60;
+    }
+  }
+
+  .sidebar-search {
+    @extend .form-inline;
+    @extend .my-5;
+    padding: 2rem 0;
+    border-top: 1px solid $gray-10;
+    border-bottom: 1px solid $gray-10;
+
+    label {
+      @extend .sr-only;
+    }
+    input[type=text],input[type=search] {
+      @extend .form-control;
+      @extend .form-control-sm;
+      @extend .mr-sm-2;
+      @extend .w-100;
+      font-size: .75rem;
+    }
+    button {
+      @extend .btn;
+      @extend .btn-sm;
+      @extend .btn-outline-secondary;
+      font-size: .75rem;
+    }
+  }
+
+  ul {
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+    li {
+      margin: .25rem 0;
+      padding: 0;
+      font-size: .85rem;
+      a {
+        color: $gray-90;
+        &:hover {
+          color: $pink-dark;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+.webinar-registration-mask {
+  width: 100%;
+  max-width: 750px;
+  height: auto;
+  margin: 0 0 3rem;
+  padding-top: 56.25%;
+  position: relative;
+  @extend .rounded;
+  p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    color: #fff;
+    transform: translate(-25%,-50%);
+    font-size: 2rem;
+    font-weight: 700;
+    @include media-breakpoint-down(md) {
+      font-size:1.5rem;
+    }
+  }
+}
+
+
+.sidebar-subscribe {
+  margin-bottom: 5rem;
+  padding: .5rem 1.5rem;
+  background-color: $gray-5;
+  border: 1px solid $purple;
+  border-radius: .25rem;
+}
+.sidebar-subscribe form .hs-richtext p {
+  font-size: .85rem;
+}
+.sidebar-subscribe form .hs-button.primary.large {
+  padding: .25rem .5rem;
+  font-size: .875rem;
+  line-height: 1.5;
+  border-radius: .2rem;
+}
