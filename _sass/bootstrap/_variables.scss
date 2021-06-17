@@ -36,11 +36,11 @@ $grays: map-merge(
 
 $blue:    #007bff !default;
 $indigo:  #6610f2 !default;
-$purple:  #6f42c1 !default;
-$pink:    #e83e8c !default;
+$accent:  #6f42c1 !default;
+$primary:    #e83e8c !default;
 $red:     #dc3545 !default;
 $orange:  #fd7e14 !default;
-$yellow:  #ffc107 !default;
+$cloud-blue:  #ffc107 !default;
 $green:   #28a745 !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
@@ -51,11 +51,11 @@ $colors: map-merge(
   (
     "blue":       $blue,
     "indigo":     $indigo,
-    "purple":     $purple,
-    "pink":       $pink,
+    "purple":     $accent,
+    "pink":       $primary,
     "red":        $red,
     "orange":     $orange,
-    "yellow":     $yellow,
+    "yellow":     $cloud-blue,
     "green":      $green,
     "teal":       $teal,
     "cyan":       $cyan,
@@ -66,12 +66,12 @@ $colors: map-merge(
   $colors
 );
 
-$primary:       $pink !default;
+$primary:       $primary !default;
 $secondary:     $gray-60 !default;
-$tertiary:      $purple !default;
+$tertiary:      $accent !default;
 $success:       $green !default;
 $info:          $teal !default;
-$warning:       $yellow !default;
+$warning:       $cloud-blue !default;
 $danger:        $red !default;
 $light:         $gray-10 !default;
 $dark:          $gray-80 !default;
@@ -1120,7 +1120,7 @@ $close-text-shadow:                 0 1px 0 $white !default;
 // Code
 
 $code-font-size:                    87.5% !default;
-$code-color:                        $pink !default;
+$code-color:                        $primary !default;
 
 $kbd-padding-y:                     .2rem !default;
 $kbd-padding-x:                     .4rem !default;

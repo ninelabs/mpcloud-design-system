@@ -24,7 +24,7 @@
     text-decoration: none !important;
 
     h6.card-title {
-      color: $pink;
+      color: $primary;
       text-decoration: underline;
     }
     .card-text p {
@@ -59,7 +59,7 @@
 
   &.embed-podcast {
     padding-bottom: 2rem;
-    border-bottom: 1px solid $pink;
+    border-bottom: 1px solid $primary;
   }
 }
 
@@ -109,7 +109,7 @@
   @extend .my-5;
   @extend .p-3;
   @extend .bg-gray-5;
-  border-left: 3px solid $purple;
+  border-left: 3px solid $accent;
 
   p {
     font-size: .9rem;
@@ -189,7 +189,7 @@
       a {
         color: $gray-90;
         &:hover {
-          color: $pink-dark;
+          color: $primary-dark;
           text-decoration: underline;
         }
       }
@@ -225,7 +225,7 @@
   margin-bottom: 5rem;
   padding: .5rem 1.5rem;
   background-color: $gray-5;
-  border: 1px solid $purple;
+  border: 1px solid $accent;
   border-radius: .25rem;
 }
 .sidebar-subscribe form .hs-richtext p {

@@ -45,7 +45,7 @@ input[type="file"] {
 .hs-form-required {
   padding-left: .25rem;
   font-size: .85rem;
-  color: $pink;
+  color: $primary;
 }
 .hs-field-desc {
   font-size: .75rem;
@@ -74,7 +74,7 @@ input[type="file"] {
   margin-bottom: 5rem;
   padding: 2rem;
   background-color: $gray-10;
-  border-top: 3px solid $pink;
+  border-top: 3px solid $primary;
 
   form {
     width: 70%;

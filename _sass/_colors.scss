@@ -1,20 +1,21 @@
 // Primaries
-$pink:         #eb3b86 !default;
-$purple:       #2f2f8e !default;
-$teal:         #3fc6c9 !default;
-$yellow:       #fecd44 !default;
+$primary:          #171950 !default;
+$accent:           #ec1731 !default;
+$sky-blue:         #00A2BC !default;
+$cloud-blue:       #C4E6E4 !default;
+
 
 // Lights
-$pink-light:   #f280b1 !default;
-$purple-light: #7694cc !default;
-$teal-light:   #7ddbdb !default;
-$yellow-light: #f9d98a !default;
+$primary-light:    #f280b1 !default;
+$accent-light:     #7694cc !default;
+$sky-blue-light:   #7ddbdb !default;
+$cloud-blue-light: #f9d98a !default;
 
 // Darks
-$pink-dark:    #db036a !default;
-$purple-dark:  #030387 !default;
-$teal-dark:    #05aaaa !default;
-$yellow-dark:  #f9b303 !default;
+$primary-dark:     #db036a !default;
+$accent-dark:      #030387 !default;
+$sky-blue-dark:    #05aaaa !default;
+$cloud-blue-dark:  #f9b303 !default;
 
 // Greys
 $black:        #000 !default;
@@ -35,20 +36,20 @@ $white:        #fff !default;
  */
 
 // Text Colors
-.text-pink     { color: $pink !important; }
-.text-purple   { color: $purple !important; }
-.text-teal     { color: $teal !important; }
-.text-yellow   { color: $yellow !important; }
+.text-primary     { color: $primary !important; }
+.text-accent   { color: $accent !important; }
+.text-sky-blue     { color: $sky-blue !important; }
+.text-cloud-blue   { color: $cloud-blue !important; }
 
-.text-pink-light     { color: $pink-light !important; }
-.text-purple-light   { color: $purple-light !important; }
-.text-teal-light     { color: $teal-light !important; }
-.text-yellow-light   { color: $yellow-light !important; }
+.text-primary-light     { color: $primary-light !important; }
+.text-accent-light   { color: $accent-light !important; }
+.text-sky-blue-light     { color: $sky-blue-light !important; }
+.text-cloud-blue-light   { color: $cloud-blue-light !important; }
 
-.text-pink-dark     { color: $pink-dark !important; }
-.text-purple-dark   { color: $purple-dark !important; }
-.text-teal-dark     { color: $teal-dark !important; }
-.text-yellow-dark   { color: $yellow-dark !important; }
+.text-primary-dark     { color: $primary-dark !important; }
+.text-accent-dark   { color: $accent-dark !important; }
+.text-sky-blue-dark     { color: $sky-blue-dark !important; }
+.text-cloud-blue-dark   { color: $cloud-blue-dark !important; }
 
 .text-black    { color: $black !important; }
 .text-gray-90  { color: $gray-90 !important; }
@@ -64,20 +65,20 @@ $white:        #fff !default;
 .text-white    { color: $white !important; }
 
 // Background Colors
-.bg-pink          { background-color: $pink !important; }
-.bg-purple        { background-color: $purple !important; }
-.bg-teal          { background-color: $teal !important; }
-.bg-yellow        { background-color: $yellow !important; }
+.bg-primary          { background-color: $primary !important; }
+.bg-accent           { background-color: $accent !important; }
+.bg-sky-blue         { background-color: $sky-blue !important; }
+.bg-cloud-blue       { background-color: $cloud-blue !important; }
 
-.bg-pink-light    { background-color: $pink-light !important; }
-.bg-purple-light  { background-color: $purple-light !important; }
-.bg-teal-light    { background-color: $teal-light !important; }
-.bg-yellow-light  { background-color: $yellow-light!important; }
+.bg-primary-light    { background-color: $primary-light !important; }
+.bg-accent-light     { background-color: $accent-light !important; }
+.bg-sky-blue-light   { background-color: $sky-blue-light !important; }
+.bg-cloud-blue-light { background-color: $cloud-blue-light!important; }
 
-.bg-pink-dark     { background-color: $pink-dark !important; }
-.bg-purple-dark   { background-color: $purple-dark !important; }
-.bg-teal-dark     { background-color: $teal-dark !important; }
-.bg-yellow-dark   { background-color: $yellow-dark !important; }
+.bg-primary-dark     { background-color: $primary-dark !important; }
+.bg-accent-dark   { background-color: $accent-dark !important; }
+.bg-sky-blue-dark     { background-color: $sky-blue-dark !important; }
+.bg-cloud-blue-dark   { background-color: $cloud-blue-dark !important; }
 
 .bg-black         { background-color: $black !important; }
 .bg-gray-90       { background-color: $gray-90 !important; }

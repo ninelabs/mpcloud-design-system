@@ -25,13 +25,13 @@ header {
       }
 
       &:hover, &.hovered {
-        background-color: $pink;
+        background-color: $primary;
         color: $white !important;
       }
       &.active {
-        color: $pink;
+        color: $primary;
         span {
-          border-bottom: 2px solid $pink;
+          border-bottom: 2px solid $primary;
         }
       }
     }
@@ -51,7 +51,7 @@ header {
     padding: .5rem 0;
     border: none;
     border-radius: 0;
-    background-color: $pink;
+    background-color: $primary;
 
     .dropdown-item {
       font-family: $font-family-headings;
@@ -59,7 +59,7 @@ header {
       line-height: 2rem;
       color: $white;
       &:hover {
-        background-color: $pink-dark;
+        background-color: $primary-dark;
       }
     }
   }

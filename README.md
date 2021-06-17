@@ -1,7 +1,7 @@
 # Guacamole
 
-#### THE NINE LABS DESIGN SYSTEM
-Brand and style guidelines for building Nine Labs digital products.
+#### THE MP Cloud DESIGN SYSTEM
+Brand and style guidelines for building MP Cloud digital products.
 
 ## Getting Started
 The entire front-end system is based on [Twitter Bootstrap 4.4](https://getbootstrap.com/docs/4.4/getting-started/introduction/), and extends many of its core concepts.

@@ -6,7 +6,7 @@ dl.service-details {
     flex-basis: 20%;
     @include media-breakpoint-down(md) {
       flex-basis: 100%;
-      color: $pink;
+      color: $primary;
     }
   }
   dd {

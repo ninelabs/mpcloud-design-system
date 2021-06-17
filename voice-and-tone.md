@@ -5,7 +5,7 @@ title: Voice & Tone
 
 # Voice &amp; Tone
 
-Before you write for Nine Labs, it’s important to think about our readers. While we need to be clear about who we are, what we do, and how we do it; we must keep the focus on the reader's perspective and needs. We should write as though we're speaking directly to the reader, one-on-one in casual conversation.
+Before you write for MP Cloud, it’s important to think about our readers. While we need to be clear about who we are, what we do, and how we do it; we must keep the focus on the reader's perspective and needs. We should write as though we're speaking directly to the reader, one-on-one in casual conversation.
 
 ### Our Brand Voice
 

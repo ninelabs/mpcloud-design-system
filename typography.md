@@ -5,13 +5,13 @@ title: Typography
 
 # Typography
 
-Approved fonts and type styles for usage in Nine Labs digital products.
+Approved fonts and type styles for usage in MP Cloud digital products.
 
 ----
 
 ## Headings
 
-Headings use <a href="https://fonts.google.com/specimen/Fira+Sans">Fira Sans</a> and range from *72px* for `h1` to *18px* for `h6`. Note that the `h4` and `h5` headings are the same *font-size*, but different styles. The `h4` heading is set to uppercase using `text-transform: uppercase` and is set to be the Brand Pink color, while the `h5` heading follows the pattern and style from the other headings. This is so we can easily create the emphasis we want in various circumstances.
+Headings use <a href="https://fonts.google.com/specimen/Nunito">Nunito</a> and range from *72px* for `h1` to *18px* for `h6`. Note that the `h4` and `h5` headings are the same *font-size*, but different styles. The `h4` heading is set to uppercase using `text-transform: uppercase` and is set to be the Brand Pink color, while the `h5` heading follows the pattern and style from the other headings. This is so we can easily create the emphasis we want in various circumstances.
 
 <h1>Heading 1</h1>
 <h2>Heading 2</h2>

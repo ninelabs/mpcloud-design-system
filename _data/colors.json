@@ -1,15 +1,15 @@
 [{
     "name": "Brand Colors",
     "colors": [{
-        "name": "Pink",
+        "name": "Primary",
         "shades": [{
             "name": "Primary",
-            "Hex": "#eb3b86",
+            "Hex": "#171950",
             "HSL": "334, 81, 58",
             "RGB": "235, 59, 134",
             "Pantone": "2039",
-            "Sass": "pink",
-            "CSS": [".text-pink", ".bg-pink"]
+            "Sass": "primary",
+            "CSS": [".text-primary", ".bg-primary"]
           },
           {
             "name": "Dark",
@@ -18,7 +18,7 @@
             "RGB": "219, 3, 106",
             "Pantone": "226",
             "Sass": "pink-dark",
-            "CSS": [".text-pink-dark", ".bg-pink-dark"]
+            "CSS": [".text-primary-dark", ".bg-primary-dark"]
           },
           {
             "name": "Light",
@@ -27,7 +27,7 @@
             "RGB": "242, 128, 177",
             "Pantone": "211",
             "Sass": "pink-light",
-            "CSS": [".text-pink-light", ".bg-pink-light"]
+            "CSS": [".text-primary-light", ".bg-primary-light"]
           }
         ]
       },
@@ -40,7 +40,7 @@
             "RGB": "47, 47, 142",
             "Pantone": "2370",
             "Sass": "purple",
-            "CSS": [".text-purple", ".bg-purple"]
+            "CSS": [".text-accent", ".bg-accent"]
           },
           {
             "name": "Dark",
@@ -49,7 +49,7 @@
             "RGB": "3, 3, 135",
             "Pantone": "2738",
             "Sass": "purple-dark",
-            "CSS": [".text-purple-dark", ".bg-purple-dark"]
+            "CSS": [".text-accent-dark", ".bg-accent-dark"]
           },
           {
             "name": "Light",
@@ -58,7 +58,7 @@
             "RGB": "118, 148,204",
             "Pantone": "2135",
             "Sass": "purple-light",
-            "CSS": [".text-purple-light", ".bg-purple-light"]
+            "CSS": [".text-accent-light", ".bg-accent-light"]
           }
         ]
       },

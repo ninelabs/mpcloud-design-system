@@ -35,7 +35,7 @@ The Global Footer is a four column spread containing links to all the major page
 
 ## Pagination
 
-This component extends the default [Bootstrap Pagination Component](https://getbootstrap.com/docs/4.4/components/pagination/) and adds the Nine Labs style.
+This component extends the default [Bootstrap Pagination Component](https://getbootstrap.com/docs/4.4/components/pagination/) and adds the MP Cloud style.
 
 {% include _component-pagination.html %}
 

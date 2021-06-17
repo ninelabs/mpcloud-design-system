@@ -28,7 +28,7 @@ footer {
   a {
     color: #4c4c4c;
     &:hover {
-      color: $pink;
+      color: $primary;
     }
   }
 
@@ -59,7 +59,7 @@ footer {
       i.fab {
         color: $gray-60;
         &:hover {
-          color: $pink;
+          color: $primary;
         }
       }
     }
