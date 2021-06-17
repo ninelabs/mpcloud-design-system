@@ -1,13 +1,13 @@
 ---
 layout: docs
-title: The Nine Labs Design System
+title: MP Cloud Design System
 ---
 
 
 
-# Nine Labs Design System
+# MP Cloud Design System
 
-Brand and style guidelines for building Nine Labs digital products.
+#### Brand and style guidelines for building MP Cloud and EMTech digital products.
 
 ----
 
