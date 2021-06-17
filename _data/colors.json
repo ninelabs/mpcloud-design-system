@@ -1,10 +1,20 @@
 [{
     "name": "Brand Colors",
     "colors": [{
-        "name": "Primary",
-        "shades": [{
-            "name": "Primary",
-            "Hex": "#171950",
+        "name": "MP Cloud Blue",
+        "shades": [
+          {
+            "name": "Dark",
+            "Hex": "#0F1439",
+            "HSL": "334, 81, 58",
+            "RGB": "235, 59, 134",
+            "Pantone": "2039",
+            "Sass": "primary-dark",
+            "CSS": [".text-primary-dark", ".bg-primary-dark"]
+          },
+          {
+            "name": "Base",
+            "Hex": "#141B4D",
             "HSL": "334, 81, 58",
             "RGB": "235, 59, 134",
             "Pantone": "2039",
@@ -12,34 +22,25 @@
             "CSS": [".text-primary", ".bg-primary"]
           },
           {
-            "name": "Dark",
-            "Hex": "#db036a",
-            "HSL": "331, 97, 44",
-            "RGB": "219, 3, 106",
-            "Pantone": "226",
-            "Sass": "pink-dark",
-            "CSS": [".text-primary-dark", ".bg-primary-dark"]
-          },
-          {
             "name": "Light",
             "Hex": "#f280b1",
             "HSL": "334, 81, 73",
             "RGB": "242, 128, 177",
             "Pantone": "211",
-            "Sass": "pink-light",
+            "Sass": "primary-light",
             "CSS": [".text-primary-light", ".bg-primary-light"]
           }
         ]
       },
       {
-        "name": "Purple",
+        "name": "Accent",
         "shades": [{
-            "name": "Primary",
-            "Hex": "#2f2f8e",
+            "name": "Base",
+            "Hex": "#EE2737",
             "HSL": "240, 50, 37",
             "RGB": "47, 47, 142",
             "Pantone": "2370",
-            "Sass": "purple",
+            "Sass": "accent",
             "CSS": [".text-accent", ".bg-accent"]
           },
           {
@@ -48,30 +49,30 @@
             "HSL": "240, 96, 27",
             "RGB": "3, 3, 135",
             "Pantone": "2738",
-            "Sass": "purple-dark",
+            "Sass": "accent-dark",
             "CSS": [".text-accent-dark", ".bg-accent-dark"]
           },
           {
             "name": "Light",
-            "Hex": "#7694cc",
+            "Hex": "#F25E6A",
             "HSL": "219, 46, 63",
             "RGB": "118, 148,204",
             "Pantone": "2135",
-            "Sass": "purple-light",
+            "Sass": "accent-light",
             "CSS": [".text-accent-light", ".bg-accent-light"]
           }
         ]
       },
       {
-        "name": "Teal",
+        "name": "Sky Blue",
         "shades": [{
-            "name": "Primary",
-            "Hex": "#3fc6c9",
+            "name": "Base",
+            "Hex": "#009BBF",
             "HSL": "181, 56, 52",
             "RGB": "63, 198, 201",
             "Pantone": "2226",
-            "Sass": "teal",
-            "CSS": [".text-teal", ".bg-teal"]
+            "Sass": "sky-blue",
+            "CSS": [".text-sky-blue", ".bg-sky-blue"]
           },
           {
             "name": "Dark",
@@ -79,48 +80,48 @@
             "HSL": "180, 94, 34",
             "RGB": "5, 170, 170",
             "Pantone": "7467",
-            "Sass": "teal-dark",
-            "CSS": [".text-teal-dark", ".bg-teal-dark"]
+            "Sass": "sky-blue-dark",
+            "CSS": [".text-sky-blue-dark", ".bg-sky-blue-dark"]
           },
           {
             "name": "Light",
-            "Hex": "#7ddbdb",
+            "Hex": "#00C3F0",
             "HSL": "180, 57, 67",
             "RGB": "125, 219, 219",
             "Pantone": "7471",
-            "Sass": "teal-light",
-            "CSS": [".text-teal-light", ".bg-teal-light"]
+            "Sass": "sky-blue-light",
+            "CSS": [".text-sky-blue-light", ".bg-sky-blue-light"]
           }
         ]
       },
       {
-        "name": "Yellow",
+        "name": "EMTech Orange",
         "shades": [{
-            "name": "Primary",
-            "Hex": "#fecd44",
+            "name": "Base",
+            "Hex": "#FF9E1B",
             "HSL": "44, 99, 67",
             "RGB": "254, 205, 68",
             "Pantone": "122",
-            "Sass": "yellow",
-            "CSS": [".text-yellow", ".bg-yellow"]
+            "Sass": "em-primary",
+            "CSS": [".text-em-primary", ".bg-em-primary"]
           },
           {
             "name": "Dark",
-            "Hex": "#f9b303",
+            "Hex": "#FF9E1B",
             "HSL": "43, 98, 49",
             "RGB": "254, 205, 68",
             "Pantone": "122",
-            "Sass": "yellow-dark",
-            "CSS": [".text-yellow-dark", ".bg-yellow-dark"]
+            "Sass": "em-primary-dark",
+            "CSS": [".text-em-primary-dark", ".bg-em-primary-dark"]
           },
           {
             "name": "Light",
-            "Hex": "#f9d98a",
+            "Hex": "#FFB34C",
             "HSL": "43, 90, 76",
             "RGB": "249, 217, 138",
             "Pantone": "1205",
-            "Sass": "yellow-light",
-            "CSS": [".text-yellow-light", ".bg-yellow-light"]
+            "Sass": "em-primary-light",
+            "CSS": [".text-em-primary-light", ".bg-em-primary-light"]
           }
         ]
       }

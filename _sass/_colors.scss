@@ -1,21 +1,55 @@
 // Primaries
-$primary:          #171950 !default;
+$primary:          #141B4D !default;
 $accent:           #ec1731 !default;
 $sky-blue:         #00A2BC !default;
 $cloud-blue:       #C4E6E4 !default;
+$em-primary:       #FF9E1B !default;
+
+// Plus Products
+$plusid:           #9A08B9 !default;
+$pluscoverage:     #00A2BC !default;
+$pluspayment:      #059E26 !default;
+
+
+/**
+ * TBD: For building dynamic color adjustments and respective classes
+ *
+
+$theme-colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge(
+  (
+    "primary":    $primary,
+    "secondary":  $secondary,
+    "tertiary":   $tertiary,
+    "success":    $success,
+    "info":       $info,
+    "warning":    $warning,
+    "danger":     $danger,
+    "light":      $light,
+    "dark":       $dark
+  ),
+  $theme-colors
+);
+
+*/
 
 
 // Lights
-$primary-light:    #f280b1 !default;
-$accent-light:     #7694cc !default;
-$sky-blue-light:   #7ddbdb !default;
-$cloud-blue-light: #f9d98a !default;
+$primary-light:    #1E2975 !default;
+$accent-light:     #F25E6A !default;
+$sky-blue-light:   #2CC3E2 !default;
+$cloud-blue-light: #E0F6FB !default;
+$em-primary-light: #FFB34C !default;
+
 
 // Darks
-$primary-dark:     #db036a !default;
-$accent-dark:      #030387 !default;
-$sky-blue-dark:    #05aaaa !default;
-$cloud-blue-dark:  #f9b303 !default;
+$primary-dark:     #0F1439 !default;
+$accent-dark:      #EE2737 !default;
+$sky-blue-dark:    #1AA1BD !default;
+$cloud-blue-dark:  #1AA1BD !default;
+$em-primary-dark:  #FF9E1B !default;
+
 
 // Greys
 $black:        #000 !default;
@@ -40,16 +74,21 @@ $white:        #fff !default;
 .text-accent   { color: $accent !important; }
 .text-sky-blue     { color: $sky-blue !important; }
 .text-cloud-blue   { color: $cloud-blue !important; }
+.text-em-primary     { color: $em-primary !important; }
+
 
 .text-primary-light     { color: $primary-light !important; }
 .text-accent-light   { color: $accent-light !important; }
 .text-sky-blue-light     { color: $sky-blue-light !important; }
 .text-cloud-blue-light   { color: $cloud-blue-light !important; }
+.text-em-primary-light     { color: $em-primary-light !important; }
+
 
 .text-primary-dark     { color: $primary-dark !important; }
 .text-accent-dark   { color: $accent-dark !important; }
 .text-sky-blue-dark     { color: $sky-blue-dark !important; }
 .text-cloud-blue-dark   { color: $cloud-blue-dark !important; }
+.text-em-primary-dark     { color: $em-primary-dark !important; }
 
 .text-black    { color: $black !important; }
 .text-gray-90  { color: $gray-90 !important; }
@@ -69,16 +108,19 @@ $white:        #fff !default;
 .bg-accent           { background-color: $accent !important; }
 .bg-sky-blue         { background-color: $sky-blue !important; }
 .bg-cloud-blue       { background-color: $cloud-blue !important; }
+.bg-em-primary          { background-color: $em-primary !important; }
 
 .bg-primary-light    { background-color: $primary-light !important; }
 .bg-accent-light     { background-color: $accent-light !important; }
 .bg-sky-blue-light   { background-color: $sky-blue-light !important; }
 .bg-cloud-blue-light { background-color: $cloud-blue-light!important; }
+.bg-em-primary-light          { background-color: $em-primary-light !important; }
 
 .bg-primary-dark     { background-color: $primary-dark !important; }
 .bg-accent-dark   { background-color: $accent-dark !important; }
 .bg-sky-blue-dark     { background-color: $sky-blue-dark !important; }
 .bg-cloud-blue-dark   { background-color: $cloud-blue-dark !important; }
+.bg-em-primary-dark          { background-color: $em-primary-dark !important; }
 
 .bg-black         { background-color: $black !important; }
 .bg-gray-90       { background-color: $gray-90 !important; }
