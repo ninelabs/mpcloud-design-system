@@ -16,8 +16,8 @@ Class name examples: text color (`.text-mp-blue`), background color (`.bg-mp-blu
 {% for group in site.data.colors %}
 <h2 id="{{ group.name | downcase | url_encode }}">{{ group.name }}</h2>
   {% for color in group.colors %}
-  <h3 id="{{ color.name | downcase }}">{{ color.name }}</h3>
   {% unless group.name == "Grayscale" %}
+  <h3 id="{{ color.name | downcase }}">{{ color.name }}</h3>
   <div class="row">
     <div class="col col-12 mb-5">
       <div class="color-demo bg-{{ color.Sass }}"></div>

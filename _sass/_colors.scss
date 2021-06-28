@@ -1,45 +1,46 @@
-// Primaries
+// MP Blue
 $mp-blue:             #141B4D !default;
+$mp-blue-dark:        #0F1439 !default;
+$mp-blue-light:       #1E2975 !default;
+$mp-blue-lighter:     #AAB2E9 !default;
+$mp-blue-lightest:    #DFE2F7 !default;
 $primary:             $mp-blue; // temporary so nothing breaks
-$pulse-red:           #ec1731 !default;
-$sky-blue:            #00A2BC !default;
-$cloud-blue:          #C4E6E4 !default;
+
+// Pulse Red
+$pulse-red:           #EE2737 !default;
+$pulse-red-dark:      #A10D19 !default;
+$pulse-red-light:     #F25E6A !default;
+$pulse-red-lighter:   #F9B8BD !default;
+$pulse-red-lightest:  #FDE7E9 !default;
+
+// Cloud Blue
+$cloud-blue:          #1AA1BD !default;
+$cloud-blue-dark:     #147A8F !default;
+$cloud-blue-light:    #2CC3E2 !default;
+$cloud-blue-lighter:  #AAE7F3 !default;
+$cloud-blue-lightest: #E0F6FB !default;
+
+// EMtech Orange
 $em-orange:           #FF9E1B !default;
+$em-orange-dark:      #BD6C00 !default;
+$em-orange-light:     #FFB34C !default;
+$em-orange-lighter:   #FFB34C !default;
+$em-orange-lightest:  #FFDEB3 !default;
 
 // Plus Products
 $plusid:              #9A08B9 !default;
 $pluscoverage:        #00A2BC !default;
 $pluspayment:         #059E26 !default;
 
-// Dark
-$mp-blue-dark:        #0F1439 !default;
-$pulse-red-dark:      #EE2737 !default;
-$sky-blue-dark:       #1AA1BD !default;
-$cloud-blue-dark:     #1AA1BD !default;
-$em-orange-dark:      #FF9E1B !default;
-
-// Light
-$mp-blue-light:       #1E2975 !default;
-$pulse-red-light:     #F25E6A !default;
-$sky-blue-light:      #2CC3E2 !default;
-$cloud-blue-light:    #E0F6FB !default;
-$em-orange-light:     #FFB34C !default;
-
-// Lighter
-$mp-blue-lighter:     #1E2975 !default;
-$pulse-red-lighter:   #F25E6A !default;
-$sky-blue-lighter:    #2CC3E2 !default;
-$cloud-blue-lighter:  #E0F6FB !default;
-$em-orange-lighter:   #FFB34C !default;
-
-// Lightest
-$mp-blue-lightest:    #1E2975 !default;
-$pulse-red-lightest:  #F25E6A !default;
-$sky-blue-lightest:   #2CC3E2 !default;
-$cloud-blue-lightest: #E0F6FB !default;
-$em-orange-lightest:  #FFB34C !default;
-
 // Greys
+$gray:                #53565A !default;
+$gray-darker:         #2A2B2D !default;
+$gray-dark:           #333538 !default;
+$gray-light:          #53565A !default;
+$gray-lighter:        #9FA3A7 !default;
+$gray-lightest:       #D5D6D8 !default;
+
+// leaving legacy colors for now
 $black:               #000 !default;
 $gray-90:             #333 !default;
 $gray-80:             #4c4c4c !default;
@@ -64,7 +65,6 @@ $mpc-theme-colors: map-merge(
   (
     "mp-blue":             $mp-blue,
     "pulse-red":           $pulse-red,
-    "sky-blue":            $sky-blue,
     "cloud-blue":          $cloud-blue,
     "em-orange":           $em-orange,
     "plusid":              $plusid,
@@ -72,24 +72,26 @@ $mpc-theme-colors: map-merge(
     "pluspayment":         $pluspayment,
     "mp-blue-dark":        $mp-blue-dark,
     "pulse-red-dark":      $pulse-red-dark,
-    "sky-blue-dark":       $sky-blue-dark,
     "cloud-blue-dark":     $cloud-blue-dark,
     "em-orange-dark":      $em-orange-dark,
     "mp-blue-light":       $mp-blue-light,
     "pulse-red-light":     $pulse-red-light,
-    "sky-blue-light":      $sky-blue-light,
     "cloud-blue-light":    $cloud-blue-light,
     "em-orange-light":     $em-orange-light,
     "mp-blue-lighter":     $mp-blue-lighter,
     "pulse-red-lighter":   $pulse-red-lighter,
-    "sky-blue-lighter":    $sky-blue-lighter,
     "cloud-blue-lighter":  $cloud-blue-lighter,
     "em-orange-lighter":   $em-orange-lighter,
     "mp-blue-lightest":    $mp-blue-lightest,
     "pulse-red-lightest":  $pulse-red-lightest,
-    "sky-blue-lightest":   $sky-blue-lightest,
     "cloud-blue-lightest": $cloud-blue-lightest,
     "em-orange-lightest":  $em-orange-lightest,
+    "gray":                $gray,
+    "gray-darker":         $gray-darker,
+    "gray-dark":           $gray-dark,
+    "gray-light":          $gray-light,
+    "gray-lighter":        $gray-lighter,
+    "gray-lightest":       $gray-lightest,
     "black":               $black,
     "gray-90":             $gray-90,
     "gray-80":             $gray-80,
