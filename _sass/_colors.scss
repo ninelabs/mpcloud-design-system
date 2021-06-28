@@ -1,136 +1,117 @@
 // Primaries
-$primary:          #141B4D !default;
-$accent:           #ec1731 !default;
-$sky-blue:         #00A2BC !default;
-$cloud-blue:       #C4E6E4 !default;
-$em-primary:       #FF9E1B !default;
+$mp-blue:             #141B4D !default;
+$primary:             $mp-blue; // temporary so nothing breaks
+$pulse-red:           #ec1731 !default;
+$sky-blue:            #00A2BC !default;
+$cloud-blue:          #C4E6E4 !default;
+$emtech-orange:       #FF9E1B !default;
 
 // Plus Products
-$plusid:           #9A08B9 !default;
-$pluscoverage:     #00A2BC !default;
-$pluspayment:      #059E26 !default;
+$plusid:              #9A08B9 !default;
+$pluscoverage:        #00A2BC !default;
+$pluspayment:         #059E26 !default;
 
+// Dark
+$mp-blue-dark:        #0F1439 !default;
+$pulse-red-dark:      #EE2737 !default;
+$sky-blue-dark:       #1AA1BD !default;
+$cloud-blue-dark:     #1AA1BD !default;
+$em-primary-dark:     #FF9E1B !default;
 
-/**
- * TBD: For building dynamic color adjustments and respective classes
- *
+// Light
+$mp-blue-light:       #1E2975 !default;
+$pulse-red-light:     #F25E6A !default;
+$sky-blue-light:      #2CC3E2 !default;
+$cloud-blue-light:    #E0F6FB !default;
+$em-primary-light:    #FFB34C !default;
 
-$theme-colors: () !default;
-// stylelint-disable-next-line scss/dollar-variable-default
-$theme-colors: map-merge(
-  (
-    "primary":    $primary,
-    "secondary":  $secondary,
-    "tertiary":   $tertiary,
-    "success":    $success,
-    "info":       $info,
-    "warning":    $warning,
-    "danger":     $danger,
-    "light":      $light,
-    "dark":       $dark
-  ),
-  $theme-colors
-);
+// Lighter
+$mp-blue-lighter:     #1E2975 !default;
+$pulse-red-lighter:   #F25E6A !default;
+$sky-blue-lighter:    #2CC3E2 !default;
+$cloud-blue-lighter:  #E0F6FB !default;
+$em-primary-lighter:  #FFB34C !default;
 
-*/
-
-
-// Lights
-$primary-light:    #1E2975 !default;
-$accent-light:     #F25E6A !default;
-$sky-blue-light:   #2CC3E2 !default;
-$cloud-blue-light: #E0F6FB !default;
-$em-primary-light: #FFB34C !default;
-
-
-// Darks
-$primary-dark:     #0F1439 !default;
-$accent-dark:      #EE2737 !default;
-$sky-blue-dark:    #1AA1BD !default;
-$cloud-blue-dark:  #1AA1BD !default;
-$em-primary-dark:  #FF9E1B !default;
-
+// Lightest
+$mp-blue-lightest:    #1E2975 !default;
+$pulse-red-lightest:  #F25E6A !default;
+$sky-blue-lightest:   #2CC3E2 !default;
+$cloud-blue-lightest: #E0F6FB !default;
+$em-primary-lightest: #FFB34C !default;
 
 // Greys
-$black:        #000 !default;
-$gray-90:      #333 !default;
-$gray-80:      #4c4c4c !default;
-$gray-70:      #666 !default;
-$gray-60:      #7f7f7f !default;
-$gray-50:      #999 !default;
-$gray-40:      #b2b2b2 !default;
-$gray-30:      #ccc !default;
-$gray-20:      #e5e5e5 !default;
-$gray-10:      #f0f0f0 !default;
-$gray-5:       #fafafa !default;
-$white:        #fff !default;
+$black:               #000 !default;
+$gray-90:             #333 !default;
+$gray-80:             #4c4c4c !default;
+$gray-70:             #666 !default;
+$gray-60:             #7f7f7f !default;
+$gray-50:             #999 !default;
+$gray-40:             #b2b2b2 !default;
+$gray-30:             #ccc !default;
+$gray-20:             #e5e5e5 !default;
+$gray-10:             #f0f0f0 !default;
+$gray-5:              #fafafa !default;
+$white:               #fff !default;
+
 
 /*************************************************
  * Utilities
  */
 
-// Text Colors
-.text-primary     { color: $primary !important; }
-.text-accent   { color: $accent !important; }
-.text-sky-blue     { color: $sky-blue !important; }
-.text-cloud-blue   { color: $cloud-blue !important; }
-.text-em-primary     { color: $em-primary !important; }
+$mpc-theme-colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$mpc-theme-colors: map-merge(
+  (
+    "mp-blue":             $mp-blue,
+    "pulse-red":           $pulse-red,
+    "sky-blue":            $sky-blue,
+    "cloud-blue":          $cloud-blue,
+    "emtech-orange":       $emtech-orange,
+    "plusid":              $plusid,
+    "pluscoverage":        $pluscoverage,
+    "pluspayment":         $pluspayment,
+    "mp-blue-dark":        $mp-blue-dark,
+    "pulse-red-dark":      $pulse-red-dark,
+    "sky-blue-dark":       $sky-blue-dark,
+    "cloud-blue-dark":     $cloud-blue-dark,
+    "em-primary-dark":     $em-primary-dark,
+    "mp-blue-light":       $mp-blue-light,
+    "pulse-red-light":     $pulse-red-light,
+    "sky-blue-light":      $sky-blue-light,
+    "cloud-blue-light":    $cloud-blue-light,
+    "em-primary-light":    $em-primary-light,
+    "mp-blue-lighter":     $mp-blue-lighter,
+    "pulse-red-lighter":   $pulse-red-lighter,
+    "sky-blue-lighter":    $sky-blue-lighter,
+    "cloud-blue-lighter":  $cloud-blue-lighter,
+    "em-primary-lighter":  $em-primary-lighter,
+    "mp-blue-lightest":    $mp-blue-lightest,
+    "pulse-red-lightest":  $pulse-red-lightest,
+    "sky-blue-lightest":   $sky-blue-lightest,
+    "cloud-blue-lightest": $cloud-blue-lightest,
+    "em-primary-lightest": $em-primary-lightest,
+    "black":               $black,
+    "gray-90":             $gray-90,
+    "gray-80":             $gray-80,
+    "gray-70":             $gray-70,
+    "gray-60":             $gray-60,
+    "gray-50":             $gray-50,
+    "gray-40":             $gray-40,
+    "gray-30":             $gray-30,
+    "gray-20":             $gray-20,
+    "gray-10":             $gray-10,
+    "gray-5":              $gray-5,
+    "white":               $white
+  ),
+  $mpc-theme-colors
+);
 
+@each $color, $value in $mpc-theme-colors {
+  .text-#{$color} {
+    color: $color !important;
+  }
+  .bg-#{$color} {
+    background-color: $color !important;
+  }
 
-.text-primary-light     { color: $primary-light !important; }
-.text-accent-light   { color: $accent-light !important; }
-.text-sky-blue-light     { color: $sky-blue-light !important; }
-.text-cloud-blue-light   { color: $cloud-blue-light !important; }
-.text-em-primary-light     { color: $em-primary-light !important; }
-
-
-.text-primary-dark     { color: $primary-dark !important; }
-.text-accent-dark   { color: $accent-dark !important; }
-.text-sky-blue-dark     { color: $sky-blue-dark !important; }
-.text-cloud-blue-dark   { color: $cloud-blue-dark !important; }
-.text-em-primary-dark     { color: $em-primary-dark !important; }
-
-.text-black    { color: $black !important; }
-.text-gray-90  { color: $gray-90 !important; }
-.text-gray-80  { color: $gray-80 !important; }
-.text-gray-70  { color: $gray-70 !important; }
-.text-gray-60  { color: $gray-60 !important; }
-.text-gray-50  { color: $gray-50 !important; }
-.text-gray-40  { color: $gray-40 !important; }
-.text-gray-30  { color: $gray-30 !important; }
-.text-gray-20  { color: $gray-20 !important; }
-.text-gray-10  { color: $gray-10 !important; }
-.text-gray-5   { color: $gray-5 !important; }
-.text-white    { color: $white !important; }
-
-// Background Colors
-.bg-primary          { background-color: $primary !important; }
-.bg-accent           { background-color: $accent !important; }
-.bg-sky-blue         { background-color: $sky-blue !important; }
-.bg-cloud-blue       { background-color: $cloud-blue !important; }
-.bg-em-primary          { background-color: $em-primary !important; }
-
-.bg-primary-light    { background-color: $primary-light !important; }
-.bg-accent-light     { background-color: $accent-light !important; }
-.bg-sky-blue-light   { background-color: $sky-blue-light !important; }
-.bg-cloud-blue-light { background-color: $cloud-blue-light!important; }
-.bg-em-primary-light          { background-color: $em-primary-light !important; }
-
-.bg-primary-dark     { background-color: $primary-dark !important; }
-.bg-accent-dark   { background-color: $accent-dark !important; }
-.bg-sky-blue-dark     { background-color: $sky-blue-dark !important; }
-.bg-cloud-blue-dark   { background-color: $cloud-blue-dark !important; }
-.bg-em-primary-dark          { background-color: $em-primary-dark !important; }
-
-.bg-black         { background-color: $black !important; }
-.bg-gray-90       { background-color: $gray-90 !important; }
-.bg-gray-80       { background-color: $gray-80 !important; }
-.bg-gray-70       { background-color: $gray-70 !important; }
-.bg-gray-60       { background-color: $gray-60 !important; }
-.bg-gray-50       { background-color: $gray-50 !important; }
-.bg-gray-40       { background-color: $gray-40 !important; }
-.bg-gray-30       { background-color: $gray-30 !important; }
-.bg-gray-20       { background-color: $gray-20 !important; }
-.bg-gray-10       { background-color: $gray-10 !important; }
-.bg-gray-5        { background-color: $gray-5 !important; }
-.bg-white         { background-color: $white !important; }
+}

@@ -2,6 +2,12 @@
     "name": "Brand Colors",
     "colors": [{
         "name": "MP Cloud Blue",
+        "Hex": "#141B4D",
+        "HSL": "334, 81, 58",
+        "RGB": "235, 59, 134",
+        "Pantone": "2039",
+        "Sass": "primary",
+        "CSS": [".text-primary", ".bg-primary"],
         "shades": [
           {
             "name": "Dark",
@@ -13,16 +19,25 @@
             "CSS": [".text-primary-dark", ".bg-primary-dark"]
           },
           {
-            "name": "Base",
-            "Hex": "#141B4D",
-            "HSL": "334, 81, 58",
-            "RGB": "235, 59, 134",
-            "Pantone": "2039",
-            "Sass": "primary",
-            "CSS": [".text-primary", ".bg-primary"]
+            "name": "Light",
+            "Hex": "#f280b1",
+            "HSL": "334, 81, 73",
+            "RGB": "242, 128, 177",
+            "Pantone": "211",
+            "Sass": "primary-light",
+            "CSS": [".text-primary-light", ".bg-primary-light"]
           },
           {
-            "name": "Light",
+            "name": "Lighter",
+            "Hex": "#f280b1",
+            "HSL": "334, 81, 73",
+            "RGB": "242, 128, 177",
+            "Pantone": "211",
+            "Sass": "primary-light",
+            "CSS": [".text-primary-light", ".bg-primary-light"]
+          },
+          {
+            "name": "Lightest",
             "Hex": "#f280b1",
             "HSL": "334, 81, 73",
             "RGB": "242, 128, 177",
@@ -33,16 +48,14 @@
         ]
       },
       {
-        "name": "Accent",
-        "shades": [{
-            "name": "Base",
-            "Hex": "#EE2737",
-            "HSL": "240, 50, 37",
-            "RGB": "47, 47, 142",
-            "Pantone": "2370",
-            "Sass": "accent",
-            "CSS": [".text-accent", ".bg-accent"]
-          },
+        "name": "Pulse Red",
+        "Hex": "#EE2737",
+        "HSL": "240, 50, 37",
+        "RGB": "47, 47, 142",
+        "Pantone": "2370",
+        "Sass": "accent",
+        "CSS": [".text-accent", ".bg-accent"],
+        "shades": [
           {
             "name": "Dark",
             "Hex": "#030387",

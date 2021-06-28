@@ -18,8 +18,20 @@ Class name examples: text color (`.text-primary`), background color (`.bg-primar
   {% for color in group.colors %}
   <h3 id="{{ color.name | downcase }}">{{ color.name }}</h3>
   <div class="row">
+    <div class="col col-12 mb-5">
+      <div class="color-demo bg-{{ color.Sass }}"></div>
+      <small>
+      Hex: <code>{{ color.Hex }}</code>
+      RGB: <code>{{ color.RGB }}</code>
+      HSL: <code>{{ color.HSL }}</code>
+      Pantone: <code>{{ color.Pantone }}</code>
+      Sass: <code>${{ color.Sass }}</code>
+      </small>
+    </div>
+  </div>
+  <div class="row">
     {% for shade in color.shades %}
-    <div class="col col-4 mb-5">
+    <div class="col col-3 mb-5">
       <div class="color-demo bg-{{ shade.Sass }}"></div>
       <p><strong>{{ shade.name }}</strong></p>
       <small>
