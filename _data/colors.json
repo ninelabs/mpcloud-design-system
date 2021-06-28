@@ -78,15 +78,13 @@
       },
       {
         "name": "Sky Blue",
-        "shades": [{
-            "name": "Base",
-            "Hex": "#009BBF",
-            "HSL": "181, 56, 52",
-            "RGB": "63, 198, 201",
-            "Pantone": "2226",
-            "Sass": "sky-blue",
-            "CSS": [".text-sky-blue", ".bg-sky-blue"]
-          },
+        "Hex": "#009BBF",
+        "HSL": "181, 56, 52",
+        "RGB": "63, 198, 201",
+        "Pantone": "2226",
+        "Sass": "sky-blue",
+        "CSS": [".text-sky-blue", ".bg-sky-blue"],
+        "shades": [
           {
             "name": "Dark",
             "Hex": "#05aaaa",
@@ -109,16 +107,13 @@
       },
       {
         "name": "EMTech Orange",
+        "Hex": "#FF9E1B",
+        "HSL": "44, 99, 67",
+        "RGB": "254, 205, 68",
+        "Pantone": "122",
+        "Sass": "em-orange",
+        "CSS": [".text-em-orange", ".bg-em-orange"],
         "shades": [{
-            "name": "Base",
-            "Hex": "#FF9E1B",
-            "HSL": "44, 99, 67",
-            "RGB": "254, 205, 68",
-            "Pantone": "122",
-            "Sass": "em-orange",
-            "CSS": [".text-em-orange", ".bg-em-orange"]
-          },
-          {
             "name": "Dark",
             "Hex": "#FF9E1B",
             "HSL": "43, 98, 49",
