@@ -4,7 +4,7 @@ $primary:             $mp-blue; // temporary so nothing breaks
 $pulse-red:           #ec1731 !default;
 $sky-blue:            #00A2BC !default;
 $cloud-blue:          #C4E6E4 !default;
-$emtech-orange:       #FF9E1B !default;
+$em-orange:           #FF9E1B !default;
 
 // Plus Products
 $plusid:              #9A08B9 !default;
@@ -16,28 +16,28 @@ $mp-blue-dark:        #0F1439 !default;
 $pulse-red-dark:      #EE2737 !default;
 $sky-blue-dark:       #1AA1BD !default;
 $cloud-blue-dark:     #1AA1BD !default;
-$em-primary-dark:     #FF9E1B !default;
+$em-orange-dark:      #FF9E1B !default;
 
 // Light
 $mp-blue-light:       #1E2975 !default;
 $pulse-red-light:     #F25E6A !default;
 $sky-blue-light:      #2CC3E2 !default;
 $cloud-blue-light:    #E0F6FB !default;
-$em-primary-light:    #FFB34C !default;
+$em-orange-light:     #FFB34C !default;
 
 // Lighter
 $mp-blue-lighter:     #1E2975 !default;
 $pulse-red-lighter:   #F25E6A !default;
 $sky-blue-lighter:    #2CC3E2 !default;
 $cloud-blue-lighter:  #E0F6FB !default;
-$em-primary-lighter:  #FFB34C !default;
+$em-orange-lighter:   #FFB34C !default;
 
 // Lightest
 $mp-blue-lightest:    #1E2975 !default;
 $pulse-red-lightest:  #F25E6A !default;
 $sky-blue-lightest:   #2CC3E2 !default;
 $cloud-blue-lightest: #E0F6FB !default;
-$em-primary-lightest: #FFB34C !default;
+$em-orange-lightest:  #FFB34C !default;
 
 // Greys
 $black:               #000 !default;
@@ -66,7 +66,7 @@ $mpc-theme-colors: map-merge(
     "pulse-red":           $pulse-red,
     "sky-blue":            $sky-blue,
     "cloud-blue":          $cloud-blue,
-    "emtech-orange":       $emtech-orange,
+    "em-orange":           $em-orange,
     "plusid":              $plusid,
     "pluscoverage":        $pluscoverage,
     "pluspayment":         $pluspayment,
@@ -74,22 +74,22 @@ $mpc-theme-colors: map-merge(
     "pulse-red-dark":      $pulse-red-dark,
     "sky-blue-dark":       $sky-blue-dark,
     "cloud-blue-dark":     $cloud-blue-dark,
-    "em-primary-dark":     $em-primary-dark,
+    "em-orange-dark":      $em-orange-dark,
     "mp-blue-light":       $mp-blue-light,
     "pulse-red-light":     $pulse-red-light,
     "sky-blue-light":      $sky-blue-light,
     "cloud-blue-light":    $cloud-blue-light,
-    "em-primary-light":    $em-primary-light,
+    "em-orange-light":     $em-orange-light,
     "mp-blue-lighter":     $mp-blue-lighter,
     "pulse-red-lighter":   $pulse-red-lighter,
     "sky-blue-lighter":    $sky-blue-lighter,
     "cloud-blue-lighter":  $cloud-blue-lighter,
-    "em-primary-lighter":  $em-primary-lighter,
+    "em-orange-lighter":   $em-orange-lighter,
     "mp-blue-lightest":    $mp-blue-lightest,
     "pulse-red-lightest":  $pulse-red-lightest,
     "sky-blue-lightest":   $sky-blue-lightest,
     "cloud-blue-lightest": $cloud-blue-lightest,
-    "em-primary-lightest": $em-primary-lightest,
+    "em-orange-lightest":  $em-orange-lightest,
     "black":               $black,
     "gray-90":             $gray-90,
     "gray-80":             $gray-80,
@@ -108,10 +108,10 @@ $mpc-theme-colors: map-merge(
 
 @each $color, $value in $mpc-theme-colors {
   .text-#{$color} {
-    color: $color !important;
+    color: $value !important;
   }
   .bg-#{$color} {
-    background-color: $color !important;
+    background-color: $value !important;
   }
 
 }
