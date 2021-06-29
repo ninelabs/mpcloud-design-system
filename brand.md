@@ -44,11 +44,17 @@ The MP Cloud and EMTech brand identities should always be placed on a white back
 Spacing should always be measured from the edge of the mark or its associated text.
 
 <div class="row">
-  <div class="col col-12">
-    <img src="/assets/img/MPCloud-spacing.jpg" alt="MP Cloud Brand Logo" width="450" class="mx-auto img-fluid my-5"/>
-    <img src="/assets/img/MPTechnologies-spacing.jpg" alt="MP Cloud Brand Logo" width="450" class="mx-auto img-fluid my-5"/>
-    <img src="/assets/img/EMTech-spacing.jpg" alt="MP Cloud Brand Logo" width="450" class="mx-auto img-fluid my-5"/>
-    <img src="/assets/img/NoClaimLeftBehindLogo-spacing.jpg" alt="MP Cloud Brand Logo" width="450" class="mx-auto img-fluid my-5"/>
+  <div class="col col-12 my-5 text-center">
+    <img src="/assets/img/MPCloud-spacing.jpg" alt="MP Cloud Brand Logo" width="450" class="mx-auto img-fluid"/>
+</div>
+<div class="col col-12 my-5 text-center">
+    <img src="/assets/img/MPTechnologies-spacing.jpg" alt="MP Cloud Brand Logo" width="450" class="mx-auto img-fluid"/>
+</div>
+<div class="col col-12 my-5 text-center">
+    <img src="/assets/img/EMTech-spacing.jpg" alt="MP Cloud Brand Logo" width="450" class="mx-auto img-fluid"/>
+</div>
+<div class="col col-12 my-5 text-center">
+    <img src="/assets/img/NoClaimLeftBehindLogo-spacing.jpg" alt="MP Cloud Brand Logo" width="450" class="mx-auto img-fluid"/>
   </div>
 </div>
 
