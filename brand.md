@@ -61,7 +61,7 @@ Spacing should always be measured from the edge of the mark or its associated te
 
 ----
 
-## Unacceptable Usage
+### Unacceptable Usage
 
 Only the logos provided within this document are approved for use.
 
