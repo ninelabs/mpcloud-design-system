@@ -11,39 +11,47 @@ The MP Cloud and EMTech brand identities should always be placed on a white back
 
 ----
 
-### Primary Logos
+### MP Cloud Logos
 <div class="row">
-<div class="col col-12 col-sm-6 my-5">
-<img src="/assets/img/MPCloud-brand.svg" alt="MP Cloud Brand Logo" class="img-fluid px-5" />
-</div>
-<div class="col col-12 col-sm-6 my-5">
-<img src="/assets/img/EMTech-brand.svg" alt="EMTech Brand Logo" class="img-fluid  px-5" />
-</div>
+  <div class="col col-12 col-sm-6 my-5">
+    <img src="/assets/img/MPCloud-brand.svg" alt="MP Cloud Brand Logo" class="img-fluid align-middle px-5" />
+  </div>
+  <div class="col col-12 col-sm-6 my-5">
+    <img src="/assets/img/MPTechnologies-brand.svg" alt="MP Cloud Brand Logo" class="img-fluid align-middle px-5" />
+  </div>
 </div>
 
-### Alternate Logos
+
+
+#### No Claim Left Behind
 
 <div class="row">
-<div class="col col-12 col-sm-6 my-5">
-<img src="/assets/img/MPTechnologies-brand.svg" alt="MP Cloud Brand Logo" class="img-fluid px-5" />
-</div>
-<div class="col col-12 col-sm-6 my-5">
-<img src="/assets/img/NoClaimLeftBehindLogo.svg" alt="No Claim Left Behind Logo" class="img-fluid px-5" style="max-height:200px" />
-</div>
+  <div class="col col-12 col-sm-6 my-5">
+    <img src="/assets/img/NoClaimLeftBehindLogo.svg" alt="No Claim Left Behind Logo" class="img-fluid align-middle px-5" style="max-height:200px" />
+  </div>
 </div>
 
+### EMTech Logo
+
+<div class="row">
+  <div class="col col-12 col-sm-6 my-5">
+    <img src="/assets/img/EMTech-brand.svg" alt="EMTech Brand Logo" class="img-fluid align-middle px-5" />
+  </div>
+</div>
 
 ### Proper Spacing
 
 Spacing should always be measured from the edge of the mark or its associated text.
 
-<img src="/assets/img/MPCloud-spacing.jpg" alt="MP Cloud Brand Logo" width="450" />
-<hr />
-<img src="/assets/img/MPTechnologies-spacing.jpg" alt="MP Cloud Brand Logo" width="450" />
-<hr />
-<img src="/assets/img/EMTech-spacing.jpg" alt="MP Cloud Brand Logo" width="450" />
-<hr />
-<img src="/assets/img/NoClaimLeftBehindLogo-spacing.jpg" alt="MP Cloud Brand Logo" width="450" />
+<div class="row">
+  <div class="col col-12">
+    <img src="/assets/img/MPCloud-spacing.jpg" alt="MP Cloud Brand Logo" width="450" class="mx-auto img-fluid my-5"/>
+    <img src="/assets/img/MPTechnologies-spacing.jpg" alt="MP Cloud Brand Logo" width="450" class="mx-auto img-fluid my-5"/>
+    <img src="/assets/img/EMTech-spacing.jpg" alt="MP Cloud Brand Logo" width="450" class="mx-auto img-fluid my-5"/>
+    <img src="/assets/img/NoClaimLeftBehindLogo-spacing.jpg" alt="MP Cloud Brand Logo" width="450" class="mx-auto img-fluid my-5"/>
+  </div>
+</div>
+
 
 ----
 
