@@ -7,51 +7,43 @@ title: Brand
 
 # MP Cloud Brand Identity
 
-The MP Cloud brand identity has two colors: [Primary Pink](../colors.html) and [Dark Pink](../colors.html). The "N" Solo Mark is the primary visual mark for most uses. These elements and their relationship must never be altered or modified in any way.
+The MP Cloud and EMTech brand identities should always be placed on a white background. Should it be required to place the logos on a dark background, please contact the brand team for assistance. These elements and their relationship must never be altered or modified in any way.
 
 ----
 
-## Brand Marks
-
-### Primary Logo
-This is our primary mark, and is used in most situations.
-
-<img src="/assets/img/nine-labs-brand-logo.svg" alt="MP Cloud Brand Logo" width="270" />
-
-### Secondary Logos
+### Primary Logos
 <div class="row">
-<div class="col">
-<img src="/assets/img/nine-labs-brand-logo-color.svg" alt="MP Cloud Brand Logo" width="270" />
-<p>For applications on white or light colored backgrounds where color can be used.</p>
+<div class="col col-12 col-sm-6 my-5">
+<img src="/assets/img/MPCloud-brand.svg" alt="MP Cloud Brand Logo" class="img-fluid px-5" />
 </div>
-<div class="col">
-<img src="/assets/img/nine-labs-brand-logo-black.svg" alt="MP Cloud Brand Logo" width="270" />
-<p>For applications on white backgrounds where only black and white can be used.</p>
+<div class="col col-12 col-sm-6 my-5">
+<img src="/assets/img/EMTech-brand.svg" alt="EMTech Brand Logo" class="img-fluid  px-5" />
 </div>
 </div>
 
-### The Solo N
+### Alternate Logos
+
 <div class="row">
-<div class="col">
-<img src="/assets/img/nine-labs-solo-n-primary.svg" alt="MP Cloud Brand Logo" width="270" />
-<p><small>For applications on white or light colored backgrounds where color can be used.</small></p>
+<div class="col col-12 col-sm-6 my-5">
+<img src="/assets/img/MPTechnologies-brand.svg" alt="MP Cloud Brand Logo" class="img-fluid px-5" />
 </div>
-<div class="col">
-<img src="/assets/img/nine-labs-solo-n-color.svg" alt="MP Cloud Brand Logo" width="270" />
-<p><small>For applications on white backgrounds where only black and white can be used.</small></p>
-</div>
-<div class="col">
-<img src="/assets/img/nine-labs-solo-n-black.svg" alt="MP Cloud Brand Logo" width="270" />
-<p><small>For applications on white backgrounds where only black and white can be used.</small></p>
+<div class="col col-12 col-sm-6 my-5">
+<img src="/assets/img/NoClaimLeftBehindLogo.svg" alt="No Claim Left Behind Logo" class="img-fluid px-5" style="max-height:200px" />
 </div>
 </div>
+
 
 ### Proper Spacing
 
-The required space surrounding the logo mark is equal to the height distance between the words "NINE" and "LABS". Spacing should be measured from the edge of the words, not the edge of the separator line.
+Spacing should always be measured from the edge of the mark or its associated text.
 
-<img src="/assets/img/nine-labs-brand-logo-spacing.svg" alt="MP Cloud Brand Logo" width="450" />
-
+<img src="/assets/img/MPCloud-spacing.jpg" alt="MP Cloud Brand Logo" width="450" />
+<hr />
+<img src="/assets/img/MPTechnologies-spacing.jpg" alt="MP Cloud Brand Logo" width="450" />
+<hr />
+<img src="/assets/img/EMTech-spacing.jpg" alt="MP Cloud Brand Logo" width="450" />
+<hr />
+<img src="/assets/img/NoClaimLeftBehindLogo-spacing.jpg" alt="MP Cloud Brand Logo" width="450" />
 
 ----
 
@@ -59,7 +51,6 @@ The required space surrounding the logo mark is equal to the height distance bet
 
 Only the logos provided within this document are approved for use.
 
-1. Using the “Solo N" as part of a word, or as a letter of the alphabet
 1. Adding extra elements to any brand mark
 1. Stretching any brand mark
 1. Rotating any brand mark
