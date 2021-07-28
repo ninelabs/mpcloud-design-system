@@ -137,3 +137,60 @@ input[type="button"] {
     width: 100%;
   }
 }
+
+.btn-mpcloud {
+  color: $white;
+  background-color: $pulse-red;
+  font-weight: bold;
+  border: 2px solid $pulse-red-light;
+  @include button-size(6.5px, 18.75px, 18px, 23px, 6px);
+
+  &-lg {
+    @include button-size(8px, 13.5px, 22px, 28px, 6px);
+  }
+
+  &:hover {
+    color: $white;
+  }
+}
+
+.btn-emtech {
+  font-weight: bold;
+  @include button-size(6.5px, 18.75px, 18px, 23px, 6px);
+
+  &-primary {
+    color: $gray;
+    background-color: rgba($white, .6);
+    border: 2px solid $em-orange;
+    position: relative;
+
+    &:hover {
+      color: $gray;
+    }
+  
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 1px;
+      bottom: 1px;
+      right: 1px;
+      left: 1px;
+      border: 3px solid $em-orange-lightest;
+    }
+  }
+
+  &-secondary {
+    color: $white;
+    background-color: $gray-darker;
+    border: 2px solid $gray-light-2;
+
+    &:hover {
+      color: $white;
+    }
+  }
+
+  &-lg {
+    @include button-size(12px, 21.5px, 22px, 28px, 6px);
+  }
+}

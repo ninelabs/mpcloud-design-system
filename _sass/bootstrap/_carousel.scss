@@ -195,3 +195,37 @@
   color: $carousel-caption-color;
   text-align: center;
 }
+
+.carousel-mpcloud,
+.carousel-emtech {
+  min-width: 264px;
+  min-height: 120px;
+
+  .carousel-inner {
+    color: $white;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    position: relative;
+
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: -13px;
+      left: -13px;
+      padding: 22px;
+      border: 2px solid rgba($white, .6);
+      border-radius: 50%;
+    }
+  }
+}
+
+.carousel-mpcloud {
+  background: linear-gradient(90deg, #1AA1BD 0.04%, #141B4D 100%);
+}
+
+.carousel-emtech {
+  background: linear-gradient(90deg, #FFB34C 0%, #BD6C00 100%);
+}
