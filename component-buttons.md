@@ -12,48 +12,57 @@ When using button classes on `<a>` elements that are used to trigger in-page fun
 
 ## MP Cloud Buttons
 ### Primary Button
-#### Large
-<button class="btn btn-mpcloud btn-mpcloud-lg" type="submit">Label</button>
 
-```html
 <button class="btn btn-mpcloud btn-mpcloud-lg" type="submit">Label</button>
-```
-
-#### Regular
 <button class="btn btn-mpcloud" type="submit">Label</button>
 
 ```html
+<button class="btn btn-mpcloud btn-mpcloud-lg" type="submit">Label</button>
 <button class="btn btn-mpcloud" type="submit">Label</button>
 ```
 
 ### Leading Content Block Buttons
-#### Previous & Next
-<div id="carouselExampleControls" class="carousel carousel-mpcloud slide" data-ride="carousel">
-  <!-- <div class="carousel-inner">
+
+<div id="MPCloudCarousel" class="carousel carousel-mpcloud slide" data-ride="carousel">
+  <div class="carousel-inner">
     <div class="carousel-item active">
-      <div>First item</div>
+      First carousel item
     </div>
     <div class="carousel-item">
-      <div>Second item</div>
+      Second carousel item
     </div>
-  </div> -->
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <div class="carousel-item">
+      Third carousel item
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#MPCloudCarousel" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#MPCloudCarousel" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
 </div>
 
 ```html
-<div id="carouselExampleControls" class="carousel carousel-mpcloud slide" data-ride="carousel">
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+<div id="MPCloudCarousel" class="carousel carousel-mpcloud slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      First carousel item
+    </div>
+    <div class="carousel-item">
+      Second carousel item
+    </div>
+    <div class="carousel-item">
+      Third carousel item
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#MPCloudCarousel" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#MPCloudCarousel" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
@@ -62,63 +71,67 @@ When using button classes on `<a>` elements that are used to trigger in-page fun
 
 ## EMTech Buttons
 ### Primary Button
-#### Large
-<button class="btn btn-emtech btn-emtech-primary btn-emtech-lg" type="submit">Label</button>
 
-```html
 <button class="btn btn-emtech btn-emtech-primary btn-emtech-lg" type="submit">Label</button>
-```
-
-#### Regular
 <button class="btn btn-emtech btn-emtech-primary" type="submit">Label</button>
 
 ```html
+<button class="btn btn-emtech btn-emtech-primary btn-emtech-lg" type="submit">Label</button>
 <button class="btn btn-emtech btn-emtech-primary" type="submit">Label</button>
 ```
 
 ### Seondary Button
-#### Large
-<button class="btn btn-emtech btn-emtech-secondary btn-emtech-lg" type="submit">Label</button>
 
-```html
 <button class="btn btn-emtech btn-emtech-secondary btn-emtech-lg" type="submit">Label</button>
-```
-
-#### Regular
 <button class="btn btn-emtech btn-emtech-secondary" type="submit">Label</button>
 
 ```html
+<button class="btn btn-emtech btn-emtech-secondary btn-emtech-lg" type="submit">Label</button>
 <button class="btn btn-emtech btn-emtech-secondary" type="submit">Label</button>
 ```
 
 ### Leading Content Block Buttons
-#### Previous & Next
-<div id="carouselExampleControls" class="carousel carousel-emtech slide" data-ride="carousel">
-  <!-- <div class="carousel-inner">
+
+<div id="EMTechCarousel" class="carousel carousel-emtech slide" data-ride="carousel">
+  <div class="carousel-inner">
     <div class="carousel-item active">
+      First carousel item
     </div>
     <div class="carousel-item">
+      Second carousel item
     </div>
     <div class="carousel-item">
+      Third carousel item
     </div>
-  </div> -->
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+  </div>
+  <a class="carousel-control-prev" href="#EMTechCarousel" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#EMTechCarousel" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
 </div>
 
 ```html
-<div id="carouselExampleControls" class="carousel carousel-emtech slide" data-ride="carousel">
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+<div id="EMTechCarousel" class="carousel carousel-emtech slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      First carousel item
+    </div>
+    <div class="carousel-item">
+      Second carousel item
+    </div>
+    <div class="carousel-item">
+      Third carousel item
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#EMTechCarousel" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#EMTechCarousel" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
