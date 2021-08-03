@@ -19,11 +19,11 @@ title: Footer // Components
 </div>
 
 ```html
-<div class="mpcloud-pre-footer">
-  <hr class="mpcloud-pre-footer-hr">
-  <div class="mpcloud-pre-footer-container">
-    <div class="mpcloud-pre-footer-row">
-      <div class="mpcloud-pre-footer-title">
+<div class="mpcloud-pre-footer-content">
+  <hr class="mpcloud-pre-footer-content-hr">
+  <div class="mpcloud-pre-footer-content-container">
+    <div class="mpcloud-pre-footer-content-row">
+      <div class="mpcloud-pre-footer-content-title">
         Helping EMS Agencies and 3rd Party Billing Companies Improve Efficiency and Profitability.
       </div>
     </div>
