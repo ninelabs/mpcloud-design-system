@@ -1,0 +1,23 @@
+.stock-photography { 
+  @extend .container;
+
+  &-row {
+    @extend .row;
+
+    &:not(:last-child) {
+      .stock-photography-col {
+        padding-bottom: 100px;
+      }
+    }
+  }
+  &-col {
+    @extend .col;
+
+    &:not(:last-child) {
+      border-right: 5px solid $gray-lighter;
+    }
+  }
+  &-img {
+    @extend .img-fluid;
+  }
+}
