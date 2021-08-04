@@ -244,12 +244,18 @@ title: Footer // Components
             <div class="mpcloud-footer-row">
               <div class="col-6">
                 <a href="#" class="mpcloud-footer-link">About Us</a>
-                <a href="#" class="mpcloud-footer-link">Leadership</a>
-                <a href="#" class="mpcloud-footer-link">Partners</a>
               </div>
               <div class="col-6">
                 <a href="#" class="mpcloud-footer-link">News</a>
+              </div>
+              <div class="col-6">
+                <a href="#" class="mpcloud-footer-link">Leadership</a>
+              </div>
+              <div class="col-6">
                 <a href="#" class="mpcloud-footer-link">Conferences</a>
+              </div>
+              <div class="col-6">
+                <a href="#" class="mpcloud-footer-link">Partners</a>
               </div>
             </div>
           </div>
@@ -347,12 +353,18 @@ title: Footer // Components
             <div class="mpcloud-footer-row">
               <div class="col-6">
                 <a href="#" class="mpcloud-footer-link">About Us</a>
-                <a href="#" class="mpcloud-footer-link">Leadership</a>
-                <a href="#" class="mpcloud-footer-link">Partners</a>
               </div>
               <div class="col-6">
                 <a href="#" class="mpcloud-footer-link">News</a>
+              </div>
+              <div class="col-6">
+                <a href="#" class="mpcloud-footer-link">Leadership</a>
+              </div>
+              <div class="col-6">
                 <a href="#" class="mpcloud-footer-link">Conferences</a>
+              </div>
+              <div class="col-6">
+                <a href="#" class="mpcloud-footer-link">Partners</a>
               </div>
             </div>
           </div>
