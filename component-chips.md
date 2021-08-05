@@ -55,15 +55,11 @@ title: Chips // Components
 
 ### Card Asset
 <button type="button" class="chip-emtech-card-asset">
-  <span class="chip-emtech-card-asset-border">
-    <span class="icon-clock"></span>
-  </span>
+  <span class="icon-clock"></span>
 </button>
 
 ```html
 <button type="button" class="chip-emtech-card-asset">
-  <span class="chip-emtech-card-asset-border">
-    <span class="icon-clock"></span>
-  </span>
+  <span class="icon-clock"></span>
 </button>
 ```

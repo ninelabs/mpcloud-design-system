@@ -28,8 +28,23 @@
 .icon-chevron-circle-down:before {
   content: "\e900";
 }
+.icon-chevron-down:before {
+  content: "\e90f";
+}
+.icon-chevron-left:before {
+  content: "\e910";
+}
+.icon-chevron-right:before {
+  content: "\e911";
+}
+.icon-chevron-up:before {
+  content: "\e912";
+}
 .icon-clock:before {
   content: "\e901";
+}
+.icon-close:before {
+  content: "\e913";
 }
 .icon-copy:before {
   content: "\e902";
@@ -51,6 +66,9 @@
 }
 .icon-lock:before {
   content: "\e908";
+}
+.icon-menu:before {
+  content: "\e914";
 }
 .icon-money-bill:before {
   content: "\e909";

@@ -147,7 +147,8 @@ footer {
       }
 
       &::after {
-        content: ' \0022C1';
+        font-family: 'emtechandmpcloudIcons';
+        content: '\e90f';
         display: block;
         position: absolute;
         top: 35%;
@@ -313,6 +314,10 @@ footer {
     @extend .row;
 
     padding: 14px 0 !important;
+
+    &-chip-wrapper {
+      padding: 0;
+    }
   }
 
   &-col {

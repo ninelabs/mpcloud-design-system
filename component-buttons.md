@@ -138,6 +138,42 @@ When using button classes on `<a>` elements that are used to trigger in-page fun
 </div>
 ```
 
+## MP Cloud Tags
+
+### Single Tag
+
+<button type="button" class="btn tag-mpcloud">Tag</button>
+
+```html
+<button type="button" class="btn tag-mpcloud">Tag</button>
+```
+
+### Multiple Tags
+
+<button type="button" class="btn tag-mpcloud">Topic</button>
+<button type="button" class="btn tag-mpcloud">Topic</button>
+<button type="button" class="btn tag-mpcloud">Long Topic</button>
+<button type="button" class="btn tag-mpcloud">Topic</button>
+<button type="button" class="btn tag-mpcloud">Topic</button>
+<button type="button" class="btn tag-mpcloud">Longer Topic</button>
+<button type="button" class="btn tag-mpcloud">Topic</button>
+<button type="button" class="btn tag-mpcloud">Topic</button>
+<button type="button" class="btn tag-mpcloud">Topic</button>
+<button type="button" class="btn tag-mpcloud">Longer Topic</button>
+
+```html
+<button type="button" class="btn tag-mpcloud">Topic</button>
+<button type="button" class="btn tag-mpcloud">Topic</button>
+<button type="button" class="btn tag-mpcloud">Long Topic</button>
+<button type="button" class="btn tag-mpcloud">Topic</button>
+<button type="button" class="btn tag-mpcloud">Topic</button>
+<button type="button" class="btn tag-mpcloud">Longer Topic</button>
+<button type="button" class="btn tag-mpcloud">Topic</button>
+<button type="button" class="btn tag-mpcloud">Topic</button>
+<button type="button" class="btn tag-mpcloud">Topic</button>
+<button type="button" class="btn tag-mpcloud">Longer Topic</button>
+```
+
 <!-- ## Button Elements
 <a class="btn btn-primary" href="#" role="button">Link</a>
 <button class="btn btn-primary" type="submit">Button</button>

@@ -285,17 +285,17 @@ title: Footer // Components
               </div>
             </div>
             <div class="mpcloud-footer-row">
-              <div class="col-4">
+              <div class="col-4 mpcloud-footer-row-chip-wrapper">
                 <button type="button" class="chip-mpcloud">
                   <span class="icon-facebook"></span>
                 </button>
               </div>
-              <div class="col-4">
+              <div class="col-4 mpcloud-footer-row-chip-wrapper">
                 <button type="button" class="chip-mpcloud">
                   <span class="icon-twitter"></span>
                 </button>
               </div>
-              <div class="col-4">
+              <div class="col-4 mpcloud-footer-row-chip-wrapper">
                 <button type="button" class="chip-mpcloud">
                   <span class="icon-linkedin"></span>
                 </button>
@@ -394,17 +394,17 @@ title: Footer // Components
               </div>
             </div>
             <div class="mpcloud-footer-row">
-              <div class="col-4">
+              <div class="col-4 mpcloud-footer-row-chip-wrapper">
                 <button type="button" class="chip-mpcloud">
                   <span class="icon-facebook"></span>
                 </button>
               </div>
-              <div class="col-4">
+              <div class="col-4 mpcloud-footer-row-chip-wrapper">
                 <button type="button" class="chip-mpcloud">
                   <span class="icon-twitter"></span>
                 </button>
               </div>
-              <div class="col-4">
+              <div class="col-4 mpcloud-footer-row-chip-wrapper">
                 <button type="button" class="chip-mpcloud">
                   <span class="icon-linkedin"></span>
                 </button>
@@ -478,17 +478,17 @@ title: Footer // Components
               </div>
             </div>
             <div class="emtech-footer-row">
-              <div class="col-4">
+              <div class="col-4 emtech-footer-row-chip-wrapper">
                 <button type="button" class="chip-emtech">
                   <span class="icon-facebook"></span>
                 </button>
               </div>
-              <div class="col-4">
+              <div class="col-4 emtech-footer-row-chip-wrapper">
                 <button type="button" class="chip-emtech">
                   <span class="icon-twitter"></span>
                 </button>
               </div>
-              <div class="col-4">
+              <div class="col-4 emtech-footer-row-chip-wrapper">
                 <button type="button" class="chip-emtech">
                   <span class="icon-linkedin"></span>
                 </button>
@@ -553,17 +553,17 @@ title: Footer // Components
               </div>
             </div>
             <div class="emtech-footer-row">
-              <div class="col-4">
+              <div class="col-4 emtech-footer-row-chip-wrapper">
                 <button type="button" class="chip-emtech">
                   <span class="icon-facebook"></span>
                 </button>
               </div>
-              <div class="col-4">
+              <div class="col-4 emtech-footer-row-chip-wrapper">
                 <button type="button" class="chip-emtech">
                   <span class="icon-twitter"></span>
                 </button>
               </div>
-              <div class="col-4">
+              <div class="col-4 emtech-footer-row-chip-wrapper">
                 <button type="button" class="chip-emtech">
                   <span class="icon-linkedin"></span>
                 </button>

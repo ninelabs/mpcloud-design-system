@@ -196,3 +196,155 @@ title: Images // Components
     </div>
   </div>
 </div>
+
+## MP Cloud Icon Images
+
+<div class="container">
+    <div class="row mb-5">
+        <div class="col">
+            <img src="/assets/img/icon-insurance-verification.png" class="mpcloud-icon-image">
+        </div>
+        <div class="col">
+            <img src="/assets/img/icon-custom-reporting.png" class="mpcloud-icon-image">
+        </div>
+        <div class="col">
+            <img src="/assets/img/icon-advclaim-auto-coding.png" class="mpcloud-icon-image">
+        </div>
+        <div class="col">
+            <img src="/assets/img/icon-schedule-transports.png" class="mpcloud-icon-image">
+        </div>
+        <div class="col">
+            <img src="/assets/img/icon-request-demo-email.png" class="mpcloud-icon-image">
+        </div>
+    </div>
+    <div class="row mb-5">
+        <div class="col">
+            <img src="/assets/img/icon-municipalities.png" class="mpcloud-icon-image">
+        </div>
+        <div class="col">
+            <img src="/assets/img/icon-advdispatch-vehicle-locations.png" class="mpcloud-icon-image">
+        </div>
+        <div class="col">
+            <img src="/assets/img/icon-advclaim-our-systems.png" class="mpcloud-icon-image">
+        </div>
+        <div class="col">
+            <img src="/assets/img/icon-advdispatch-communication.png" class="mpcloud-icon-image">
+        </div>
+        <div class="col">
+            <img src="/assets/img/icon-advdispatch-auto-generated.png" class="mpcloud-icon-image">
+        </div>
+    </div>
+    <div class="row mb-5">
+        <div class="col">
+            <img src="/assets/img/icon-advdispatch-accelerate-response-time.png" class="mpcloud-icon-image">
+        </div>
+        <div class="col">
+            <img src="/assets/img/icon-advclaim-ready-to-bill.png" class="mpcloud-icon-image">
+        </div>
+        <div class="col">
+            <img src="/assets/img/icon-advclaim-mine-databases.png" class="mpcloud-icon-image">
+        </div>
+        <div class="col">
+            <img src="/assets/img/icon-advclaim-enterprise-level-security.png" class="mpcloud-icon-image">
+        </div>
+        <div class="col">
+            <img src="/assets/img/icon-advclaim-clearinghouse.png" class="mpcloud-icon-image">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <img src="/assets/img/icon-advclaim-cash-flow.png" class="mpcloud-icon-image">
+        </div>
+        <div class="col">
+            <img src="/assets/img/icon-advclaim-automated-verification.png" class="mpcloud-icon-image">
+        </div>
+    </div>
+</div>
+
+```html
+<div class="container">
+    <div class="row mb-5">
+        <div class="col">
+            <img src="/assets/img/icon-insurance-verification.png" class="mpcloud-icon-image">
+        </div>
+        <div class="col">
+            <img src="/assets/img/icon-custom-reporting.png" class="mpcloud-icon-image">
+        </div>
+        <div class="col">
+            <img src="/assets/img/icon-advclaim-auto-coding.png" class="mpcloud-icon-image">
+        </div>
+        <div class="col">
+            <img src="/assets/img/icon-schedule-transports.png" class="mpcloud-icon-image">
+        </div>
+        <div class="col">
+            <img src="/assets/img/icon-request-demo-email.png" class="mpcloud-icon-image">
+        </div>
+    </div>
+    <div class="row mb-5">
+        <div class="col">
+            <img src="/assets/img/icon-municipalities.png" class="mpcloud-icon-image">
+        </div>
+        <div class="col">
+            <img src="/assets/img/icon-advdispatch-vehicle-locations.png" class="mpcloud-icon-image">
+        </div>
+        <div class="col">
+            <img src="/assets/img/icon-advclaim-our-systems.png" class="mpcloud-icon-image">
+        </div>
+        <div class="col">
+            <img src="/assets/img/icon-advdispatch-communication.png" class="mpcloud-icon-image">
+        </div>
+        <div class="col">
+            <img src="/assets/img/icon-advdispatch-auto-generated.png" class="mpcloud-icon-image">
+        </div>
+    </div>
+    <div class="row mb-5">
+        <div class="col">
+            <img src="/assets/img/icon-advdispatch-accelerate-response-time.png" class="mpcloud-icon-image">
+        </div>
+        <div class="col">
+            <img src="/assets/img/icon-advclaim-ready-to-bill.png" class="mpcloud-icon-image">
+        </div>
+        <div class="col">
+            <img src="/assets/img/icon-advclaim-mine-databases.png" class="mpcloud-icon-image">
+        </div>
+        <div class="col">
+            <img src="/assets/img/icon-advclaim-enterprise-level-security.png" class="mpcloud-icon-image">
+        </div>
+        <div class="col">
+            <img src="/assets/img/icon-advclaim-clearinghouse.png" class="mpcloud-icon-image">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <img src="/assets/img/icon-advclaim-cash-flow.png" class="mpcloud-icon-image">
+        </div>
+        <div class="col">
+            <img src="/assets/img/icon-advclaim-automated-verification.png" class="mpcloud-icon-image">
+        </div>
+    </div>
+</div>
+```
+
+## MP Cloud Leading Content Decor
+
+<div class="leading-content-decor-mpcloud">
+    <img class="leading-content-decor-mpcloud-image" src="/assets/img/mpcloud-leading-content-decor-asset.png">
+</div>
+
+```html
+<div class="leading-content-decor-mpcloud">
+    <img class="leading-content-decor-mpcloud-image" src="/assets/img/mpcloud-leading-content-decor-asset.png">
+</div>
+```
+
+## EMTech Leading Content Decor
+
+<div class="leading-content-decor-emtech">
+    <img class="leading-content-decor-emtech-image" src="/assets/img/emtech-leading-content-decor-asset.png">
+</div>
+
+```html
+<div class="leading-content-decor-emtech">
+    <img class="leading-content-decor-emtech-image" src="/assets/img/emtech-leading-content-decor-asset.png">
+</div>
+```

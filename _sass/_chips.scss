@@ -79,37 +79,24 @@
     box-shadow: none;
   }
 
-  &-border {
+  span {
     position: relative;
+    font-size: 36px;
+    color: $em-orange;
+    padding: 26px;
+    background-color: rgba($white, .6);
+    border-radius: 50%;
 
     &::after {
       content: '';
       display: block;
       position: absolute;
-      top: -47px;
-      left: -3px;
-      padding: 41px;
-      border: 6px dotted $em-gray-lightest;
-      border-radius: 50%;
-    }
-    span {
-      position: relative;
-      font-size: 36px;
-      color: $em-orange;
-      padding: 26px;
-      background-color: rgba($white, .6);
-      border-radius: 50%;
-
-      &::after {
-        content: '';
-        display: block;
-        position: absolute;
-        top: -4px;
-        left: -4px;
-        padding: 42px;
-        border: 6px dotted rgba($white, .6);
-        border-radius: 50%;
-      }
+      top: -4px;
+      left: -4px;
+      padding: 48px;
+      background-image:  url('../assets/img/card-assest-chip-border-emt.svg');
+      background-repeat: no-repeat;
+      background-size: cover;
     }
   }
 }

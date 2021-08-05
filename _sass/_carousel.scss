@@ -27,10 +27,21 @@
       .carousel-control-prev-icon,
       .carousel-control-next-icon {
         &::after {
-          content: '';
           display: block;
           position: absolute;
           border-radius: 50%;
+        }
+      }
+      .carousel-control-prev-icon {
+        &::after {
+          font-family: 'emtechandmpcloudIcons';
+          content: '\e910';
+        }
+      }
+      .carousel-control-next-icon {
+        &::after {
+          font-family: 'emtechandmpcloudIcons';
+          content: '\e911';
         }
       }
     }
@@ -38,6 +49,7 @@
     .carousel-control-prev-icon,
     .carousel-control-next-icon {
       position: relative;
+      background-image: none;
 
       &::before {
         content: '';
@@ -52,13 +64,21 @@
 
     .carousel-control-prev-icon {
       &::before {
-        left: -12px;
+        left: -13px;
+      }
+      &::after {
+        font-family: 'emtechandmpcloudIcons';
+        content: '\e910';
       }
     }
 
     .carousel-control-next-icon {
       &::before {
-        left: -15px;
+        left: -16px;
+      }
+      &::after {
+        font-family: 'emtechandmpcloudIcons';
+        content: '\e911';
       }
     }
   }
@@ -80,19 +100,23 @@
 
       .carousel-control-prev-icon {
         &::after {
+          padding-top: 15px;
+          padding-right: 2px;
           top: -15px;
           bottom: -17px;
-          right: -18px;
-          left: -14px;
+          right: -17px;
+          left: -15px;
         }
       }
 
       .carousel-control-next-icon {
         &::after {
+          padding-top: 15px;
+          padding-left: 4px;
           top: -15px;
           bottom: -17px;
-          right: -15px;
-          left: -17px;
+          right: -14px;
+          left: -18px;
         }
       }
     }
@@ -115,19 +139,23 @@
 
       .carousel-control-prev-icon {
         &::after {
+          padding-top: 16px;
+          padding-right: 2px;
           top: -16px;
           bottom: -18px;
-          right: -19px;
-          left: -15px;
+          right: -18px;
+          left: -16px;
         }
       }
 
       .carousel-control-next-icon {
         &::after {
+          padding-top: 16px;
+          padding-left: 4px;
           top: -16px;
           bottom: -18px;
-          right: -16px;
-          left: -18px;
+          right: -15px;
+          left: -19px;
         }
       }
     }
