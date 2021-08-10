@@ -1,0 +1,52 @@
+.stock-photography { 
+  @extend .container;
+
+  &-row {
+    @extend .row;
+
+    &:not(:last-child) {
+      .stock-photography-col {
+        padding-bottom: 100px;
+      }
+    }
+  }
+  &-col {
+    @extend .col;
+
+    &:not(:last-child) {
+      border-right: 5px solid $gray-lighter;
+    }
+  }
+  &-img {
+    @extend .img-fluid;
+  }
+}
+
+.leading-content-decor-mpcloud,
+.leading-content-decor-emtech {
+  display: inline-block;
+}
+
+.leading-content-decor-mpcloud {
+  background: linear-gradient(90deg, $cloud-blue 0.04%, $mp-blue 100%);
+  padding-top: 66px;
+  padding-right: 72.5px;
+  padding-bottom: 66px;
+  padding-left: 73.5px;
+
+  &-image {
+    height: 188px;
+  }
+}
+
+.leading-content-decor-emtech {
+  background: linear-gradient(90deg, $em-orange-light 0%, $em-orange-dark 100%);
+  padding-top: 58px;
+  padding-right: 72.5px;
+  padding-bottom: 58px;
+  padding-left: 73.5px;
+
+  &-image {
+    height: 194px;
+  }
+}
