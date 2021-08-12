@@ -5,20 +5,20 @@ title: Typography
 
 # Typography
 
-Approved fonts and type styles for usage in MP Cloud digital products.
+Approved fonts and type styles for usage in MP Cloud Technologies and EMTech Billing digital products.
 
 ----
 
 ## Headings
 
-Headings use <a href="https://fonts.google.com/specimen/Mulish">Mulish</a> from Google Fonts and range from *64px* for `h1` to *20px* for `h6`.
+Headings use <a href="https://fonts.google.com/specimen/Mulish">Mulish</a> from Google Fonts and range from *64px or 4rem* for `h1` to *20px or 1.25rem* for `h6`.
 
-<h1>Heading 1 - 64px</h1>
-<h2>Heading 2 - 56px</h2>
-<h3>Heading 3 - 48px</h3>
-<h4>Heading 4 - 32px</h4>
-<h5>Heading 5 - 24px</h5>
-<h6>Heading 6 - 20px</h6>
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
 
 
 ```html
@@ -57,7 +57,7 @@ Headings use <a href="https://fonts.google.com/specimen/Mulish">Mulish</a> from 
 
 ## Body Copy
 
-All other text is set in <a href="https://fonts.google.com/specimen/Mulish">Mulish</a> at *18px* with a `line-height` of *1.5rem*.
+All other text is set in <a href="https://fonts.google.com/specimen/Mulish">Mulish</a> at *18px* with a `line-height` of *2rem* and `letter-spacing` of *0.0325rem*.
 
 ----
 ### Paragraphs

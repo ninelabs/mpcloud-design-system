@@ -4,10 +4,6 @@
 
 .nl-docs {
 
-  h2, h3, h4, h5, h6 {
-    margin-top: 5rem !important;
-  }
-
   .docs-content {
     @extend .col-sm-12;
     @extend .col-md-9;
@@ -21,6 +17,7 @@
   .docs-subnav {
     @extend .col-sm-12;
     @extend .col-md-3;
+    @extend .mt-md-5;
 
     @include media-breakpoint-down(sm) {
       margin-top: 3rem;
@@ -56,5 +53,4 @@
   .btn {
     @extend .my-1;
   }
-
 }
