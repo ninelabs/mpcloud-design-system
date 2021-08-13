@@ -106,7 +106,7 @@ header {
       @extend .navbar-nav;
       @extend .mr-auto;
       @include media-breakpoint-down(md) {
-        @extend .pt-3;
+        padding-top: 1rem;
       }
       @include media-breakpoint-up(lg) {
         align-items: center;
