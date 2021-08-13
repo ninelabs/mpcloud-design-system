@@ -35,7 +35,8 @@ title: Header // Components
     <div class="mpcloud-header-navbar-container">
       <a class="mpcloud-header-navbar-brand" href="/"><img src="/assets/img/MPTechnologies-brand.svg" width="140"></a>
       <button class="mpcloud-header-navbar-toggler" type="button" data-toggle="collapse" data-target="#mpcloudHeader" aria-controls="mpcloudHeader" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <i class="mpcloud-icon icon-menu"></i>
+        <i class="mpcloud-icon icon-close"></i>
       </button>
       <div class="collapse mpcloud-header-navbar-collapse" id="mpcloudHeader">
         <ul class="mpcloud-header-navbar-nav">
