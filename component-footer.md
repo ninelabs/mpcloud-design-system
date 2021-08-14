@@ -285,7 +285,9 @@ title: Footer // Components
           </div>
           <div class="col-md-6 col-xl-5">
             <div class="mpcloud-footer-row">
-              <button class="btn btn-mpcloud btn-mpcloud-lg col-12" type="submit">Request a Demo</button>
+              <div class="col-12">
+                <button class="btn btn-mpcloud btn-mpcloud-lg w-100" type="submit">Request a Demo</button>
+              </div>
             </div>
             <div class="mpcloud-footer-row">
               <div class="col-4 mpcloud-footer-row-chip-wrapper">
