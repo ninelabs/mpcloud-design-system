@@ -1,24 +1,43 @@
-.stock-photography { 
+.stock-photography {
   @extend .container;
 
   &-row {
     @extend .row;
+    border-bottom: 1px solid $gray-lightest;
 
     &:not(:last-child) {
       .stock-photography-col {
-        padding-bottom: 100px;
+        //padding-bottom: 100px;
       }
+    }
+    &:last-child {
+      border-bottom: 0px solid $gray-lightest;
     }
   }
   &-col {
     @extend .col;
 
+    align-items: center;
+    border-right: 1px solid $gray-lightest;
+    display: inline-flex;
+    justify-content: center;
+    min-height: 14rem;
+
+    &:last-child {
+      border-right-width: 0px;
+    }
+
     &:not(:last-child) {
-      border-right: 5px solid $gray-lighter;
+      //border-right: 5px solid $gray-lighter;
     }
   }
   &-img {
     @extend .img-fluid;
+
+    display: block;
+    max-height: 80%;
+    max-width: 100%;
+    height: auto;
   }
 }
 
@@ -28,24 +47,18 @@
 }
 
 .leading-content-decor-mpcloud {
+  @extend .p-4;
+  @extend .my-4;
   background: linear-gradient(90deg, $cloud-blue 0.04%, $mp-blue 100%);
-  padding-top: 66px;
-  padding-right: 72.5px;
-  padding-bottom: 66px;
-  padding-left: 73.5px;
-
   &-image {
     height: 188px;
   }
 }
 
 .leading-content-decor-emtech {
+  @extend .p-4;
+  @extend .my-4;
   background: linear-gradient(90deg, $em-orange-light 0%, $em-orange-dark 100%);
-  padding-top: 58px;
-  padding-right: 72.5px;
-  padding-bottom: 58px;
-  padding-left: 73.5px;
-
   &-image {
     height: 194px;
   }
