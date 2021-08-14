@@ -5,15 +5,58 @@ title: Footer // Components
 
 
 # Footer
+<style>
+body > .container,
+.docs-content {
+  max-width: 100%;
+}
+
+.nl-docs .docs-content {
+  width: 100% !important;
+  flex: 0 0 100% !important;
+  max-width: 100% !important;
+}
+
+.nl-docs .docs-subnav {
+  display: none;
+}
+</style>
 
 ## MP Pre-Footer Content Block
 <div class="mpcloud-pre-footer-content-block">
   <hr class="mpcloud-pre-footer-content-block-hr">
   <div class="mpcloud-pre-footer-content-block-container">
     <div class="mpcloud-pre-footer-content-block-row">
-      <div class="mpcloud-pre-footer-content-block-title">
+      <h2 class="mpcloud-pre-footer-content-block-title">
         Helping EMS Agencies and 3rd Party Billing Companies Improve Efficiency and Profitability.
-      </div>
+      </h2>
+    </div>
+    <div class="mpcloud-pre-footer-content-block-row">
+
+    <div class="mpcloud-pre-footer-content-block-col">
+      <h3 class="mpcloud-pre-footer-content-block-subtitle">
+        Get Paid Faster Than Ever Before.
+      </h3>
+      <p>Automated Imports and One-Click Search maximizes accuracy and efficiency by reducing redundancy and human error.</p>
+      <a href="#" class="mpcloud-pre-footer-content-block-link" arial-label="AdvanceClaim for EMS Agencies">AdvanceClaim for EMS Agencies</a>
+    </div>
+
+    <div class="mpcloud-pre-footer-content-block-col">
+      <h3 class="mpcloud-pre-footer-content-block-subtitle">
+        Double Claims Processing Speed.
+      </h3>
+      <p>No more manual data entry. No more hoping it’s done in the morning. Find lost fees and revenue and see the entire financial picture.</p>
+      <a href="#" class="mpcloud-pre-footer-content-block-link" arial-label="AdvanceClaim for EMS Billing">AdvanceClaim for EMS Billing</a>
+    </div>
+
+    <div class="mpcloud-pre-footer-content-block-col">
+      <h3 class="mpcloud-pre-footer-content-block-subtitle">
+        Respond Faster. Reduce Errors.
+      </h3>
+      <p>Dispatch with confidence using one-click patient information and insurance verification. No more guesswork or manual data entry.</p>
+      <a href="#" class="mpcloud-pre-footer-content-block-link" arial-label="AdvanceDispatch">AdvanceDispatch</a>
+    </div>
+
     </div>
   </div>
 </div>
@@ -23,9 +66,36 @@ title: Footer // Components
   <hr class="mpcloud-pre-footer-content-block-hr">
   <div class="mpcloud-pre-footer-content-block-container">
     <div class="mpcloud-pre-footer-content-block-row">
-      <div class="mpcloud-pre-footer-content-block-title">
+      <h2 class="mpcloud-pre-footer-content-block-title">
         Helping EMS Agencies and 3rd Party Billing Companies Improve Efficiency and Profitability.
-      </div>
+      </h2>
+    </div>
+    <div class="mpcloud-pre-footer-content-block-row">
+
+    <div class="mpcloud-pre-footer-content-block-col">
+      <h3 class="mpcloud-pre-footer-content-block-subtitle">
+        Get Paid Faster Than Ever Before.
+      </h3>
+      <p>Automated Imports and One-Click Search maximizes accuracy and efficiency by reducing redundancy and human error.</p>
+      <a href="#" class="mpcloud-pre-footer-content-block-link" arial-label="AdvanceClaim for EMS Agencies">AdvanceClaim for EMS Agencies</a>
+    </div>
+
+    <div class="mpcloud-pre-footer-content-block-col">
+      <h3 class="mpcloud-pre-footer-content-block-subtitle">
+        Double Claims Processing Speed.
+      </h3>
+      <p>No more manual data entry. No more hoping it’s done in the morning. Find lost fees and revenue and see the entire financial picture.</p>
+      <a href="#" class="mpcloud-pre-footer-content-block-link" arial-label="AdvanceClaim for EMS Billing">AdvanceClaim for EMS Billing</a>
+    </div>
+
+    <div class="mpcloud-pre-footer-content-block-col">
+      <h3 class="mpcloud-pre-footer-content-block-subtitle">
+        Respond Faster. Reduce Errors.
+      </h3>
+      <p>Dispatch with confidence using one-click patient information and insurance verification. No more guesswork or manual data entry.</p>
+      <a href="#" class="mpcloud-pre-footer-content-block-link" arial-label="AdvanceDispatch">AdvanceDispatch</a>
+    </div>
+
     </div>
   </div>
 </div>
@@ -41,8 +111,9 @@ title: Footer // Components
         <div class="mpcloud-pre-footer-accordion-card">
           <div class="mpcloud-pre-footer-accordion-card-header" id="headingOne">
             <span class="mpcloud-pre-footer-accordion-number">01</span>
-            <button class="btn mpcloud-pre-footer-accordion-btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <button class="btn mpcloud-pre-footer-accordion-btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
               Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum?
+              <i class="mpcloud-icon icon-chevron-down"></i>
             </button>
           </div>
           <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#mpcloudAccordion">
@@ -56,6 +127,7 @@ title: Footer // Components
             <span class="mpcloud-pre-footer-accordion-number">02</span>
             <button class="btn mpcloud-pre-footer-accordion-btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
               Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum?
+              <i class="mpcloud-icon icon-chevron-down"></i>
             </button>
           </div>
           <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#mpcloudAccordion">
@@ -69,6 +141,7 @@ title: Footer // Components
             <span class="mpcloud-pre-footer-accordion-number">03</span>
             <button class="btn mpcloud-pre-footer-accordion-btn-link" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
               Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum?
+              <i class="mpcloud-icon icon-chevron-down"></i>
             </button>
           </div>
           <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#mpcloudAccordion">
@@ -92,8 +165,9 @@ title: Footer // Components
         <div class="mpcloud-pre-footer-accordion-card">
           <div class="mpcloud-pre-footer-accordion-card-header" id="headingOne">
             <span class="mpcloud-pre-footer-accordion-number">01</span>
-            <button class="btn mpcloud-pre-footer-accordion-btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <button class="btn mpcloud-pre-footer-accordion-btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
               Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum?
+              <i class="mpcloud-icon icon-chevron-down"></i>
             </button>
           </div>
           <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#mpcloudAccordion">
@@ -107,6 +181,7 @@ title: Footer // Components
             <span class="mpcloud-pre-footer-accordion-number">02</span>
             <button class="btn mpcloud-pre-footer-accordion-btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
               Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum?
+              <i class="mpcloud-icon icon-chevron-down"></i>
             </button>
           </div>
           <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#mpcloudAccordion">
@@ -120,6 +195,7 @@ title: Footer // Components
             <span class="mpcloud-pre-footer-accordion-number">03</span>
             <button class="btn mpcloud-pre-footer-accordion-btn-link" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
               Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum?
+              <i class="mpcloud-icon icon-chevron-down"></i>
             </button>
           </div>
           <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#mpcloudAccordion">
