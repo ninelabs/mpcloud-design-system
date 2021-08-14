@@ -434,17 +434,17 @@ title: Footer // Components
 <footer class="emtech-footer">
   <div class="emtech-footer-container">
     <div class="emtech-footer-row">
-      <div class="emtech-footer-col">
+      <div class="emtech-footer-col col-12 col-lg-6">
         <div class="emtech-footer-row">
           <div class="col-6">
             <div class="emtech-footer-section">Company</div>
             <div class="emtech-footer-row">
               <div class="col-12">
-                <a href="#" class="emtech-footer-link">About Us</a>
-                <a href="#" class="emtech-footer-link">Leadership</a>
-                <a href="#" class="emtech-footer-link">How We Work</a>
-                <a href="#" class="emtech-footer-link">Why Us</a>
-                <a href="#" class="emtech-footer-link">Client Login</a>
+                <a href="#" class="emtech-footer-link" aria-label="About Us">About Us</a>
+                <a href="#" class="emtech-footer-link" aria-label="Leadership">Leadership</a>
+                <a href="#" class="emtech-footer-link" aria-label="How We Work">How We Work</a>
+                <a href="#" class="emtech-footer-link" aria-label="Why Us">Why Us</a>
+                <a href="#" class="emtech-footer-link" aria-label="Client Login">Client Login</a>
               </div>
             </div>
           </div>
@@ -452,18 +452,18 @@ title: Footer // Components
             <div class="emtech-footer-section">Solutions</div>
             <div class="emtech-footer-row">
               <div class="col-12">
-                <a href="#" class="emtech-footer-link">Consulting</a>
-                <a href="#" class="emtech-footer-link">Revenue Cycle Management</a>
-                <a href="#" class="emtech-footer-link">Secure Partnership</a>
-                <a href="#" class="emtech-footer-link">Prior Authorization Consulting</a>
+                <a href="#" class="emtech-footer-link" aria-label="Consulting">Consulting</a>
+                <a href="#" class="emtech-footer-link" aria-label="Revenue Cycle Management">Revenue Cycle Management</a>
+                <a href="#" class="emtech-footer-link" aria-label="Secure Partnership">Secure Partnership</a>
+                <a href="#" class="emtech-footer-link" aria-label="Prior Authorization Consulting">Prior Authorization Consulting</a>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="emtech-footer-col">
+      <div class="emtech-footer-col col-12 col-lg-6">
         <div class="emtech-footer-row">
-          <div class="col-6">
+          <div class="col-md-6 pl-md-4">
             <div class="emtech-footer-section emtech-footer-section-lg">EMTech Billing</div>
             <div class="emtech-footer-section">Call: +1 (877) 421-7231</div>
             <div class="emtech-footer-section-text">
@@ -474,27 +474,27 @@ title: Footer // Components
               </p>
             </div>
           </div>
-          <div class="col-6">
+          <div class="col-md-6">
             <div class="emtech-footer-row">
               <div class="col-12">
-                <button class="btn btn-emtech btn-emtech-secondary btn-emtech-lg" type="submit">Make a Payment</button>
+                <a href="#" class="btn btn-emtech btn-emtech-secondary btn-emtech-lg w-100" aria-label="Make a Payment">Make a Payment</a>
               </div>
             </div>
             <div class="emtech-footer-row">
               <div class="col-4 emtech-footer-row-chip-wrapper">
-                <button type="button" class="chip-emtech">
+                <a href="#" target="_blank" class="chip-emtech" aria-label="Follow Us On Facebook">
                   <span class="icon-facebook"></span>
-                </button>
+                </a>
               </div>
               <div class="col-4 emtech-footer-row-chip-wrapper">
-                <button type="button" class="chip-emtech">
+                <a href="#" target="_blank" class="chip-emtech" aria-label="Follow Us On Twitter">
                   <span class="icon-twitter"></span>
-                </button>
+                </a>
               </div>
               <div class="col-4 emtech-footer-row-chip-wrapper">
-                <button type="button" class="chip-emtech">
+                <a href="#" target="_blank" class="chip-emtech" aria-label="Follow Us On LinkedIn">
                   <span class="icon-linkedin"></span>
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -509,17 +509,17 @@ title: Footer // Components
 <footer class="emtech-footer">
   <div class="emtech-footer-container">
     <div class="emtech-footer-row">
-      <div class="emtech-footer-col">
+      <div class="emtech-footer-col col-12 col-lg-6">
         <div class="emtech-footer-row">
           <div class="col-6">
             <div class="emtech-footer-section">Company</div>
             <div class="emtech-footer-row">
               <div class="col-12">
-                <a href="#" class="emtech-footer-link">About Us</a>
-                <a href="#" class="emtech-footer-link">Leadership</a>
-                <a href="#" class="emtech-footer-link">How We Work</a>
-                <a href="#" class="emtech-footer-link">Why Us</a>
-                <a href="#" class="emtech-footer-link">Client Login</a>
+                <a href="#" class="emtech-footer-link" aria-label="About Us">About Us</a>
+                <a href="#" class="emtech-footer-link" aria-label="Leadership">Leadership</a>
+                <a href="#" class="emtech-footer-link" aria-label="How We Work">How We Work</a>
+                <a href="#" class="emtech-footer-link" aria-label="Why Us">Why Us</a>
+                <a href="#" class="emtech-footer-link" aria-label="Client Login">Client Login</a>
               </div>
             </div>
           </div>
@@ -527,18 +527,18 @@ title: Footer // Components
             <div class="emtech-footer-section">Solutions</div>
             <div class="emtech-footer-row">
               <div class="col-12">
-                <a href="#" class="emtech-footer-link">Consulting</a>
-                <a href="#" class="emtech-footer-link">Revenue Cycle Management</a>
-                <a href="#" class="emtech-footer-link">Secure Partnership</a>
-                <a href="#" class="emtech-footer-link">Prior Authorization Consulting</a>
+                <a href="#" class="emtech-footer-link" aria-label="Consulting">Consulting</a>
+                <a href="#" class="emtech-footer-link" aria-label="Revenue Cycle Management">Revenue Cycle Management</a>
+                <a href="#" class="emtech-footer-link" aria-label="Secure Partnership">Secure Partnership</a>
+                <a href="#" class="emtech-footer-link" aria-label="Prior Authorization Consulting">Prior Authorization Consulting</a>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="emtech-footer-col">
+      <div class="emtech-footer-col col-12 col-lg-6">
         <div class="emtech-footer-row">
-          <div class="col-6">
+          <div class="col-md-6 pl-md-4">
             <div class="emtech-footer-section emtech-footer-section-lg">EMTech Billing</div>
             <div class="emtech-footer-section">Call: +1 (877) 421-7231</div>
             <div class="emtech-footer-section-text">
@@ -549,27 +549,27 @@ title: Footer // Components
               </p>
             </div>
           </div>
-          <div class="col-6">
+          <div class="col-md-6">
             <div class="emtech-footer-row">
               <div class="col-12">
-                <button class="btn btn-emtech btn-emtech-secondary btn-emtech-lg" type="submit">Make a Payment</button>
+                <a href="#" class="btn btn-emtech btn-emtech-secondary btn-emtech-lg w-100" aria-label="Make a Payment">Make a Payment</a>
               </div>
             </div>
             <div class="emtech-footer-row">
               <div class="col-4 emtech-footer-row-chip-wrapper">
-                <button type="button" class="chip-emtech">
+                <a href="#" target="_blank" class="chip-emtech" aria-label="Follow Us On Facebook">
                   <span class="icon-facebook"></span>
-                </button>
+                </a>
               </div>
               <div class="col-4 emtech-footer-row-chip-wrapper">
-                <button type="button" class="chip-emtech">
+                <a href="#" target="_blank" class="chip-emtech" aria-label="Follow Us On Twitter">
                   <span class="icon-twitter"></span>
-                </button>
+                </a>
               </div>
               <div class="col-4 emtech-footer-row-chip-wrapper">
-                <button type="button" class="chip-emtech">
+                <a href="#" target="_blank" class="chip-emtech" aria-label="Follow Us On LinkedIn">
                   <span class="icon-linkedin"></span>
-                </button>
+                </a>
               </div>
             </div>
           </div>

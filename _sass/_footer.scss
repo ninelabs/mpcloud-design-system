@@ -425,8 +425,17 @@ footer {
   }
 
   &-col {
-    &:not(:last-child) {
-      border-right: 1px solid $em-gray-light;
+
+    @include media-breakpoint-down(md) {
+      &:not(:last-child) {
+        border-bottom: 1px solid $em-gray-light;
+        margin-bottom: 1.5rem;
+      }
+    }
+    @include media-breakpoint-up(lg) {
+      &:not(:last-child) {
+        border-right: 1px solid $em-gray-light;
+      }
     }
   }
 
