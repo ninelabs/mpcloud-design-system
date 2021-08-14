@@ -88,7 +88,7 @@ footer {
       width: 42px;
       height: 40px;
     }
-  
+
     &::before {
       left: -42px;
       background: url('../assets/img/PreFooterLeft.svg');
@@ -191,14 +191,16 @@ footer {
 
 .mpcloud-pre-footer-callout-block,
 .emtech-pre-footer-callout-block {
-  position: relative;
-  padding-top: 81px;
-  padding-right: 142px;
-  padding-bottom: 67px;
-  padding-left: 142px;
   background-image: url('../assets/stock-photography/Pexels/MPCloud/pexels-rodnae-productions-6129043.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 3rem 2rem;
+  position: relative;
+  width: 100%;
+
+  @include media-breakpoint-down(md) {
+    padding: 1rem;
+  }
 
   &::after {
     content: '';
@@ -212,22 +214,35 @@ footer {
 
   &-card {
     @extend .card;
+    @extend .container;
 
     border: none;
-    border-radius: 24px;
+    border-radius: 1.5rem;
+    padding: 0rem;
 
     &-row {
       @extend .row;
       @extend .no-gutters;
 
-      border-radius: 24px;
+      border-radius: 1.5rem;
       overflow: hidden;
+
+      @include media-breakpoint-down(sm) {
+        flex-direction: column-reverse;
+      }
     }
 
     &-body {
       @extend .card-body;
+      padding: 2.5rem;
 
-      padding: 46px 40px;
+      @include media-breakpoint-down(sm) {
+        padding: 1.5rem;
+
+        .btn {
+            width: 100%;
+        }
+      }
     }
 
     &-title {
@@ -239,7 +254,11 @@ footer {
     &-text {
       @extend .card-text;
 
-      margin-bottom: 36px;
+      margin-bottom: 2rem;
+
+      @include media-breakpoint-down(sm) {
+        margin-bottom: 1rem;
+      }
     }
 
     &-image {
@@ -248,7 +267,7 @@ footer {
       height: 100%;
 
       @include media-breakpoint-down(md) {
-        min-height: 330px;
+        min-height: 20.625rem;
       }
     }
   }
@@ -263,7 +282,11 @@ footer {
     .mpcloud-pre-footer-callout-block-card-title,
     .emtech-pre-footer-callout-block-card-title {
       margin-top: 0 !important;
-      margin-bottom: 24px;
+      margin-bottom: 1.625rem;
+
+      @include media-breakpoint-down(sm) {
+        margin-bottom: 1rem;
+      }
     }
   }
 }
@@ -295,6 +318,7 @@ footer {
 .emtech-pre-footer-callout-block-card-image {
   background-image: url('/assets/stock-photography/Pexels/MPCloud/pexels-rodnae-productions-6129105.jpg');
 }
+
 
 .mpcloud-footer,
 .emtech-footer {
@@ -384,7 +408,7 @@ footer {
       width: 42px;
       height: 40px;
     }
-  
+
     &::before {
       left: -42px;
       background: url('../assets/img/FooterContentBlockDecorLeft.svg');

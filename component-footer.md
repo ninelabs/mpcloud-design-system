@@ -142,7 +142,7 @@ title: Footer // Components
         <div class="mpcloud-pre-footer-callout-block-card-body">
           <h3 class="mpcloud-pre-footer-callout-block-card-title">Request a Demo</h3>
           <p class="mpcloud-pre-footer-callout-block-card-text">Our unique features all work together to make your life better – let us show you how with a friendly, no-commitment conversation</p>
-          <button class="btn btn-mpcloud" type="submit">Start the Conversation</button>
+          <a href="#" class="btn btn-mpcloud" aria-label="Start the Conversation">Start the Conversation</a>
         </div>
       </div>
       <div class="col-lg-4">
@@ -160,7 +160,7 @@ title: Footer // Components
         <div class="mpcloud-pre-footer-callout-block-card-body">
           <h3 class="mpcloud-pre-footer-callout-block-card-title">Request a Demo</h3>
           <p class="mpcloud-pre-footer-callout-block-card-text">Our unique features all work together to make your life better – let us show you how with a friendly, no-commitment conversation</p>
-          <button class="btn btn-mpcloud" type="submit">Start the Conversation</button>
+          <a href="#" class="btn btn-mpcloud" aria-label="Start the Conversation">Start the Conversation</a>
         </div>
       </div>
       <div class="col-lg-4">
@@ -179,7 +179,7 @@ title: Footer // Components
         <div class="emtech-pre-footer-callout-block-card-body">
           <h3 class="emtech-pre-footer-callout-block-card-title">Faster Payment Turnaround</h3>
           <p class="emtech-pre-footer-callout-block-card-text">We shorten your turnaround time on payments by utilizing the latest software and internal policies to ensure clean claims submission the first time.</p>
-          <button class="btn btn-emtech-primary" type="submit">Contact Us Today</button>
+          <a href="#" class="btn btn-emtech-primary" arial-label="Contact Us Today">Contact Us Today</a>
         </div>
       </div>
       <div class="col-lg-4">
@@ -197,7 +197,7 @@ title: Footer // Components
         <div class="emtech-pre-footer-callout-block-card-body">
           <h3 class="emtech-pre-footer-callout-block-card-title">Faster Payment Turnaround</h3>
           <p class="emtech-pre-footer-callout-block-card-text">We shorten your turnaround time on payments by utilizing the latest software and internal policies to ensure clean claims submission the first time.</p>
-          <button class="btn btn-emtech-primary" type="submit">Contact Us Today</button>
+          <a href="#" class="btn btn-emtech-primary" arial-label="Contact Us Today">Contact Us Today</a>
         </div>
       </div>
       <div class="col-lg-4">
