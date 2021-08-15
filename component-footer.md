@@ -5,23 +5,6 @@ title: Footer // Components
 
 
 # Footer
-<style>
-body > .container,
-.docs-content {
-  max-width: 100%;
-}
-
-.nl-docs .docs-content {
-  width: 100% !important;
-  flex: 0 0 100% !important;
-  max-width: 100% !important;
-}
-
-.nl-docs .docs-subnav {
-  display: none;
-}
-</style>
-
 ## MP Pre-Footer Content Block
 <div class="mpcloud-pre-footer-content-block">
   <hr class="mpcloud-pre-footer-content-block-hr">
