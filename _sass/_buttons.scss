@@ -41,13 +41,13 @@
   &-primary {
     color: $gray;
     background-color: rgba($white, .6);
-    border: 2px solid $em-orange;
+    border: 2px solid $emt-orange;
     position: relative;
 
     &:hover,
     &:active {
       color: $gray;
-      border-color: $em-orange-dark;
+      border-color: $emt-orange-dark;
     }
 
   &:focus {
@@ -61,7 +61,7 @@
       bottom: -4px;
       right: -4px;
       left: -4px;
-      box-shadow: 0 0 2px 1px $em-orange-light;
+      box-shadow: 0 0 2px 1px $emt-orange-light;
       border-radius: 6px;
     }
   }
@@ -74,21 +74,21 @@
       bottom: 1px;
       right: 1px;
       left: 1px;
-      border: 3px solid $em-orange-lightest;
+      border: 3px solid $emt-orange-lightest;
     }
   }
 
   &-secondary {
     color: $white;
-    background-color: $em-gray-darker;
-    border: 2px solid $em-gray-light;
+    background-color: $emt-gray-darker;
+    border: 2px solid $emt-gray-light;
     position: relative;
 
     &:hover,
     &:active {
       color: $white;
-      background-color: $em-gray-dark;
-      border-color: $em-gray-lighter;
+      background-color: $emt-gray-dark;
+      border-color: $emt-gray-lighter;
     }
 
     &:focus {
@@ -102,7 +102,7 @@
         bottom: -4px;
         right: -4px;
         left: -4px;
-        box-shadow: 0 0 2px 1px $em-orange-light;
+        box-shadow: 0 0 2px 1px $emt-orange-light;
         border-radius: 6px;
       }
     }

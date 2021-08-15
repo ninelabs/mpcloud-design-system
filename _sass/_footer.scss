@@ -378,12 +378,12 @@ footer {
 
 .emtech-pre-footer-callout-block {
   &::after {
-    background-image: linear-gradient(90deg, rgba($em-orange-light, .8) 0.04%, rgba($em-orange-dark, .8) 100%);
+    background-image: linear-gradient(90deg, rgba($emt-orange-light, .8) 0.04%, rgba($emt-orange-dark, .8) 100%);
   }
 }
 
 .emtech-pre-footer-callout-block-card-title {
-  color: $em-gray;
+  color: $emt-gray;
 }
 
 .emtech-pre-footer-callout-block-card-image {
@@ -512,7 +512,7 @@ footer {
 }
 
 .emtech-footer {
-  background-color: $em-gray-darker;
+  background-color: $emt-gray-darker;
 
   &-section-lg {
     font-size: 1.5rem;
@@ -523,18 +523,18 @@ footer {
 
     @include media-breakpoint-down(md) {
       &:not(:last-child) {
-        border-bottom: 1px solid $em-gray-light;
+        border-bottom: 1px solid $emt-gray-light;
         margin-bottom: 1.5rem;
       }
     }
     @include media-breakpoint-up(lg) {
       &:not(:last-child) {
-        border-right: 1px solid $em-gray-light;
+        border-right: 1px solid $emt-gray-light;
       }
     }
   }
 
   &-copyright {
-    background-color: $em-gray-dark;
+    background-color: $emt-gray-dark;
   }
 }
