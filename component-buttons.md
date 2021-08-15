@@ -142,36 +142,36 @@ When using button classes on `<a>` elements that are used to trigger in-page fun
 
 ### Single Tag
 
-<button type="button" class="btn tag-mpcloud">Tag</button>
+<a href="#" class="btn tag-mpcloud">Tag</a>
 
 ```html
-<button type="button" class="btn tag-mpcloud">Tag</button>
+<a href="#" class="btn tag-mpcloud">Tag</a>
 ```
 
 ### Multiple Tags
 
-<button type="button" class="btn tag-mpcloud">Topic</button>
-<button type="button" class="btn tag-mpcloud">Topic</button>
-<button type="button" class="btn tag-mpcloud">Long Topic</button>
-<button type="button" class="btn tag-mpcloud">Topic</button>
-<button type="button" class="btn tag-mpcloud">Topic</button>
-<button type="button" class="btn tag-mpcloud">Longer Topic</button>
-<button type="button" class="btn tag-mpcloud">Topic</button>
-<button type="button" class="btn tag-mpcloud">Topic</button>
-<button type="button" class="btn tag-mpcloud">Topic</button>
-<button type="button" class="btn tag-mpcloud">Longer Topic</button>
+<a href="#" class="btn tag-mpcloud">Topic</a>
+<a href="#" class="btn tag-mpcloud">Topic</a>
+<a href="#" class="btn tag-mpcloud">Long Topic</a>
+<a href="#" class="btn tag-mpcloud">Topic</a>
+<a href="#" class="btn tag-mpcloud">Topic</a>
+<a href="#" class="btn tag-mpcloud">Longer Topic</a>
+<a href="#" class="btn tag-mpcloud">Topic</a>
+<a href="#" class="btn tag-mpcloud">Topic</a>
+<a href="#" class="btn tag-mpcloud">Topic</a>
+<a href="#" class="btn tag-mpcloud">Longer Topic</a>
 
 ```html
-<button type="button" class="btn tag-mpcloud">Topic</button>
-<button type="button" class="btn tag-mpcloud">Topic</button>
-<button type="button" class="btn tag-mpcloud">Long Topic</button>
-<button type="button" class="btn tag-mpcloud">Topic</button>
-<button type="button" class="btn tag-mpcloud">Topic</button>
-<button type="button" class="btn tag-mpcloud">Longer Topic</button>
-<button type="button" class="btn tag-mpcloud">Topic</button>
-<button type="button" class="btn tag-mpcloud">Topic</button>
-<button type="button" class="btn tag-mpcloud">Topic</button>
-<button type="button" class="btn tag-mpcloud">Longer Topic</button>
+<a href="#" class="btn tag-mpcloud">Topic</a>
+<a href="#" class="btn tag-mpcloud">Topic</a>
+<a href="#" class="btn tag-mpcloud">Long Topic</a>
+<a href="#" class="btn tag-mpcloud">Topic</a>
+<a href="#" class="btn tag-mpcloud">Topic</a>
+<a href="#" class="btn tag-mpcloud">Longer Topic</a>
+<a href="#" class="btn tag-mpcloud">Topic</a>
+<a href="#" class="btn tag-mpcloud">Topic</a>
+<a href="#" class="btn tag-mpcloud">Topic</a>
+<a href="#" class="btn tag-mpcloud">Longer Topic</a>
 ```
 
 <!-- ## Button Elements
