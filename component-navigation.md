@@ -8,8 +8,8 @@ title: Content Sections // Components
 As the names imply, the Global Header and Global Footer are used by default on every page.
 
 
-## MP Cloud Technologies
-### Global Header
+### MP Cloud Technologies
+#### Global Header
 
 The MP Cloud Technologies Global Header is based on the [Bootstrap Navbar]() contains the logo, links to the major pages and content sections, and a button-style link for the contact page.
 
@@ -21,7 +21,7 @@ The MP Cloud Technologies Global Header is based on the [Bootstrap Navbar]() con
 
 ----
 
-### Pre-Footer Content Block
+#### Pre-Footer Content Block
 
 {% include _component-mpc-pre-footer-content-block.html %}
 
@@ -31,7 +31,7 @@ The MP Cloud Technologies Global Header is based on the [Bootstrap Navbar]() con
 
 ----
 
-### Pre-Footer Callout Block
+#### Pre-Footer Callout Block
 
 {% include _component-mpc-pre-footer-callout-block.html %}
 
@@ -41,7 +41,7 @@ The MP Cloud Technologies Global Header is based on the [Bootstrap Navbar]() con
 
 ----
 
-### Pre-Footer Accordion Block
+#### Pre-Footer Accordion Block
 
 {% include _component-mpc-pre-footer-accordion-block.html %}
 
@@ -50,7 +50,7 @@ The MP Cloud Technologies Global Header is based on the [Bootstrap Navbar]() con
 ```
 ----
 
-### Global Footer
+#### Global Footer
 
 The MP Cloud Technologies Global Footer is a four column spread containing links to all the major pages and content sections of the website. It also includes office addresses and contact information.
 
@@ -63,7 +63,7 @@ The MP Cloud Technologies Global Footer is a four column spread containing links
 
 ----
 
-### Pagination
+#### Pagination
 
 This component extends the default [Bootstrap Pagination Component](https://getbootstrap.com/docs/4.4/components/pagination/) and adds the MP Cloud Technologies style.
 
@@ -74,8 +74,8 @@ This component extends the default [Bootstrap Pagination Component](https://getb
 ```
 ----
 
-## EMTech Billing
-### Global Header
+### EMTech Billing
+#### Global Header
 
 The EMTech Billing Global Header is based on the [Bootstrap Navbar]() contains the logo, links to the major pages and content sections, and a button-style link for the contact page.
 
@@ -87,7 +87,7 @@ The EMTech Billing Global Header is based on the [Bootstrap Navbar]() contains t
 
 ----
 
-### Pre-Footer Callout Block
+#### Pre-Footer Callout Block
 
 {% include _component-emt-pre-footer-callout-block.html %}
 
@@ -97,7 +97,7 @@ The EMTech Billing Global Header is based on the [Bootstrap Navbar]() contains t
 
 ----
 
-### Global Footer
+#### Global Footer
 
 The EMTech Billing Global Footer is a four column spread containing links to all the major pages and content sections of the website. It also includes office addresses and contact information.
 

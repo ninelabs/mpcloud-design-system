@@ -3,98 +3,37 @@ layout: docs
 title: Cards & Tiles // Components
 ---
 
-
-
 # Cards & Tiles
+
+### MP Cloud Technologies
+#### Content Card
+{% include _component-mpc-content-card.html %}
+
+```html
+{% include _component-mpc-content-card.html %}
+```
 
 ----
 
-### MP Cloud Technologies
-#### Card
-<div class="mpcloud-card">
-  <div class="mpcloud-card-image">
-    <img src="/assets/img/icon-municipalities.png" class="mpcloud-icon-image">
-  </div>
-  <div class="mpcloud-card-title">
-    <h3>
-      Fully Integrated Clearinghouse
-    </h3>
-  </div>
-  <p class="mpcloud-card-description">Seamlessly connect to 5,200+ government and private payers via the EMS industry's first and only fully-integrated clearinghouse, Change Healthcare. This partnership makes it fast, simple, and reliable to process your claims.</p>
-</div>
-
+#### Article Preview Tile
+{% include _component-mpc-article-preview-tile.html %}
 ```html
-<div class="mpcloud-card">
-  <div class="mpcloud-card-image">
-    <img src="/assets/img/icon-municipalities.png" class="mpcloud-icon-image">
-  </div>
-  <div class="mpcloud-card-title">
-    <h3>
-      Fully Integrated Clearinghouse
-    </h3>
-  </div>
-  <p class="mpcloud-card-description">Seamlessly connect to 5,200+ government and private payers via the EMS industry's first and only fully-integrated clearinghouse, Change Healthcare. This partnership makes it fast, simple, and reliable to process your claims.</p>
-</div>
+{% include _component-mpc-article-preview-tile.html %}
 ```
+
+----
 
 ### EMTech Billing
-#### Card
-<div class="emtech-card">
-  <div class="emtech-card-image">
-    <div class="chip-emtech-card-asset">
-      <span class="icon-clock"></span>
-    </div>
-  </div>
-  <div class="emtech-card-title">
-    <h3>
-      Faster Payment Turnaround
-    </h3>
-  </div>
-  <p class="emtech-card-description">We shorten your turnaround time on payments by utilizing the latest software and internal policies to ensure clean claims submission the first time.</p>
-</div>
+#### Content Card
+{% include _component-emt-content-card.html %}
 ```html
-<div class="emtech-card">
-  <div class="emtech-card-image">
-    <div class="chip-emtech-card-asset">
-      <span class="icon-clock"></span>
-    </div>
-  </div>
-  <div class="emtech-card-title">
-    <h3>
-      Faster Payment Turnaround
-    </h3>
-  </div>
-  <p class="emtech-card-description">We shorten your turnaround time on payments by utilizing the latest software and internal policies to ensure clean claims submission the first time.</p>
-</div>
+{% include _component-emt-content-card.html %}
 ```
 
-#### Tile
-<div class="emtech-tile">
-  <div class="emtech-tile-image">
-    <div class="chip-emtech-tile-asset">
-      <span class="icon-clock"></span>
-    </div>
-  </div>
-  <div class="emtech-tile-title">
-    <h3>
-      Consulting
-    </h3>
-  </div>
-  <p class="emtech-tile-description">Leverage our nearly 20 years experience in the ambulance industry in a customized approach to your business.</p>
-</div>
+----
 
+#### Content Tile
+{% include _component-emt-content-tile.html %}
 ```html
-<div class="emtech-tile">
-  <div class="emtech-tile-image">
-    <div class="chip-emtech-tile-asset">
-      <span class="icon-clock"></span>
-    </div>
-  </div>
-  <div class="emtech-tile-title">
-    <h3>
-      Consulting
-    </h3>
-  </div>
-  <p class="emtech-tile-description">Leverage our nearly 20 years experience in the ambulance industry in a customized approach to your business.</p>
-</div>
+{% include _component-emt-content-tile.html %}
 ```

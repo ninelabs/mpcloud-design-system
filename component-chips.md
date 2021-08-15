@@ -6,7 +6,8 @@ title: Chips // Components
 
 # Chips
 
-## MP Cloud Chips
+### MP Cloud Technologies
+#### Button
 <button type="button" class="chip-mpcloud">
   <span class="icon-facebook"></span>
 </button>
@@ -29,8 +30,10 @@ title: Chips // Components
 </button>
 ```
 
-## EMTech Chips
-### Button
+----
+
+### EMTech Billing
+#### Button
 <button type="button" class="chip-emtech">
   <span class="icon-facebook"></span>
 </button>
@@ -53,7 +56,9 @@ title: Chips // Components
 </button>
 ```
 
-### Card Asset
+----
+
+#### Card Asset
 <button type="button" class="chip-emtech-card-asset">
   <span class="icon-clock"></span>
 </button>
