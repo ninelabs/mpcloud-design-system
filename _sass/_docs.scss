@@ -18,6 +18,9 @@
     @extend .col-sm-12;
     @extend .col-md-3;
     @extend .mt-md-5;
+    background: $white;
+    z-index: 1;
+    position: relative;
 
     @include media-breakpoint-down(sm) {
       margin-top: 3rem;
