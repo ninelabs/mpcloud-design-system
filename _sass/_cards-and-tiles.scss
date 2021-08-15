@@ -1,0 +1,98 @@
+
+.mpcloud-card {
+  @extend .py-5;
+  @extend .px-4;
+  width: auto;
+  border: 2px solid #AAE7F3;
+  border-radius: 1.5rem;
+  background-color: $white;
+  box-shadow: 0 -20px 34px -22px rgba(26,161,189,0.31);
+  color: $mp-blue;
+
+  &-image {
+    @extend .mb-3;
+    @extend .text-center;
+  }
+  &-title {
+    @extend .mb-3;
+
+    h3 {
+      @extend .text-center;
+      font-size: 1.5rem;
+    }
+  }
+  &-description {
+    @extend .text-left;
+    @extend .mb-0;
+  }
+}
+
+
+.emtech-card {
+  @extend .p-5;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  border: 1px solid rgba(239,240,240,1);
+  border-radius: 1.5rem;
+  background-color: $white;
+  box-shadow: 0 -10px 34px -22px rgba(83,86,90,0.31);
+  color: $emt-gray;
+  position: relative;
+  box-shadow: inset 0px 0px 0px 4px white, inset 0px 0px 0px 6px rgba(239,240,240,1);
+  max-width: 35rem;
+
+  &-image {
+    @extend .mb-3;
+    @extend .text-center;
+
+    .chip-emtech-card-asset {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  &-title {
+    @extend .mb-3;
+
+    h3 {
+      @extend .text-center;
+      font-size: 1.5rem;
+    }
+  }
+  &-description {
+    @extend .text-left;
+    @extend .mb-0;
+  }
+}
+
+.emtech-tile {
+  @extend .pt-4;
+  @extend .pb-5;
+  @extend .px-0;
+  min-height: 23.125rem;
+  width: auto;
+  color: $emt-gray;
+  position: relative;
+  max-width: 25rem;
+
+  &-image {
+    @extend .mb-3;
+    @extend .text-left;
+
+    .chip-emtech-tile-asset {
+      display: flex;
+      justify-content: flex-start;
+    }
+  }
+  &-title {
+    @extend .mb-3;
+
+    h3 {
+      @extend .text-left;
+      font-size: 1.5rem;
+    }
+  }
+  &-description {
+    @extend .text-left;
+  }
+}

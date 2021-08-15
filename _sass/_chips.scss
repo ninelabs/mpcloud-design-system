@@ -72,7 +72,8 @@
   }
 }
 
-.chip-emtech-card-asset {
+.chip-emtech-card-asset,
+.chip-emtech-tile-asset {
   @extend .btn;
 
   &:focus {
