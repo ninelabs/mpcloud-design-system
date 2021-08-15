@@ -6,9 +6,9 @@ title: Images // Components
 # Images
 These are the images used for MP Cloud Technologies and EMTech Billing user interfaces.
 
-## MP Cloud Technologies
+### MP Cloud Technologies
 
-### Hero Carousel Decor
+#### Hero Carousel Decor
 This is the image used for MP Cloud Technologies Hero Carousel component.
 <div class="hero-carousel-image-container-decor-mpcloud">
     <img class="hero-carousel-image-container-decor-mpcloud-image" src="/assets/img/hero-carousel-image-container-decor-mpc.png">
@@ -17,7 +17,9 @@ This is the image used for MP Cloud Technologies Hero Carousel component.
 <img class="hero-carousel-image-container-decor-mpcloud-image" src="/assets/img/hero-carousel-image-container-decor-mpc.png">
 ```
 
-### Leading Content Decor
+----
+
+#### Leading Content Decor
 This is the image used for MP Cloud Technologies Leading Content Carousel component.
 <div class="leading-content-decor-mpcloud">
     <img class="leading-content-decor-mpcloud-image" src="/assets/img/mpcloud-leading-content-decor-asset.png">
@@ -29,7 +31,9 @@ This is the image used for MP Cloud Technologies Leading Content Carousel compon
 </div>
 ```
 
-### Icon Images
+----
+
+#### Icon Images
 These are the PNG icon images used for MP Cloud Technologies.
 <div class="container text-center pb-4">
     <div class="row mb-5">
@@ -165,7 +169,9 @@ These are the PNG icon images used for MP Cloud Technologies.
 </div>
 ```
 
-### Stock Photography
+----
+
+#### Stock Photography
 <div class="stock-photography">
   <div class="stock-photography-row">
     <div class="stock-photography-col">
@@ -356,9 +362,11 @@ These are the PNG icon images used for MP Cloud Technologies.
   </div>
 </div>
 
-## EMTech Billing
+----
 
-### Hero Carousel Decor
+### EMTech Billing
+
+#### Hero Carousel Decor
 This is the image used for EMTech Billing Hero Carousel component.
 <div class="hero-carousel-decor-emtech">
     <img class="hero-carousel-decor-emtech-image" src="/assets/img/hero-carousel-decor-emt.png">
@@ -370,7 +378,9 @@ This is the image used for EMTech Billing Hero Carousel component.
 </div>
 ```
 
-### Leading Content Decor
+----
+
+#### Leading Content Decor
 This is the image used for EMTech Billing Leading Content Carousel component.
 <div class="leading-content-decor-emtech">
     <img class="leading-content-decor-emtech-image" src="/assets/img/emtech-leading-content-decor-asset.png">
