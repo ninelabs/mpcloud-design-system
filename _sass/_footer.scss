@@ -69,64 +69,101 @@ footer {
 
 .mpcloud-pre-footer-content-block,
 .mpcloud-pre-footer-accordion-block {
+  @extend .w-100;
   display: inline-block;
   background-color: $cloud-blue-lightest;
 
   &-hr {
     position: relative;
-    height: 4px;
+    height: .25rem;
     background-color: $white;
     border: none;
-    margin: 7px 60px;
+    margin: .4rem 3.75rem;
 
     &::before,
     &::after {
       content: '';
       display: block;
       position: absolute;
-      top: -19px;
-      width: 42px;
-      height: 40px;
+      top: -1.2rem;
+      width: 2.5rem;
+      height: 2.5rem;
     }
 
     &::before {
-      left: -42px;
+      left: -2.5rem;
       background: url('../assets/img/PreFooterLeft.svg');
     }
 
     &::after {
-      right: -42px;
+      right: -2.5rem;
       background: url('../assets/img/PreFooterRight.svg');
     }
   }
 
   &-container {
     @extend .container;
-    padding-top: 56px;
-    padding-right: 142px;
-    padding-bottom: 80px;
-    padding-left: 142px;
+    padding: 3rem 4rem;
+
+    @include media-breakpoint-down(sm) {
+      padding: 1.5rem;
+    }
   }
 
   &-row {
     @extend .row;
   }
 
+  &-col {
+    @extend .col;
+
+    @include media-breakpoint-down(sm) {
+      margin: 1.5rem 0;
+      flex-basis: 100%;
+    }
+  }
+
   &-title {
     @extend .col;
     @extend .text-center;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: bold;
+    margin-bottom: 3rem;
+
+    @include media-breakpoint-down(sm) {
+      font-size: 2rem;
+      margin-bottom: 0rem;
+    }
+  }
+
+  &-subtitle {
+    @extend .text-left;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  &-link {
+    color: $mp-blue;
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
   }
 }
 
 .mpcloud-pre-footer-accordion {
   @extend .accordion;
   color: $mp-blue;
-  font-size: 18px;
+  font-size: 1.125rem;
+  flex-basis: 100%;
 
   &-heading {
-    padding-bottom: 8px;
+    padding-bottom: .5rem;
+  }
+
+  &-block-row {
+    margin: 0rem !important;
   }
 
   &-card {
@@ -134,27 +171,35 @@ footer {
     background: none;
     border: none;
 
+    &:not(:last-child){
+      border-bottom: 1px solid $cloud-blue-light !important;
+    }
+
     &-header {
       @extend .card-header;
       position: relative;
       background: none;
-      padding: 23px 0;
-      border-color: $cloud-blue-light;
+      padding: 1rem 0;
+      border-color: transparent;
       margin-bottom: 0 !important;
+      font-size: 1.125rem;
+      color: $mp-blue;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-content: center;
 
       @include media-breakpoint-up(lg) {
         white-space: nowrap;
+        align-items: center;
       }
 
-      &::after {
-        font-family: 'emtechandmpcloudIcons';
-        content: '\e90f';
+      i {
         display: block;
         position: absolute;
-        top: 35%;
-        right: 0;
-        height: 24px;
-        width: 23px;
+        top: .25rem;
+        right: .25rem;
+        font-size: 1.5rem;
         color: $cloud-blue-light;
         text-align: center;
       }
@@ -162,6 +207,12 @@ footer {
 
     &-body {
       @extend .card-body;
+      padding: 0 1rem 2rem 3.5rem;
+
+      @include media-breakpoint-up(lg) {
+        padding: 0 1rem 2rem 2.5rem;
+        max-width: 95%;
+      }
     }
   }
 
@@ -169,23 +220,43 @@ footer {
     vertical-align: middle;
 
     @include media-breakpoint-down(md) {
-      padding: 6px 12px;
+      padding: .375rem .75rem;
     }
   }
 
   &-btn-link {
     @extend .btn-link;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: bold;
+    color: $mp-blue;
     text-align: left;
     padding-top: 0;
-    padding-right: calc(12px + 23px);
+    padding-right: calc(.75rem + 1.5rem);
     padding-bottom: 0;
-    padding-left: 12px;
+    padding-left: .75rem;
+    padding-right: 3rem;
+    position: relative;
+    display: block !important;
+    width: 100%;
+
+
+    &:hover {
+      color: $mp-blue !important;
+      text-decoration: none !important;
+    }
   }
 
+  &-btn-link[aria-expanded="true"] i {
+    transform: rotate(-180deg);
+  }
+
+  &-btn-link[aria-expanded="false"] i {
+    transform: rotate(0deg);
+  }
+
+
   .mpcloud-pre-footer-accordion-heading {
-    margin-top: 0 !important;
+    margin-top: 0rem !important;
   }
 }
 
