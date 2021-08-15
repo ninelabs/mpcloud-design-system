@@ -88,7 +88,7 @@ footer {
       width: 42px;
       height: 40px;
     }
-  
+
     &::before {
       left: -42px;
       background: url('../assets/img/PreFooterLeft.svg');
@@ -298,22 +298,26 @@ footer {
 
 .mpcloud-footer,
 .emtech-footer {
-  display: inline-block;
   color: $white;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 
   &-container {
     @extend .container;
 
-    padding-top: 13px;
-    padding-right: 142px;
-    padding-bottom: 67px;
-    padding-left: 142px;
+    @include media-breakpoint-down(lg) {
+      padding: 0rem 2rem;
+    }
+    @include media-breakpoint-up(al) {
+      padding: 1.5rem 0rem;
+    }
   }
 
   &-row {
     @extend .row;
 
-    padding: 14px 0 !important;
+    padding: 0.875rem 0 !important;
 
     &-chip-wrapper {
       padding: 0;
@@ -322,31 +326,28 @@ footer {
 
   &-col {
     @extend .col;
-
-    &:not(:last-child) {
-      border-right: 1px solid $mp-blue-lighter;
-      margin-right: 39px;
-    }
   }
 
   &-section {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
-    line-height: 20px;
+    line-height: 1.25rem;
 
     &-text {
-      margin-top: 34px;
+      margin-top: 2.2125rem;
 
       &-line {
-        font-size: 16px !important;
-        margin-bottom: 18px !important;
+        font-size: 1rem !important;
+        margin-bottom: 1.125rem !important;
       }
     }
   }
 
   &-link {
-    display: block;
     color: $white;
+    display: block;
+    font-size: 1rem;
+    margin-bottom: .5rem;
 
     &:hover,
     &:active {
@@ -359,7 +360,7 @@ footer {
   }
 
   &-copyright {
-    padding: 13px 0;
+    padding: .75rem 0;
     text-align: center;
   }
 }
@@ -369,36 +370,44 @@ footer {
 
   &-hr {
     position: relative;
-    height: 4px;
+    height: .25rem;
     background-color: $mp-blue;
     border: none;
-    margin: 7px 60px;
-    transform: translateY(-16px);
+    margin: .5rem 3.75rem;
+    transform: translateY(-1rem);
 
     &::before,
     &::after {
       content: '';
       display: block;
       position: absolute;
-      top: -19px;
-      width: 42px;
-      height: 40px;
+      top: -1.2rem;
+      width: 2.625rem;
+      height: 2.5rem;
     }
-  
+
     &::before {
-      left: -42px;
+      left: -2.625rem;
       background: url('../assets/img/FooterContentBlockDecorLeft.svg');
     }
 
     &::after {
-      right: -42px;
+      right: -2.625rem;
       background: url('../assets/img/FooterContentBlockDecorRight.svg');
     }
   }
 
   &-col {
-    &:not(:last-child) {
-      border-right: 1px solid $mp-blue-lighter;
+    @include media-breakpoint-down(lg) {
+      &:not(:last-child) {
+        border-bottom: 1px solid $mp-blue-lighter;
+        margin-bottom: 1.5rem;
+      }
+    }
+    @include media-breakpoint-up(xl) {
+      &:not(:last-child) {
+        border-right: 1px solid $mp-blue-lighter;
+      }
     }
   }
 
@@ -411,8 +420,8 @@ footer {
   background-color: $em-gray-darker;
 
   &-section-lg {
-    font-size: 24px;
-    margin-bottom: 4px;
+    font-size: 1.5rem;
+    margin-bottom: .25rem;
   }
 
   &-col {

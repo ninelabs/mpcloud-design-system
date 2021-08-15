@@ -31,6 +31,7 @@ title: Footer // Components
 </div>
 ```
 
+
 ## MP Pre-Footer Accordion Block
 <div class="mpcloud-pre-footer-accordion-block">
   <hr class="mpcloud-pre-footer-accordion-block-hr">
@@ -134,6 +135,7 @@ title: Footer // Components
 </div>
 ```
 
+
 ## MP Pre-Footer Callout Block
 <div class="mpcloud-pre-footer-callout-block">
   <div class="mpcloud-pre-footer-callout-block-card">
@@ -170,6 +172,7 @@ title: Footer // Components
   </div>
 </div>
 ```
+
 
 ## EMTech Pre-Footer Callout Block
 <div class="emtech-pre-footer-callout-block">
@@ -208,32 +211,33 @@ title: Footer // Components
 </div>
 ```
 
+
 ## MP Cloud Footer
 <footer class="mpcloud-footer">
   <hr class="mpcloud-footer-hr">
   <div class="mpcloud-footer-container">
     <div class="mpcloud-footer-row">
-      <div class="mpcloud-footer-col">
+      <div class="mpcloud-footer-col col-12 col-xl-6 pr-xl-5">
         <div class="mpcloud-footer-row">
-          <div class="col-6">
+          <div class="col-lg-6">
             <div class="mpcloud-footer-section">Client Login</div>
             <div class="mpcloud-footer-row">
               <div class="col-12">
-                <a href="#" class="mpcloud-footer-link">AdvanceClaim</a>
-                <a href="#" class="mpcloud-footer-link">AdvanceDispatch</a>
-                <a href="#" class="mpcloud-footer-link">AdvanceReporting</a>
-                <a href="#" class="mpcloud-footer-link">Customer Support</a>
+                <a href="#" class="mpcloud-footer-link" aria-label="AdvanceClaim">AdvanceClaim</a>
+                <a href="#" class="mpcloud-footer-link" aria-label="AdvanceDispatch">AdvanceDispatch</a>
+                <a href="#" class="mpcloud-footer-link" aria-label="AdvanceReporting">AdvanceReporting</a>
+                <a href="#" class="mpcloud-footer-link" aria-label="Customer Support">Customer Support</a>
               </div>
             </div>
           </div>
-          <div class="col-6">
+          <div class="col-lg-6 mt-4 mt-md-0">
             <div class="mpcloud-footer-section">Solutions</div>
             <div class="mpcloud-footer-row">
               <div class="col-12">
-                <a href="#" class="mpcloud-footer-link">AdvanceClaim for EMS Agencies</a>
-                <a href="#" class="mpcloud-footer-link">AdvanceClaim for Billing Companies</a>
-                <a href="#" class="mpcloud-footer-link">AdvanceDispatch</a>
-                <a href="#" class="mpcloud-footer-link">Integrations</a>
+                <a href="#" class="mpcloud-footer-link" aria-label="AdvanceClaim for EMS Agencies">AdvanceClaim for EMS Agencies</a>
+                <a href="#" class="mpcloud-footer-link" aria-label="AdvanceClaim for Billing Companies">AdvanceClaim for Billing Companies</a>
+                <a href="#" class="mpcloud-footer-link" aria-label="AdvanceDispatch">AdvanceDispatch</a>
+                <a href="#" class="mpcloud-footer-link" aria-label="Integrations">Integrations</a>
               </div>
             </div>
           </div>
@@ -242,63 +246,64 @@ title: Footer // Components
           <div class="col-12">
             <div class="mpcloud-footer-section">Company</div>
             <div class="mpcloud-footer-row">
-              <div class="col-6">
-                <a href="#" class="mpcloud-footer-link">About Us</a>
+              <div class="col-lg-6">
+                <a href="#" class="mpcloud-footer-link" aria-label="About Us">About Us</a>
               </div>
-              <div class="col-6">
-                <a href="#" class="mpcloud-footer-link">News</a>
+              <div class="col-lg-6">
+                <a href="#" class="mpcloud-footer-link" aria-label="News">News</a>
               </div>
-              <div class="col-6">
-                <a href="#" class="mpcloud-footer-link">Leadership</a>
+              <div class="col-lg-6">
+                <a href="#" class="mpcloud-footer-link" aria-label="Leadership">Leadership</a>
               </div>
-              <div class="col-6">
-                <a href="#" class="mpcloud-footer-link">Conferences</a>
+              <div class="col-lg-6">
+                <a href="#" class="mpcloud-footer-link" aria-label="Conferences">Conferences</a>
               </div>
-              <div class="col-6">
-                <a href="#" class="mpcloud-footer-link">Partners</a>
+              <div class="col-lg-6">
+                <a href="#" class="mpcloud-footer-link" aria-label="Partners">Partners</a>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="mpcloud-footer-col">
+      <div class="mpcloud-footer-col col-12 col-xl-6">
         <div class="mpcloud-footer-row">
-          <div class="col-6">
+          <div class="col-md-6 col-xl-7 px-xl-5">
             <div class="mpcloud-footer-section">Call: +1 (877) 421-7231</div>
             <div class="mpcloud-footer-section-text">
               <p class="mpcloud-footer-section-text-line">
-                Offices:
-                701 Brazos Street, #1616
+                Offices:<br/>
+                701 Brazos Street, #1616<br/>
                 Austin, TX 78701
               </p>
               <p class="mpcloud-footer-section-text-line">
-                Postal:
-                3005 South Lamar Blvd., Suite D-109
+                Postal:<br/>
+                3005 South Lamar Blvd<br/>
+                Suite D-109<br/>
                 Austin, TX 78704
               </p>
             </div>
           </div>
-          <div class="col-6">
+          <div class="col-md-6 col-xl-5">
             <div class="mpcloud-footer-row">
               <div class="col-12">
-                <button class="btn btn-mpcloud btn-mpcloud-lg" type="submit">Request a Demo</button>
+                <button class="btn btn-mpcloud btn-mpcloud-lg w-100" type="submit">Request a Demo</button>
               </div>
             </div>
             <div class="mpcloud-footer-row">
               <div class="col-4 mpcloud-footer-row-chip-wrapper">
-                <button type="button" class="chip-mpcloud">
+                <a href="#" target="_blank" class="chip-mpcloud" aria-label="Follow Us on Facebook">
                   <span class="icon-facebook"></span>
-                </button>
+                </a>
               </div>
               <div class="col-4 mpcloud-footer-row-chip-wrapper">
-                <button type="button" class="chip-mpcloud">
+                <a href="#" target="_blank" class="chip-mpcloud" aria-label="Follow Us on Twitter">
                   <span class="icon-twitter"></span>
-                </button>
+                </a>
               </div>
               <div class="col-4 mpcloud-footer-row-chip-wrapper">
-                <button type="button" class="chip-mpcloud">
+                <a href="#" target="_blank" class="chip-mpcloud" aria-label="Follow Us on LinkedIn">
                   <span class="icon-linkedin"></span>
-                </button>
+                </a>
               </div>
             </div>
             <div class="mpcloud-footer-row">
@@ -322,27 +327,27 @@ title: Footer // Components
   <hr class="mpcloud-footer-hr">
   <div class="mpcloud-footer-container">
     <div class="mpcloud-footer-row">
-      <div class="mpcloud-footer-col">
+      <div class="mpcloud-footer-col col-12 col-xl-6 pr-xl-5">
         <div class="mpcloud-footer-row">
-          <div class="col-6">
+          <div class="col-lg-6">
             <div class="mpcloud-footer-section">Client Login</div>
             <div class="mpcloud-footer-row">
               <div class="col-12">
-                <a href="#" class="mpcloud-footer-link">AdvanceClaim</a>
-                <a href="#" class="mpcloud-footer-link">AdvanceDispatch</a>
-                <a href="#" class="mpcloud-footer-link">AdvanceReporting</a>
-                <a href="#" class="mpcloud-footer-link">Customer Support</a>
+                <a href="#" class="mpcloud-footer-link" aria-label="AdvanceClaim">AdvanceClaim</a>
+                <a href="#" class="mpcloud-footer-link" aria-label="AdvanceDispatch">AdvanceDispatch</a>
+                <a href="#" class="mpcloud-footer-link" aria-label="AdvanceReporting">AdvanceReporting</a>
+                <a href="#" class="mpcloud-footer-link" aria-label="Customer Support">Customer Support</a>
               </div>
             </div>
           </div>
-          <div class="col-6">
+          <div class="col-lg-6 mt-4 mt-md-0">
             <div class="mpcloud-footer-section">Solutions</div>
             <div class="mpcloud-footer-row">
               <div class="col-12">
-                <a href="#" class="mpcloud-footer-link">AdvanceClaim for EMS Agencies</a>
-                <a href="#" class="mpcloud-footer-link">AdvanceClaim for Billing Companies</a>
-                <a href="#" class="mpcloud-footer-link">AdvanceDispatch</a>
-                <a href="#" class="mpcloud-footer-link">Integrations</a>
+                <a href="#" class="mpcloud-footer-link" aria-label="AdvanceClaim for EMS Agencies">AdvanceClaim for EMS Agencies</a>
+                <a href="#" class="mpcloud-footer-link" aria-label="AdvanceClaim for Billing Companies">AdvanceClaim for Billing Companies</a>
+                <a href="#" class="mpcloud-footer-link" aria-label="AdvanceDispatch">AdvanceDispatch</a>
+                <a href="#" class="mpcloud-footer-link" aria-label="Integrations">Integrations</a>
               </div>
             </div>
           </div>
@@ -351,63 +356,62 @@ title: Footer // Components
           <div class="col-12">
             <div class="mpcloud-footer-section">Company</div>
             <div class="mpcloud-footer-row">
-              <div class="col-6">
-                <a href="#" class="mpcloud-footer-link">About Us</a>
+              <div class="col-lg-6">
+                <a href="#" class="mpcloud-footer-link" aria-label="About Us">About Us</a>
               </div>
-              <div class="col-6">
-                <a href="#" class="mpcloud-footer-link">News</a>
+              <div class="col-lg-6">
+                <a href="#" class="mpcloud-footer-link" aria-label="News">News</a>
               </div>
-              <div class="col-6">
-                <a href="#" class="mpcloud-footer-link">Leadership</a>
+              <div class="col-lg-6">
+                <a href="#" class="mpcloud-footer-link" aria-label="Leadership">Leadership</a>
               </div>
-              <div class="col-6">
-                <a href="#" class="mpcloud-footer-link">Conferences</a>
+              <div class="col-lg-6">
+                <a href="#" class="mpcloud-footer-link" aria-label="Conferences">Conferences</a>
               </div>
-              <div class="col-6">
-                <a href="#" class="mpcloud-footer-link">Partners</a>
+              <div class="col-lg-6">
+                <a href="#" class="mpcloud-footer-link" aria-label="Partners">Partners</a>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="mpcloud-footer-col">
+      <div class="mpcloud-footer-col col-12 col-xl-6">
         <div class="mpcloud-footer-row">
-          <div class="col-6">
+          <div class="col-md-6 col-xl-7 px-xl-5">
             <div class="mpcloud-footer-section">Call: +1 (877) 421-7231</div>
             <div class="mpcloud-footer-section-text">
               <p class="mpcloud-footer-section-text-line">
-                Offices:
-                701 Brazos Street, #1616
+                Offices:<br/>
+                701 Brazos Street, #1616<br/>
                 Austin, TX 78701
               </p>
               <p class="mpcloud-footer-section-text-line">
-                Postal:
-                3005 South Lamar Blvd., Suite D-109
+                Postal:<br/>
+                3005 South Lamar Blvd<br/>
+                Suite D-109<br/>
                 Austin, TX 78704
               </p>
             </div>
           </div>
-          <div class="col-6">
+          <div class="col-md-6 col-xl-5">
             <div class="mpcloud-footer-row">
-              <div class="col-12">
-                <button class="btn btn-mpcloud btn-mpcloud-lg" type="submit">Request a Demo</button>
-              </div>
+              <button class="btn btn-mpcloud btn-mpcloud-lg col-12" type="submit">Request a Demo</button>
             </div>
             <div class="mpcloud-footer-row">
               <div class="col-4 mpcloud-footer-row-chip-wrapper">
-                <button type="button" class="chip-mpcloud">
+                <a href="#" target="_blank" class="chip-mpcloud" aria-label="Follow Us on Facebook">
                   <span class="icon-facebook"></span>
-                </button>
+                </a>
               </div>
               <div class="col-4 mpcloud-footer-row-chip-wrapper">
-                <button type="button" class="chip-mpcloud">
+                <a href="#" target="_blank" class="chip-mpcloud" aria-label="Follow Us on Twitter">
                   <span class="icon-twitter"></span>
-                </button>
+                </a>
               </div>
               <div class="col-4 mpcloud-footer-row-chip-wrapper">
-                <button type="button" class="chip-mpcloud">
+                <a href="#" target="_blank" class="chip-mpcloud" aria-label="Follow Us on LinkedIn">
                   <span class="icon-linkedin"></span>
-                </button>
+                </a>
               </div>
             </div>
             <div class="mpcloud-footer-row">
@@ -426,6 +430,7 @@ title: Footer // Components
   <div class="mpcloud-footer-copyright">©2021 MP Cloud Technologies. All Rights Reserved - Privacy Policy - Terms of Service</div>
 </footer>
 ```
+
 
 ## EMTech Footer
 <footer class="emtech-footer">
