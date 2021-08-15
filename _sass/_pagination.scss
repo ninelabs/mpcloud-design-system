@@ -1,0 +1,98 @@
+.mpcloud-pagination {
+  @extend .pagination;
+  display: flex;
+  @include list-unstyled();
+  @include border-radius();
+}
+
+.mpcloud-page-link {
+  @extend .page-link;
+  color: $mp-blue !important;
+  background-color: $white !important;
+  border: $pagination-border-width solid $cloud-blue-lighter !important;
+  height: 3rem;
+  width: 3rem;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.125rem;
+
+  &-current {
+    text-decoration: underline;
+  }
+
+  i {
+    font-size: 1rem;
+  }
+
+  &:hover {
+    z-index: 2;
+    color: $pagination-hover-color;
+    text-decoration: none;
+    background-color: $pagination-hover-bg;
+    border-color: $cloud-blue-lighter;
+  }
+
+  &:focus {
+    z-index: 3;
+    outline: $pagination-focus-outline;
+    box-shadow: $pagination-focus-box-shadow;
+  }
+}
+
+.mpcloud-page-item {
+  @extend .mpcloud-page-item;
+  &:first-child {
+    .mpcloud-page-link {
+      @extend .page-link;
+      margin-left: 0;
+      @include border-left-radius(1rem);
+      border: $pagination-border-width solid $cloud-blue-lighter !important;
+
+      i {
+        color: $pulse-red !important;
+      }
+    }
+  }
+  &:last-child {
+    .mpcloud-page-link {
+      @extend .page-link;
+      @include border-right-radius(1rem);
+      border: $pagination-border-width solid $cloud-blue-lighter !important;
+
+      i {
+        color: $pulse-red !important;
+      }
+    }
+  }
+
+  &.active .mpcloud-page-link {
+    @extend .page-link;
+    z-index: 3;
+    color: $pagination-active-color;
+    background-color: $pagination-active-bg;
+    border-color: $cloud-blue-lighter;
+  }
+
+  &.disabled .mpcloud-page-link {
+    color: $pagination-disabled-color;
+    pointer-events: none;
+    // Opinionated: remove the "hand" cursor set previously for .page-link
+    cursor: auto;
+    background-color: $pagination-disabled-bg;
+    border-color: $cloud-blue-lighter ;
+  }
+}
+
+
+//
+// Sizing
+//
+
+.mpcloud-pagination-lg {
+  @include pagination-size($pagination-padding-y-lg, $pagination-padding-x-lg, $font-size-lg, $line-height-lg, $border-radius-lg);
+}
+
+.mpcloud-pagination-sm {
+  @include pagination-size($pagination-padding-y-sm, $pagination-padding-x-sm, $font-size-sm, $line-height-sm, $border-radius-sm);
+}
