@@ -53,21 +53,21 @@
         top: -6px;
         left: -6px;
         padding: 30px;
-        box-shadow: 0 0 2px 1px $em-orange-light;
+        box-shadow: 0 0 2px 1px $emt-orange-light;
         border-radius: 50%;
       }
     }
   }
 
   span {
-    background-color: $em-gray-darker;
-    border: 2px solid $em-gray-light;
+    background-color: $emt-gray-darker;
+    border: 2px solid $emt-gray-light;
 
     &:hover,
     &:active {
       color: $white;
-      background-color: $em-gray-dark;
-      border-color: $em-gray-lighter;
+      background-color: $emt-gray-dark;
+      border-color: $emt-gray-lighter;
     }
   }
 }
@@ -82,7 +82,7 @@
   span {
     position: relative;
     font-size: 36px;
-    color: $em-orange;
+    color: $emt-orange;
     padding: 26px;
     background-color: rgba($white, .6);
     border-radius: 50%;

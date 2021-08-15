@@ -21,19 +21,19 @@ $cloud-blue-lighter:  #AAE7F3 !default;
 $cloud-blue-lightest: #E0F6FB !default;
 
 // EMtech Orange
-$em-orange:           #FF9E1B !default;
-$em-orange-dark:      #BD6C00 !default;
-$em-orange-light:     #FFB34C !default;
-$em-orange-lighter:   #FFC97F !default;
-$em-orange-lightest:  #FFDEB3 !default;
+$emt-orange:           #FF9E1B !default;
+$emt-orange-dark:      #BD6C00 !default;
+$emt-orange-light:     #FFB34C !default;
+$emt-orange-lighter:   #FFC97F !default;
+$emt-orange-lightest:  #FFDEB3 !default;
 
 // EMtech Gray
-$em-gray:           #53565A !default;
-$em-gray-dark:      #333538 !default;
-$em-gray-darker:    #2A2B2D !default;
-$em-gray-light:     #6C7075 !default;
-$em-gray-lighter:   #9FA3A7 !default;
-$em-gray-lightest:  #D5D6D8 !default;
+$emt-gray:           #53565A !default;
+$emt-gray-dark:      #333538 !default;
+$emt-gray-darker:    #2A2B2D !default;
+$emt-gray-light:     #6C7075 !default;
+$emt-gray-lighter:   #9FA3A7 !default;
+$emt-gray-lightest:  #D5D6D8 !default;
 
 // Plus Products
 $plusid:              #9A08B9 !default;
@@ -74,26 +74,26 @@ $mpc-theme-colors: map-merge(
     "mp-blue":             $mp-blue,
     "pulse-red":           $pulse-red,
     "cloud-blue":          $cloud-blue,
-    "em-orange":           $em-orange,
+    "em-orange":           $emt-orange,
     "plusid":              $plusid,
     "pluscoverage":        $pluscoverage,
     "pluspayment":         $pluspayment,
     "mp-blue-dark":        $mp-blue-dark,
     "pulse-red-dark":      $pulse-red-dark,
     "cloud-blue-dark":     $cloud-blue-dark,
-    "em-orange-dark":      $em-orange-dark,
+    "em-orange-dark":      $emt-orange-dark,
     "mp-blue-light":       $mp-blue-light,
     "pulse-red-light":     $pulse-red-light,
     "cloud-blue-light":    $cloud-blue-light,
-    "em-orange-light":     $em-orange-light,
+    "em-orange-light":     $emt-orange-light,
     "mp-blue-lighter":     $mp-blue-lighter,
     "pulse-red-lighter":   $pulse-red-lighter,
     "cloud-blue-lighter":  $cloud-blue-lighter,
-    "em-orange-lighter":   $em-orange-lighter,
+    "em-orange-lighter":   $emt-orange-lighter,
     "mp-blue-lightest":    $mp-blue-lightest,
     "pulse-red-lightest":  $pulse-red-lightest,
     "cloud-blue-lightest": $cloud-blue-lightest,
-    "em-orange-lightest":  $em-orange-lightest,
+    "em-orange-lightest":  $emt-orange-lightest,
     "gray":                $gray,
     "gray-darker":         $gray-darker,
     "gray-dark":           $gray-dark,
