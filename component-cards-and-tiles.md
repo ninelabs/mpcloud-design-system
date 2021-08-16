@@ -23,6 +23,14 @@ title: Cards & Tiles // Components
 
 ----
 
+#### Video Content Tile
+{% include _component-mpc-video-content-tile.html %}
+```html
+{% include _component-mpc-video-content-tile.html %}
+```
+
+----
+
 ### EMTech Billing
 #### Content Card
 {% include _component-emt-content-card.html %}
