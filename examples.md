@@ -7,16 +7,25 @@ title: Examples
 
 Here are a few examples of fully built pages for different content types.
 
-## Sample Page Layouts
+### Sample Page Layouts
+#### MP Cloud Technologies
+- [Home Page](/demo/mpc/home.html)
 
-- [Home Page](/demo/home.html)
-- [Services Page](/demo/services.html)
-- [Clients Page](/demo/work.html)
-- [Blog Home Page](/demo/blog.html)
-- [Article](/demo/article.html)
-- [Podcast](/demo/podcast.html)
-- [Webinar](/demo/webinar.html)
+### UX and UI Deliverables
 
-## Google Docs
+#### Desktop Wireframes
+- [MP Cloud Technologies & EMTech Billing](https://ninelabs.invisionapp.com/console/share/342LCMCCTB)
 
-[Google Docs template](https://docs.google.com/document/d/1sr35teeEx8ldeUXrKyHvl2e-RQgl-DBA_R76tzPvB9w/edit?usp=sharing)
+#### Desktop UI Comps
+- [MP Cloud Technologies & EMTech Billing](https://ninelabs.invisionapp.com/console/share/WZ2UWMLUAV)
+
+#### Brand Logo and Colors
+- [MP Cloud Technologies](https://ninelabs.invisionapp.com/console/share/GB2YQFT1ZC)s
+- [EMTech Billing](https://ninelabs.invisionapp.com/console/share/KC2YQFT0N8)
+
+#### UI Inventory
+- [MP Cloud Technologies & EMTech Billing](https://ninelabs.invisionapp.com/console/share/3R2UVPH6UA)
+
+#### Content Hierarchy & URL Structure
+- [MP Cloud Technologies](https://miro.com/app/board/o9J_krxzptY=/?moveToWidget=3074457360145393733&cot=14)
+- [EMTech Billing](https://miro.com/app/board/o9J_krxzptY=/?moveToWidget=3074457360146255363&cot=14)

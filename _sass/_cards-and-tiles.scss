@@ -3,6 +3,7 @@
   @extend .py-5;
   @extend .px-4;
   width: auto;
+  height: 100%;
   border: 2px solid #AAE7F3;
   border-radius: 1.5rem;
   background-color: $white;
@@ -182,7 +183,7 @@
 .mpcloud-video-content-tile {
   @extend .container;
   color: $mp-blue;
-  border-bottom: 1px solid $cloud-blue-light;
+  //border-bottom: 1px solid $cloud-blue-light;
 
   &-row {
     @extend .row;
