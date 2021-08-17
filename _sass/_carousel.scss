@@ -453,13 +453,16 @@
   }
 
   &-col {
+
     @include media-breakpoint-up(md) {
       padding-right: 3rem;
     }
 
     &:first-child {
       @extend .col-12;
-      @extend .col-lg-8;
+      @extend .col-lg-7;
+      @extend .pr-lg-4;
+      @extend .mr-lg-5;
     }
 
     &:last-child {
@@ -471,6 +474,7 @@
       }
     }
   }
+
 
   &-title,
   &-description {
@@ -531,7 +535,7 @@
       border-radius: 1.25rem;
       background-color: #fff;
       position: absolute;
-      width: 80%;
+      width: 90%;
       bottom: -2.5rem;
       right: 1.5rem;
       font-size: 1rem;
