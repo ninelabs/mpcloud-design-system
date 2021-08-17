@@ -100,6 +100,7 @@
     }
   }
 }
+
 .mpcloud-leading-content-carousel {
   background: linear-gradient(90deg, #1AA1BD 0.04%, #141B4D 100%);
 
@@ -154,6 +155,7 @@
     }
   }
 }
+
 .emtech-leading-content-carousel {
   background: linear-gradient(90deg, #FFB34C 0%, #BD6C00 100%);
 
@@ -255,6 +257,7 @@
 
   &-actions {
     .btn:not(:last-child){
+      margin-bottom: .5rem;
       margin-right: .5rem;
 
       @include media-breakpoint-down(sm) {
@@ -266,10 +269,10 @@
   .carousel-inner {
     .carousel-item {
       text-align: left;
-      padding: 4rem;
+      padding: 4rem 0;
 
       @include media-breakpoint-down(md) {
-        padding: 2rem;
+        padding: 2rem 0;
       }
 
       @include media-breakpoint-down(sm) {
@@ -303,6 +306,10 @@
 
 .mpcloud-hero-carousel {
   color: $mp-blue;
+
+  &-row {
+    @extend .justify-content-between;
+  }
 
   &-col {
 
@@ -397,10 +404,25 @@
 
   }
 
+  .carousel-inner {
+    .carousel-item {
+      text-align: left;
+      padding: 2rem 0;
+
+      @include media-breakpoint-down(md) {
+        padding: 1rem 0;
+      }
+
+      @include media-breakpoint-down(sm) {
+        padding: 0rem;
+      }
+    }
+  }
 }
 
 .emtech-hero-carousel {
   color: $emt-gray;
+
 
   .carousel-item {
     &:after {
@@ -424,6 +446,7 @@
   }
 
   &-row {
+    @extend .justify-content-between;
     z-index: 2;
     position: relative;
   }

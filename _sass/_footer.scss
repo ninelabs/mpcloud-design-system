@@ -1,5 +1,5 @@
 footer {
-  margin-top: 10rem;
+  //margin-top: 10rem;
   background-color: $gray-10;
   color: $gray-80;
   .row {
@@ -265,9 +265,13 @@ footer {
   background-image: url('../assets/stock-photography/Pexels/MPCloud/pexels-rodnae-productions-6129043.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 3rem 2rem;
+  padding: 4rem 2rem;
   position: relative;
   width: 100%;
+
+  @include media-breakpoint-down(lg) {
+    padding: 2rem;
+  }
 
   @include media-breakpoint-down(md) {
     padding: 1rem;
@@ -286,10 +290,15 @@ footer {
   &-card {
     @extend .card;
     @extend .container;
+    @extend .mx-auto;
 
     border: none;
     border-radius: 1.5rem;
     padding: 0rem;
+
+    @include media-breakpoint-up(md) {
+      max-width: 80%;
+    }
 
     &-row {
       @extend .row;
