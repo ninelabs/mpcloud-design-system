@@ -152,6 +152,7 @@
     @extend .card-title;
   }
 
+  /*
   &-category {
     @extend .d-inline-block;
     font-size: .75rem;
@@ -164,6 +165,7 @@
       text-decoration: none !important;
     }
   }
+  */
 
   &-pub-info {
     @extend .pub-info;
