@@ -102,3 +102,45 @@ input[type="file"] {
     }
   }
 }
+
+.request-a-demo-form {
+  @extend .row;
+  @extend .mt-4;
+  @extend .mb-3;
+  @extend .my-md-5;
+  @extend .col-md-8;
+  @extend .pb-5;
+  display: flex;
+  width:100%;
+
+  &-required {
+    @extend .ml-1;
+    color: red;
+    font-weight: 600;
+    display: inline-block;
+  }
+
+  &-row {
+    @extend .mb-3;
+    display: flex;
+    width: 100%;
+
+    label {
+      display: block;
+      font-weight: 600;
+    }
+    input[type="text"],
+    select,
+    textarea {
+      display: block;
+      width:100%;
+      height: 3rem;
+      border: 1px solid rgba(44,195,226,1);
+      background-color: rgba(246,252,254,1);
+    }
+
+    textarea {
+      height: auto;
+    }
+  }
+}
