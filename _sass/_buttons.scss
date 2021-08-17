@@ -123,7 +123,7 @@
   text-decoration: underline;
   border: 1px solid $cloud-blue-lighter;
   position: relative;
-  @include button-size(4.25px, 16px, 12px, 15px, 14.25px);
+  @include button-size(4.25px, 16px, 12px, 16px, 14.25px);
 
   &:hover,
   &:active {
