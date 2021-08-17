@@ -10,10 +10,10 @@ Here are a few examples of fully built pages for different content types.
 ### Sample Page Layouts
 #### MP Cloud Technologies
 - [Home Page](/demo/mpc/home.html)
-- [AdvanceClaim](/demo/mpc/advance-claim/)
-- [News & Resources](/demo/mpc/news-and-resources)
-- [News & Resources - Details](/demo/mpc/news-and-resources-details)
-- [Request a Demo](/demo/mpc/request-a-demo)
+- [AdvanceClaim](/demo/mpc/advance-claim.html)
+- [News & Resources](/demo/mpc/news-and-resources.html)
+- [News & Resources - Details](/demo/mpc/news-and-resources-details.html)
+- [Request a Demo](/demo/mpc/request-a-demo.html)
 
 ----
 
