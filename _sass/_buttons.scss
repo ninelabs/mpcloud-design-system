@@ -152,8 +152,8 @@
 }
 
 
-a[class*="btn"], button[class*="btn"], input[class*="btn"],
-a[class*="chip"], button[class*="chip"], input[class*="chip"] {
+a[class*="btn"], button[class*="btn"]:not([data-toggle="collapse"]), input[class*="btn"],
+a[class*="chip"], button[class*="chip"]:not([data-toggle="collapse"]), input[class*="chip"] {
   animation: scaleOut 0.16s;
 
   &:hover {
