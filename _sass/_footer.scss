@@ -274,7 +274,7 @@ footer {
   }
 
   @include media-breakpoint-down(md) {
-    padding: 1rem;
+    padding: 2.5rem 1rem;
   }
 
   &::after {
@@ -419,9 +419,13 @@ footer {
   }
 
   &-row {
+    @extend .text-left;
     @extend .row;
-
     padding: 0.875rem 0 !important;
+
+    @include media-breakpoint-up(sm) {
+      text-align: center;      
+    }
 
     &-chip-wrapper {
       padding: 0;
@@ -528,6 +532,13 @@ hr.mpcloud-hr {
     &::after {
       right: -2.625rem;
       background: url('../assets/img/FooterContentBlockDecorRight.svg');
+    }
+  }
+
+  &-row {
+    &:last-child {
+      @extend .pt-3;
+      @extend .pt-md-0;
     }
   }
 

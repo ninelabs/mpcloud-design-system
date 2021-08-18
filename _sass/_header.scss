@@ -77,14 +77,10 @@ header {
     &-container {
       @extend .container;
       @extend .navbar-light;
-      padding: 2rem 1rem;
-
-      @include media-breakpoint-down(md) {
-        padding-top: 1rem;
-      }
+      padding: 1rem;
 
       @include media-breakpoint-down(sm) {
-        padding-top: .5rem;
+        padding: 0rem;
       }
     }
 
@@ -133,6 +129,10 @@ header {
         margin: 0 .5rem;
         border-bottom: 3px solid transparent;
 
+        @include media-breakpoint-down(lg) {
+          margin: .25rem;
+        }
+
         &.active {
           border-bottom-color: $pulse-red;
         }
@@ -140,6 +140,11 @@ header {
     }
     .btn-mpcloud {
       width: 100%;
+
+      @include media-breakpoint-down(lg) {
+        padding-left: .75rem !important;
+        padding-right: .75rem !important;
+      }
     }
   }
 
@@ -215,14 +220,10 @@ header {
     &-container {
       @extend .container;
       @extend .navbar-light;
-      padding: 2rem 1rem;
-
-      @include media-breakpoint-down(md) {
-        padding-top: 1rem;
-      }
+      padding: 1rem;
 
       @include media-breakpoint-down(sm) {
-        padding-top: .5rem;
+        padding: 0rem;
       }
     }
 
@@ -359,5 +360,18 @@ header {
     &[aria-expanded="false"] .icon-close {
       display: none;
     }
+  }
+}
+
+
+body.mpcloud-sticky-header,
+body.emtech-sticky-header {
+  .mpcloud-header,
+  .emtech-header {
+    position: sticky;
+    top: 0;
+    background-color: $white;
+    z-index: 9;
+    box-shadow: 0rem .75rem .75rem .25rem $white;
   }
 }

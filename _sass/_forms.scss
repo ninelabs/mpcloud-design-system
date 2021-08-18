@@ -121,8 +121,9 @@ input[type="file"] {
   }
 
   &-row {
+    @extend .row;
     @extend .mb-3;
-    display: flex;
+    @extend .px-3;
     width: 100%;
 
     label {
