@@ -46,30 +46,24 @@ Spacing should always be measured from the edge of the mark or its associated te
 
 ----
 
-### EMTech Logo
+### EMTech Billing
 #### Brand Logo
 <div class="row">
   <div class="col col-12 py-5">
-    <img src="/assets/img/EMTech-brand.svg" alt="EMTech Brand Logo" class="img-fluid align-middle px-5" />
+    <img src="/assets/img/EMTech-brand.svg" alt="EMTech Brand Logo" class="img-fluid align-middle px-5" style="max-height:10rem" />
   </div>
 </div>
 
 ----
 
 #### Proper Spacing
-
 Spacing should always be measured from the edge of the mark or its associated text.
 
 <div class="row">
-<div class="col col-12 my-5 text-center">
-    <img src="/assets/img/EMTech-spacing.jpg" alt="MP Cloud Brand Logo" width="450" class="mx-auto img-fluid"/>
-</div>
-<div class="col col-12 my-5 text-center">
-    <img src="/assets/img/NoClaimLeftBehindLogo-spacing.jpg" alt="MP Cloud Brand Logo" width="450" class="mx-auto img-fluid"/>
+  <div class="col col-12 my-5 text-center">
+      <img src="/assets/img/EMTech-spacing.jpg" alt="EMTech Cloud Brand Logo" width="450" class="mx-auto img-fluid"/>
   </div>
 </div>
-
-
 ----
 
 ### Unacceptable Usage
