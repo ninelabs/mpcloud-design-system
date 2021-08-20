@@ -32,6 +32,7 @@
 .mpcloud-card-group,
 .emtech-card-group,
 .emtech-tile-group {
+  @extend .container;
   @extend .col-12;
   @extend .pb-4;
   @extend .pb-md-0;
