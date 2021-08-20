@@ -115,7 +115,18 @@ footer {
   }
 
   &-col {
-    @extend .col;
+    @extend .col-4;
+    @extend .px-4;
+
+    &:first-child,
+    &:last-child {
+      //@extend .pl-0;
+    }
+
+    @include media-breakpoint-down(md) {
+      width: 100%;
+      padding: 0;
+    }
 
     @include media-breakpoint-down(sm) {
       margin: 1.5rem 0;
@@ -424,10 +435,12 @@ footer {
     padding: 0.875rem 0 !important;
 
     @include media-breakpoint-up(sm) {
-      text-align: center;      
+      text-align: center;
     }
 
     &-chip-wrapper {
+      @extend .text-center;
+      @extend .mb-3;
       padding: 0;
     }
   }
