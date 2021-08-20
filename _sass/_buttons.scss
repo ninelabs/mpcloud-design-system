@@ -4,10 +4,19 @@
   font-weight: bold;
   border: 2px solid $pulse-red-light;
   position: relative;
-  @include button-size(6.5px, 18.75px, 18px, 23px, 6px);
+  //@include button-size(.5rem, .75rem, 1.125rem, .75rem, .5rem);
+  font-size: 1.125rem;
+  padding: .5rem .75rem;
 
   &-lg {
-    @include button-size(8px, 13.5px, 22px, 28px, 6px);
+    //@include button-size(8px, 13.5px, 22px, 28px, 6px);
+    font-size: 1.25rem;
+    padding: .75rem;
+  }
+
+  @include media-breakpoint-down(lg) {
+    padding-left: .75rem !important;
+    padding-right: .75rem !important;
   }
 
   &:hover,
@@ -37,7 +46,20 @@
 
 .btn-emtech {
   font-weight: bold;
-  @include button-size(6.5px, 18.75px, 18px, 23px, 6px);
+  //@include button-size(.5rem, .75rem, 1.125rem, .75rem, .5rem);
+  font-size: 1.125rem;
+  padding: .5rem .75rem;
+
+  &-lg {
+    //@include button-size(12px, 21.5px, 22px, 28px, 6px);
+    font-size: 1.25rem;
+    padding: .75rem;
+  }
+
+  @include media-breakpoint-down(lg) {
+    padding-left: .75rem !important;
+    padding-right: .75rem !important;
+  }
 
   &-primary {
     color: $gray;
@@ -111,10 +133,6 @@
       }
     }
   }
-
-  &-lg {
-    @include button-size(12px, 21.5px, 22px, 28px, 6px);
-  }
 }
 
 .tag-mpcloud {
@@ -151,7 +169,6 @@
   }
 }
 
-
 a[class*="btn"], button[class*="btn"]:not([data-toggle="collapse"]), input[class*="btn"],
 a[class*="chip"], button[class*="chip"]:not([data-toggle="collapse"]), input[class*="chip"] {
   animation: scaleOut 0.16s;
@@ -168,13 +185,13 @@ a[class*="chip"], button[class*="chip"]:not([data-toggle="collapse"]), input[cla
     transform: scale(1);
   }
   to {
-    transform: scale(0.9);
+    transform: scale(1.06);
   }
 }
 
 @keyframes scaleOut {
   from {
-    transform: scale(0.96);
+    transform: scale(1.06);
   }
   to {
     transform: scale(1);
