@@ -325,6 +325,7 @@ footer {
 
     &-body {
       @extend .card-body;
+      @extend .container;
       padding: 2.5rem;
 
       @include media-breakpoint-down(sm) {
