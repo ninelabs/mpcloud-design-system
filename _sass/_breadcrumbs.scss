@@ -1,6 +1,6 @@
 .mpcloud-breadcrumbs {
   align-items: center;
-  
+
   &-backlink i {
     font-size: .75rem;
     color: $mp-blue !important;
@@ -12,6 +12,7 @@
 
     &-label {
       text-decoration: underline !important;
+      color: $pulse-red !important;
     }
 
     &:hover {
@@ -19,6 +20,7 @@
 
       .mpcloud-breadcrumbs-backlink-label {
         text-decoration: none !important;
+        color: $pulse-red !important;
       }
     }
   }
