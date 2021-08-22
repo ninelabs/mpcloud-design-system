@@ -63,6 +63,13 @@ header {
         background-color: $cloud-blue;
       }
     }
+
+    &.show {
+      @include media-breakpoint-down(md) {
+        position: relative !important;
+        transform: none !important;
+      }
+    }
   }
 }
 
