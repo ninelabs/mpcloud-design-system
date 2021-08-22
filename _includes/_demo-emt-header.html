@@ -8,9 +8,24 @@
       </button>
       <div class="collapse emtech-header-navbar-collapse" id="emtechHeader">
         <ul class="emtech-header-navbar-nav">
-          <li class="emtech-header-navbar-nav-item"><a href="/demo/emt/services.html" class="emtech-header-navbar-nav-link{% if page.url == "/demo/emt/services.html" %} active{% endif %}">Services</a></li>
+          <li class="emtech-header-navbar-nav-item dropdown">
+            <a href="/demo/emt/services.html" id="ServicesMenu" class="emtech-header-navbar-nav-link{% if page.url == "/demo/emt/services.html" %} active{% endif %} dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" aria-label="Services">Services</a>
+            <div class="dropdown-menu" aria-labelledby="ServicesMenu">
+              <a class="dropdown-item" href="#">Consulting</a>
+              <a class="dropdown-item" href="#">Agency Revenue Cycle Management</a>
+              <a class="dropdown-item" href="#">Collections</a>
+              <a class="dropdown-item" href="#">Secure Partnership </a>
+              <a class="dropdown-item" href="#">Prior Authorization Consulting</a>
+            </div>
+          </li>
           <li class="emtech-header-navbar-nav-item"><a href="#" class="emtech-header-navbar-nav-link">Why Us</a></li>
-          <li class="emtech-header-navbar-nav-item"><a href="#" class="emtech-header-navbar-nav-link">About Us</a></li>
+          <li class="emtech-header-navbar-nav-item dropdown">
+            <a href="#" id="AboutUsMenu" class="emtech-header-navbar-nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" aria-label="About Us">About Us</a>
+            <div class="dropdown-menu" aria-labelledby="AboutUsMenu">
+              <a class="dropdown-item" href="#">Leadership</a>
+              <a class="dropdown-item" href="#">Partnerships</a>
+            </div>
+          </li>
           <li class="emtech-header-navbar-nav-item"><a href="#" class="emtech-header-navbar-nav-link">Contact Us</a></li>
           <li class="emtech-header-navbar-nav-item"><a href="#" class="btn btn-emtech-primary">Make a Payment</a></li>
         </ul>

@@ -8,9 +8,23 @@
       </button>
       <div class="collapse mpcloud-header-navbar-collapse" id="mpcloudHeader">
         <ul class="mpcloud-header-navbar-nav">
-          <li class="mpcloud-header-navbar-nav-item"><a href="/demo/mpc/advance-claim/" class="mpcloud-header-navbar-nav-link{% if page.url == "/demo/mpc/advance-claim.html" %} active{% endif %}" aria-label="AdvanceClaim">AdvanceClaim</a></li>
+          <li class="mpcloud-header-navbar-nav-item dropdown">
+            <a href="/demo/mpc/advance-claim/" id="AdvanceClaimMenu" class="mpcloud-header-navbar-nav-link{% if page.url == "/demo/mpc/advance-claim.html" %} active{% endif %} dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" aria-label="AdvanceClaim">AdvanceClaim</a>
+            <div class="dropdown-menu" aria-labelledby="AdvanceClaimMenu">
+              <a class="dropdown-item" href="#">EMS Agencies</a>
+              <a class="dropdown-item" href="#">EMS Billing</a>
+              <a class="dropdown-item" href="#">PlusID</a>
+            </div>
+          </li>
           <li class="mpcloud-header-navbar-nav-item"><a href="#" class="mpcloud-header-navbar-nav-link" aria-label="AdvanceDispatch">AdvanceDispatch</a></li>
-          <li class="mpcloud-header-navbar-nav-item"><a href="#" class="mpcloud-header-navbar-nav-link" aria-label="About Us">About Us</a></li>
+          <li class="mpcloud-header-navbar-nav-item dropdown">
+            <a href="#" id="AboutUsMenu" class="mpcloud-header-navbar-nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" aria-label="About Us">About Us</a>
+            <div class="dropdown-menu" aria-labelledby="AboutUsMenu">
+              <a class="dropdown-item" href="#">Leadership</a>
+              <a class="dropdown-item" href="#">Conferences</a>
+              <a class="dropdown-item" href="#">Partnerships</a>
+            </div>
+          </li>
           <li class="mpcloud-header-navbar-nav-item"><a href="#" class="mpcloud-header-navbar-nav-link" aria-label="Our Promise">Our Promise</a></li>
           <li class="mpcloud-header-navbar-nav-item"><a href="/demo/mpc/request-a-demo" class="btn btn-mpcloud" aria-label="Request a Demo">Request a Demo</a></li>
         </ul>

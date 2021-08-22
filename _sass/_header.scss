@@ -148,6 +148,40 @@ header {
     }
   }
 
+  .dropdown {
+
+    &-menu {
+      background-color: $mp-blue;
+    }
+
+    &-item {
+      position: relative;
+
+      &:hover,
+      &:focus {
+        background-color: $cloud-blue !important;
+      }
+
+      &:focus {
+        box-shadow: none;
+
+        &::after {
+          content: '';
+          display: block;
+          position: absolute;
+          top: -.25rem;
+          bottom: -.25rem;
+          right: -.25rem;
+          left: -.25rem;
+          box-shadow: 0 0 2px 1px $cloud-blue-light;
+          border-radius: 6px;
+          z-index: 1;
+        }
+      }
+    }
+
+  }
+
   .mpcloud-header-navbar {
     .mpcloud-header-navbar-container {
       .mpcloud-header-navbar-collapse {
@@ -207,7 +241,6 @@ header {
     }
   }
 }
-
 
 .emtech-header {
   &-navbar {
@@ -303,6 +336,40 @@ header {
     }
   }
 
+  .dropdown {
+
+    &-menu {
+      background-color: $emt-gray;
+    }
+
+    &-item {
+      position: relative;
+
+      &:hover,
+      &:focus {
+        background-color: $emt-orange-dark !important;
+      }
+
+      &:focus {
+        box-shadow: none;
+
+        &::after {
+          content: '';
+          display: block;
+          position: absolute;
+          top: -.25rem;
+          bottom: -.25rem;
+          right: -.25rem;
+          left: -.25rem;
+          box-shadow: 0 0 2px 1px $emt-orange-light;
+          border-radius: .375rem;
+          z-index: 1;
+        }
+      }
+    }
+
+  }
+
   .emtech-header-navbar {
     .emtech-header-navbar-container {
       .emtech-header-navbar-collapse {
@@ -312,8 +379,8 @@ header {
               position: relative;
               &:hover {
                 background-color: $white !important;
-                border-bottom-color: $mp-blue-lightest;
-                color: $mp-blue !important;
+                border-bottom-color: $emt-orange !important;
+                color: $emt-gray-darker !important;
               }
             }
           }
@@ -362,7 +429,6 @@ header {
     }
   }
 }
-
 
 body.mpcloud-sticky-header,
 body.emtech-sticky-header {
