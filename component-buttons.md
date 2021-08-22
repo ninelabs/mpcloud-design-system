@@ -112,7 +112,7 @@ When using button classes on `<a>` elements that are used to trigger in-page fun
 
 ----
 
-#### Seondary Button
+#### Secondary Button
 
 <button class="btn btn-emtech btn-emtech-secondary btn-emtech-lg" type="submit" aria-label="Label">Label</button>
 <button class="btn btn-emtech btn-emtech-secondary" type="submit" aria-label="Label">Label</button>
@@ -126,7 +126,7 @@ When using button classes on `<a>` elements that are used to trigger in-page fun
 
 #### Leading Content Block Buttons
 
-<div id="EMTechCarousel" class="carousel carousel-emtech slide w-50" data-ride="carousel">
+<div id="EMTechCarousel" class="carousel emtech-leading-content-carousel slide w-50" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
       &nbsp;
@@ -143,7 +143,7 @@ When using button classes on `<a>` elements that are used to trigger in-page fun
 </div>
 
 ```html
-<div id="EMTechCarousel" class="carousel carousel-emtech slide w-50" data-ride="carousel">
+<div id="EMTechCarousel" class="carousel emtech-leading-content-carousel slide w-50" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
       &nbsp;

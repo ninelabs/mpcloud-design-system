@@ -1,5 +1,5 @@
 .btn-mpcloud {
-  color: $white;
+  color: $white !important;
   background-color: $pulse-red;
   font-weight: bold;
   border: 2px solid $pulse-red-light;
@@ -7,6 +7,7 @@
   //@include button-size(.5rem, .75rem, 1.125rem, .75rem, .5rem);
   font-size: 1.125rem;
   padding: .5rem .75rem;
+  text-decoration: none !important;
 
   &-lg {
     //@include button-size(8px, 13.5px, 22px, 28px, 6px);
@@ -21,9 +22,10 @@
 
   &:hover,
   &:active {
-    color: $white;
+    color: $white !important;
     background-color: $pulse-red-dark;
     border-color: $pulse-red-lighter;
+    text-decoration: none !important;
   }
 
   &:focus {
@@ -54,6 +56,7 @@
     //@include button-size(12px, 21.5px, 22px, 28px, 6px);
     font-size: 1.25rem;
     padding: .75rem;
+    text-decoration: none !important;
   }
 
   @include media-breakpoint-down(lg) {
@@ -62,15 +65,17 @@
   }
 
   &-primary {
-    color: $gray;
+    color: $gray !important;
     background-color: rgba($white, .6);
     border: 2px solid $emt-orange;
     position: relative;
+    text-decoration: none !important;
 
     &:hover,
     &:active {
-      color: $gray;
+      color: $gray !important;
       border-color: $emt-orange-dark;
+      text-decoration: none !important;
     }
 
   &:focus {
@@ -172,11 +177,13 @@
 a[class*="btn"], button[class*="btn"]:not([data-toggle="collapse"]), input[class*="btn"],
 a[class*="chip"], button[class*="chip"]:not([data-toggle="collapse"]), input[class*="chip"] {
   animation: scaleOut 0.16s;
+  text-decoration: none !important;
 
   &:hover {
     animation: scaleIn 0.16s;
     transform-origin: center;
     animation-fill-mode: forwards;
+    text-decoration: none !important;
   }
 }
 

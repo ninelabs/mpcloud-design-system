@@ -1,19 +1,25 @@
 .mpcloud-breadcrumbs {
   align-items: center;
+  
   &-backlink i {
+    font-size: .75rem;
     color: $mp-blue !important;
   }
   &-backlink {
-    color: $pulse-red;
-
     display: inline-block;
     font-weight: 600;
-    color: $mp-blue;
     text-decoration: none !important;
 
+    &-label {
+      text-decoration: underline !important;
+    }
+
     &:hover {
-      color: $mp-blue;
       text-decoration: none !important;
+
+      .mpcloud-breadcrumbs-backlink-label {
+        text-decoration: none !important;
+      }
     }
   }
 }

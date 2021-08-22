@@ -70,26 +70,54 @@ h6 {
   font-family: $font-family-headings;
   font-style: normal;
   font-weight: 400;
-}
-
-a {
   color: $primary;
+
   &:hover {
     color: $mp-blue-dark;
   }
 }
 
+
+body.mpcloud-sticky-header {
+a:not(.mpcloud-header-navbar-nav-link, .btn, .btn-mpcloud-lg, .dropdown-item, .mpcloud-footer-link, .tag-mpcloud, .text-white, .nav-link, .carousel-control-prev, .carousel-control-next, .mpcloud-pre-footer-content-block-link) {
+  color: $pulse-red !important;
+  text-decoration: underline !important;
+  &:hover {
+    color: $pulse-red !important;
+    text-decoration: none !important;
+  }
+}
+}
+
+
+body.emtech-sticky-header {
+a:not(.emtech-header-navbar-nav-link, .btn, .btn-emtech-lg, .dropdown-item, .emtech-footer-link, .text-white, .nav-link, .carousel-control-prev, .carousel-control-next, .emtech-tile-link) {
+  color: $emt-orange !important;
+  text-decoration: underline !important;
+  &:hover {
+    color: $emt-orange !important;
+    text-decoration: none !important;
+  }
+}
+}
+
+
 blockquote {
   display: block;
   margin: 2rem auto;
   text-align: center;
+
   q {
     display: block;
     margin-bottom: 1rem;
-    font-size: 1.25rem;
+    font-size: 4vh;
     font-style: italic;
     color: $mp-blue-dark;
     quotes: "“" "”" "‘" "’";
+
+    @media (max-width: 768px) {
+      font-size: 3.25vh;
+    }
   }
   q::before {
     content: open-quote;
