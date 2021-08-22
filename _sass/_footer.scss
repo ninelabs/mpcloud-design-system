@@ -311,10 +311,6 @@ footer {
     border-radius: 1.5rem;
     padding: 0rem;
 
-    @include media-breakpoint-up(md) {
-      width: 80%;
-    }
-
     &-row {
       @extend .row;
       @extend .no-gutters;
