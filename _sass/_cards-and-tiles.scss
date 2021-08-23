@@ -40,7 +40,7 @@
 
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-gap: 1.5rem;
+  grid-gap: 2rem;
   justify-content: center;
 
   @include media-breakpoint-down(sm) {
@@ -220,6 +220,7 @@
 }
 
 .mpcloud-section-content-tile,
+.emtech-section-content-tile,
 .mpcloud-video-content-tile {
   @extend .container;
   color: $mp-blue;
@@ -296,18 +297,47 @@
   }
 }
 
-.mpcloud-section-content-tile {
+.mpcloud-section-content-tile,
+.emtech-section-content-tile {
 
   &-img {
     flex: 0 0 40%;
     max-width: 40%;
+    background-size: 100% 80%;
+    padding: 2rem;
+
+    @include media-breakpoint-down(sm) {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
   }
 
   &-body {
     flex: 0 0 60%;
     max-width: 60%;
-  }
+    padding-left: 3rem;
 
+    @include media-breakpoint-down(md) {
+      padding-left: 2rem;
+    }
+
+    @include media-breakpoint-down(sm) {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+}
+
+.mpcloud-section-content-tile {
+  &-img {
+    background-color: $cloud-blue-lightest;
+  }
+}
+
+.emtech-section-content-tile {
+  &-img {
+    background-color: $gray-10;
+  }
 }
 
 
@@ -317,6 +347,13 @@
   &-body {
     @extend .card-body;
     @extend .col-12;
+
+    @include media-breakpoint-down(sm) {
+      padding-left: 0rem !important;
+      padding-right: 0rem !important;
+      padding-top: 0rem !important;
+      padding-bottom: 0rem !important;
+    }
   }
 
   &-img {
@@ -351,7 +388,7 @@
   &-title {
     @extend .mb-3;
     @extend .text-left;
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   &-description {
