@@ -8,7 +8,6 @@ title: Cards & Tiles // Components
 ### MP Cloud Technologies
 #### Content Card
 {% include _component-mpc-content-card.html %}
-
 ```html
 {% include _component-mpc-content-card.html %}
 ```
@@ -23,10 +22,25 @@ title: Cards & Tiles // Components
 
 ----
 
+#### Section Content Tile
+{% include _component-mpc-section-content-tile.html %}
+```html
+{% include _component-mpc-section-content-tile.html %}
+```
+----
+
 #### Video Content Tile
 {% include _component-mpc-video-content-tile.html %}
 ```html
 {% include _component-mpc-video-content-tile.html %}
+```
+
+----
+
+#### Topic Tile
+{% include _component-mpc-topic-tile.html %}
+```html
+{% include _component-mpc-topic-tile.html %}
 ```
 
 ----
@@ -44,4 +58,11 @@ title: Cards & Tiles // Components
 {% include _component-emt-content-tile.html %}
 ```html
 {% include _component-emt-content-tile.html %}
+```
+----
+
+#### Topic Tile
+{% include _component-emt-topic-tile.html %}
+```html
+{% include _component-emt-topic-tile.html %}
 ```
