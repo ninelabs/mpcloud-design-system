@@ -373,14 +373,14 @@
       width: 100%;
       height: auto;
       opacity: 0;
-      max-height: 32.25rem;
+      max-height: 25.25rem;
+
+      @include media-breakpoint-up(lg) {
+        max-height: 25.25rem;
+      }
 
       @include media-breakpoint-down(sm) {
         max-height: 33.25rem;
-      }
-
-      @include media-breakpoint-up(lg) {
-        max-height: 35.25rem;
       }
     }
   }
