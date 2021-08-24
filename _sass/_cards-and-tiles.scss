@@ -303,7 +303,6 @@
   &-img {
     flex: 0 0 40%;
     max-width: 40%;
-    background-size: 100% 80%;
     padding: 2rem;
 
     @include media-breakpoint-down(sm) {
