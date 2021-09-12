@@ -121,7 +121,8 @@ input[type="file"] {
     margin-right: auto;
   }
 
-  &-required {
+  &-required,
+  .hs-form-required {
     @extend .ml-1;
     color: red;
     font-weight: 600;
