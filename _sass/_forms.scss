@@ -133,6 +133,7 @@ input[type="file"] {
     display: block;
     font-weight: 600;
   }
+
   input:not([type="checkbox"]),
   input:not([type="radio"]),
   input:not([type="submit"]),
@@ -192,6 +193,10 @@ input[type="file"] {
 
   fieldset {
     max-width: 100% !important;
+  }
+
+  .input {
+    @extend .m-0;
   }
 
   .hs-form-checkbox-display,
