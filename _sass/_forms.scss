@@ -215,12 +215,15 @@ input[type="file"] {
       }
 
        .hs-form-field {
-         width: 100%;
-         float: none;
+         width: 100% !important;
+         float: none !important;
        }
     }
-    .hs-input {
-      width: 100%;
+    .hs-input:not([type="checkbox"]),
+    .hs-input:not([type="radio"]),
+    .hs-input:not([type="submit"]),
+    .hs-input:not([type="button"]) {
+      width: 100% !important;
 
       @include media-breakpoint-down(sm) {
         width: 100% !important;
