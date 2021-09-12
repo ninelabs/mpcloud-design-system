@@ -361,9 +361,12 @@ header {
     &-item {
       position: relative;
 
+      &.active,
+      &.active:hover,
       &:hover,
       &:focus {
         background-color: $emt-orange-dark !important;
+        text-decoration: none !important;
       }
 
       &:focus {
