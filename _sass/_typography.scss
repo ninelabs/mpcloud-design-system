@@ -99,6 +99,29 @@ body.mpcloud-sticky-header {
       }
     }
   }
+
+  aside {
+    ul {
+      @extend .m-0;
+      @extend .mb-4;
+      @extend .p-0;
+      list-style-position: inside;
+      list-style-type: none;
+
+      li {
+        @extend .mb-2;
+        @extend .d-flex;
+
+        &:before {
+          content: '•';
+          color: $mp-blue !important;
+          padding: 0rem .5rem 0rem 0rem;
+          position: relative;
+        }
+      }
+    }
+  }
+
 }
 
 
@@ -111,8 +134,42 @@ body.emtech-sticky-header {
       text-decoration: none !important;
     }
   }
-}
 
+  h1, h2, h3, h4, h5, h6 {
+    @extend .card-title;
+
+    a {
+      color: $emt-orange !important;
+      text-decoration: none !important;
+      &:hover {
+        text-decoration: underline !important;
+      }
+    }
+  }
+
+  aside {
+    ul {
+      @extend .m-0;
+      @extend .mb-4;
+      @extend .p-0;
+      list-style-position: inside;
+      list-style-type: none;
+
+      li {
+        @extend .mb-2;
+        @extend .d-flex;
+
+        &:before {
+          content: '•';
+          color: $emt-gray-dark !important;
+          padding: 0rem .5rem 0rem 0rem;
+          position: relative;
+        }
+      }
+    }
+  }
+
+}
 
 blockquote {
   display: block;
@@ -149,7 +206,6 @@ blockquote {
     content: "\000A0 \2014";
   }
 }
-
 
 [class*="category"] {
   display: inline-block;
