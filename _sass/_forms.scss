@@ -115,6 +115,12 @@ input[type="file"] {
   display: flex;
   width:100%;
 
+  @include media-breakpoint-down(sm) {
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   &-required {
     @extend .ml-1;
     color: red;
@@ -127,6 +133,11 @@ input[type="file"] {
     @extend .mb-3;
     @extend .px-3;
     width: 100%;
+
+    @include media-breakpoint-down(sm) {
+      padding: 0 !important;
+      margin: 0 !important;
+    }
   }
 
   label {
@@ -193,10 +204,36 @@ input[type="file"] {
 
   fieldset {
     max-width: 100% !important;
+
+    &.form-columns-2 {
+      display: grid;
+
+      @include media-breakpoint-up(sm) {
+        grid-gap: .5rem;
+        grid-auto-flow: column;
+      }
+
+       .hs-form-field {
+         width: 100%;
+         float: none;
+       }
+    }
+    .hs-input {
+      width: 100%;
+
+      @include media-breakpoint-down(sm) {
+        width: 100% !important;
+      }
+    }
+
   }
 
   .input {
     @extend .m-0;
+
+    .hs-input {
+      width: 100%;
+    }
   }
 
   .hs-form-checkbox-display,
