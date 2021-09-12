@@ -330,14 +330,19 @@
 }
 
 .mpcloud-section-content-tile {
+  color: $mp-blue;
   &-img {
     background-color: $cloud-blue-lightest;
   }
 }
 
 .emtech-section-content-tile {
+  color: $emt-gray;
   &-img {
     background-color: $gray-10;
+  }
+  &-title {
+    color: $emt-gray;
   }
 }
 
