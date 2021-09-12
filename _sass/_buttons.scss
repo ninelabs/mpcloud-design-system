@@ -56,6 +56,11 @@ body.emtech-sticky-header .hs-button.primary {
   //@include button-size(.5rem, .75rem, 1.125rem, .75rem, .5rem);
   font-size: 1.125rem;
   padding: .5rem .75rem;
+  color: $gray !important;
+  background-color: rgba($white, .6);
+  border: 2px solid $emt-orange;
+  position: relative;
+  text-decoration: none !important;
 
   &-lg,
   &.large {
@@ -70,19 +75,12 @@ body.emtech-sticky-header .hs-button.primary {
     padding-right: .75rem !important;
   }
 
-  &-primary {
+  &:hover,
+  &:active {
     color: $gray !important;
-    background-color: rgba($white, .6);
-    border: 2px solid $emt-orange;
-    position: relative;
+    border-color: $emt-orange-dark;
     text-decoration: none !important;
-
-    &:hover,
-    &:active {
-      color: $gray !important;
-      border-color: $emt-orange-dark;
-      text-decoration: none !important;
-    }
+  }
 
   &:focus {
     box-shadow: none;
@@ -101,17 +99,16 @@ body.emtech-sticky-header .hs-button.primary {
     }
   }
 
-    &::before {
-      content: '';
-      display: block;
-      position: absolute;
-      top: 1px;
-      bottom: 1px;
-      right: 1px;
-      left: 1px;
-      border: 3px solid $emt-orange-lightest;
-      z-index: 1;
-    }
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 1px;
+    bottom: 1px;
+    right: 1px;
+    left: 1px;
+    border: 3px solid $emt-orange-lightest;
+    z-index: 1;
   }
 
   &-secondary {
@@ -145,6 +142,7 @@ body.emtech-sticky-header .hs-button.primary {
     }
   }
 }
+
 
 .tag-mpcloud {
   font-weight: bold;

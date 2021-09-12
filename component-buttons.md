@@ -102,12 +102,12 @@ When using button classes on `<a>` elements that are used to trigger in-page fun
 ### EMTech Billing
 #### Primary Button
 
-<button class="btn btn-emtech btn-emtech-primary btn-emtech-lg" type="submit" aria-label="Label">Label</button>
-<button class="btn btn-emtech btn-emtech-primary" type="submit" aria-label="Label">Label</button>
+<button class="btn  btn-emtech btn-emtech-lg" type="submit" aria-label="Label">Label</button>
+<button class="btn  btn-emtech" type="submit" aria-label="Label">Label</button>
 
 ```html
-<button class="btn btn-emtech btn-emtech-primary btn-emtech-lg" type="submit" aria-label="Label">Label</button>
-<button class="btn btn-emtech btn-emtech-primary" type="submit" aria-label="Label">Label</button>
+<button class="btn  btn-emtech btn-emtech-lg" type="submit" aria-label="Label">Label</button>
+<button class="btn  btn-emtech" type="submit" aria-label="Label">Label</button>
 ```
 
 ----
