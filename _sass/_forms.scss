@@ -104,6 +104,7 @@ input[type="file"] {
 }
 
 .mpcloud-form,
+.emtech-form,
 .request-a-demo-form {
   @extend .row;
   @extend .mt-4;
@@ -186,6 +187,10 @@ input[type="file"] {
   /******************************
     Hubspot Styling
   ********************************/
+
+  .fieldset {
+  max-width: 100% !important;
+  }
 
   .hs-form-checkbox-display,
   .hs-form-radio-display {
