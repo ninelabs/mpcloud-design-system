@@ -235,7 +235,9 @@ input[type="file"] {
   .input {
     @extend .m-0;
 
-    .hs-input {
+    .hs-input,
+    .form-columns-1 .hs-input,
+    .form-columns-2 .hs-input {
       width: 100%;
     }
   }
