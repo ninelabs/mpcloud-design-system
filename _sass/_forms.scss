@@ -226,7 +226,7 @@ input[type="file"] {
       display: grid;
 
       @include media-breakpoint-up(sm) {
-        grid-gap: .5rem;
+        grid-gap: 1.5rem;
         grid-auto-flow: column;
       }
 
