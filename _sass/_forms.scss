@@ -219,10 +219,10 @@ input[type="file"] {
          float: none !important;
        }
     }
-    .hs-input:not([type="checkbox"]),
-    .hs-input:not([type="radio"]),
-    .hs-input:not([type="submit"]),
-    .hs-input:not([type="button"]) {
+    .hs-input[type="email"],
+    .hs-input[type="text"],
+    .hs-input[type="password"],
+    .hs-input[type="phone"] {
       width: 100% !important;
 
       @include media-breakpoint-down(sm) {
