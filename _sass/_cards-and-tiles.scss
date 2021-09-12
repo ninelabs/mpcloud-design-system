@@ -138,7 +138,8 @@
   }
 }
 
-.mpcloud-article-preview-tile {
+.mpcloud-article-preview-tile,
+.emtech-article-preview-tile {
   @extend .container;
   color: $mp-blue;
   border-bottom: 1px solid $cloud-blue-light;
@@ -221,6 +222,7 @@
 
 .mpcloud-section-content-tile,
 .emtech-section-content-tile,
+.emtech-video-content-tile,
 .mpcloud-video-content-tile {
   @extend .container;
   color: $mp-blue;
