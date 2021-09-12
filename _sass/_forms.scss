@@ -135,6 +135,8 @@ input[type="file"] {
   }
   input:not([type="checkbox"]),
   input:not([type="radio"]),
+  input:not([type="submit"]),
+  input:not([type="button"]),
   select,
   textarea {
     display: block;
@@ -188,8 +190,8 @@ input[type="file"] {
     Hubspot Styling
   ********************************/
 
-  .fieldset {
-  max-width: 100% !important;
+  fieldset {
+    max-width: 100% !important;
   }
 
   .hs-form-checkbox-display,
