@@ -65,6 +65,8 @@ header {
       color: $white !important;
       text-decoration: none !important;
 
+      &.active,
+      &.active:hover,
       &:hover {
         background-color: $cloud-blue;
         text-decoration: none !important;
