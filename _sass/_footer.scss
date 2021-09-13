@@ -553,6 +553,11 @@ hr.emtech-hr {
 
 .mpcloud-footer {
   background-color: $mp-blue;
+  color: $white;
+
+  p {
+    color: $white;
+  }
 
   &-hr {
     position: relative;
@@ -611,6 +616,11 @@ hr.emtech-hr {
 
 .emtech-footer {
   background-color: $emt-gray-darker;
+  color: $white;
+
+  p {
+    color: $white;
+  }
 
   &-section-lg {
     font-size: 1.5rem;

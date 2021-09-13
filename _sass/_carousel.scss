@@ -20,10 +20,10 @@
   }
 
   .carousel-inner {
-    color: $white;
+    color: $white !important;
 
     p {
-      color: $white;
+      color: $white !important;
     }
     .carousel-item {
       text-align: center;
