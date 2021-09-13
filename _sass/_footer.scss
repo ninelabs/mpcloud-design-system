@@ -527,6 +527,31 @@ hr.mpcloud-hr {
   }
 }
 
+hr.emtech-hr {
+  border-style: none;
+  border-bottom: 1px solid $emt-gray-light;
+  position: relative;
+
+  &:before,
+  &:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: .75rem;
+    height: .75rem;
+    border: 1px solid $emt-gray-light;
+    border-radius: 100%;
+    left: -.75rem;
+    top: -.325rem;
+  }
+  &:before {
+    left: -.75rem;
+  }
+  &:after {
+    right: -.75rem;
+  }
+}
+
 .mpcloud-footer {
   background-color: $mp-blue;
 
