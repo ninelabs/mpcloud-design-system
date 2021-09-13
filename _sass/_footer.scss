@@ -529,7 +529,7 @@ hr.mpcloud-hr {
 
 hr.emtech-hr {
   border-style: none;
-  border-bottom: 1px solid $emt-gray-light;
+  border-bottom: 1px solid $emt-gray-lighter;
   position: relative;
 
   &:before,
@@ -539,7 +539,7 @@ hr.emtech-hr {
     position: absolute;
     width: .75rem;
     height: .75rem;
-    border: 1px solid $emt-gray-light;
+    border: 1px solid $emt-gray-lighter;
     border-radius: 100%;
     top: -.325rem;
   }
