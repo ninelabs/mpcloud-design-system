@@ -21,6 +21,10 @@
 
   .carousel-inner {
     color: $white;
+
+    p {
+      color: $white;
+    }
     .carousel-item {
       text-align: center;
       padding: 3rem 0;
