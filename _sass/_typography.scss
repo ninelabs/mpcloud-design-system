@@ -79,7 +79,7 @@ h6 {
 
 
 body.mpcloud-sticky-header {
-  a:not(.mpcloud-header-navbar-nav-link, .btn, .btn-mpcloud-lg, .dropdown-item, .mpcloud-footer-link, .tag-mpcloud, .text-white, .nav-link, .carousel-control-prev, .carousel-control-next, .mpcloud-pre-footer-content-block-link, .mpcloud-breadcrumbs-backlink, .mpcloud-page-link) {
+  a:not(.mpcloud-header-navbar-nav-link, .btn, .btn-mpcloud-lg, .dropdown-item, .mpcloud-footer-link, .tag-mpcloud, .text-white, .nav-link, .carousel-control-prev, .carousel-control-next, .mpcloud-pre-footer-content-block-link, .mpcloud-breadcrumbs-backlink, .mpcloud-page-link, .mpcloud-chip) {
     color: $pulse-red;
     text-decoration: underline;
     &:hover {
@@ -126,7 +126,7 @@ body.mpcloud-sticky-header {
 
 
 body.emtech-sticky-header {
-  a:not(.emtech-header-navbar-nav-link, .btn, .btn-emtech-lg, .dropdown-item, .emtech-footer-link, .text-white, .nav-link, .carousel-control-prev, .carousel-control-next, .emtech-tile-link, .emtech-breadcrumbs-backlink, .emtech-page-link) {
+  a:not(.emtech-header-navbar-nav-link, .btn, .btn-emtech-lg, .dropdown-item, .emtech-footer-link, .text-white, .nav-link, .carousel-control-prev, .carousel-control-next, .emtech-tile-link, .emtech-breadcrumbs-backlink, .emtech-page-link, .emtech-chip) {
     color: $emt-orange !important;
     text-decoration: underline !important;
     &:hover {
