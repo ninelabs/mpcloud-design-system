@@ -90,6 +90,7 @@ body.mpcloud-sticky-header {
 
   h1, h2, h3, h4, h5, h6 {
     @extend .card-title;
+    color: $mp-blue;
 
     a {
       color: $mp-blue !important;
@@ -137,9 +138,10 @@ body.emtech-sticky-header {
 
   h1, h2, h3, h4, h5, h6 {
     @extend .card-title;
+    color: $emt-gray;
 
     a {
-      color: $emt-orange !important;
+      color: $emt-gray !important;
       text-decoration: none !important;
       &:hover {
         text-decoration: underline !important;
