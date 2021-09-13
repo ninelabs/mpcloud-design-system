@@ -71,7 +71,9 @@ footer {
 }
 
 .mpcloud-pre-footer-content-block,
-.mpcloud-pre-footer-accordion-block {
+.mpcloud-pre-footer-accordion-block,
+.emtech-pre-footer-content-block,
+.emtech-pre-footer-accordion-block {
   @extend .w-100;
   display: inline-block;
   background-color: $cloud-blue-lightest;
@@ -167,7 +169,8 @@ footer {
   }
 }
 
-.mpcloud-pre-footer-accordion {
+.mpcloud-pre-footer-accordion,
+.emtech-pre-footer-accordion {
   @extend .accordion;
   color: $mp-blue;
   font-size: 1.125rem;
@@ -270,9 +273,42 @@ footer {
   }
 
 
-  .mpcloud-pre-footer-accordion-heading {
+  .mpcloud-pre-footer-accordion-heading,
+  .emtech-pre-footer-accordion-heading {
     margin-top: 0rem !important;
   }
+}
+
+
+.emtech-pre-footer-accordion {
+  color: $emt-gray;
+
+  &-card {
+    @extend .card;
+    background: none;
+    border: none;
+
+    &:not(:last-child){
+      border-bottom: 1px solid $emt-gray-lighter !important;
+    }
+
+    &-header {
+      color: $emt-gray;
+
+      i {
+        color: $emt-gray-light;
+      }
+    }
+  }
+
+  &-btn-link {
+    color: $emt-gray;
+
+    &:hover {
+      color: $emt-gray !important;
+    }
+  }
+
 }
 
 .mpcloud-pre-footer-callout-block,
