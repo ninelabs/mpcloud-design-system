@@ -101,6 +101,10 @@ body.mpcloud-sticky-header {
     }
   }
 
+  blockquote, ul, ol, p {
+    color: $mp-blue;
+  }
+
   aside {
     ul {
       @extend .m-0;
@@ -147,6 +151,10 @@ body.emtech-sticky-header {
         text-decoration: underline !important;
       }
     }
+  }
+
+  blockquote, ul, ol, p {
+    color: $emt-gray;
   }
 
   aside {
