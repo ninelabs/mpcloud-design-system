@@ -592,7 +592,7 @@ hr.emtech-hr {
   color: $white;
 
   p {
-    color: $white;
+    color: $white !important;
   }
 
   &-hr {
@@ -655,7 +655,7 @@ hr.emtech-hr {
   color: $white;
 
   p {
-    color: $white;
+    color: $white  !important;
   }
 
   &-section-lg {
