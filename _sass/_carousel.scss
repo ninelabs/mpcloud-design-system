@@ -408,6 +408,7 @@
       @extend .m-0;
       @extend .text-center;
       padding: .75rem 0 1.25rem;
+      font-size: 1rem;
 
       @include media-breakpoint-down(md) {
         padding: .5rem 0 0;
