@@ -76,36 +76,6 @@ footer {
 .emtech-pre-footer-accordion-block {
   @extend .w-100;
   display: inline-block;
-  background-color: $cloud-blue-lightest;
-  color: $mp-blue;
-
-  &-hr {
-    position: relative;
-    height: .25rem;
-    background-color: $white;
-    border: none;
-    margin: .4rem 3.75rem;
-
-    &::before,
-    &::after {
-      content: '';
-      display: block;
-      position: absolute;
-      top: -1.2rem;
-      width: 2.5rem;
-      height: 2.5rem;
-    }
-
-    &::before {
-      left: -2.5rem;
-      background: url('../assets/img/PreFooterLeft.svg');
-    }
-
-    &::after {
-      right: -2.5rem;
-      background: url('../assets/img/PreFooterRight.svg');
-    }
-  }
 
   &-container {
     @extend .container;
@@ -168,6 +138,56 @@ footer {
     }
   }
 }
+
+
+.mpcloud-pre-footer-content-block,
+.mpcloud-pre-footer-accordion-block {
+  background-color: $cloud-blue-lightest;
+  color: $mp-blue;
+
+  &-hr {
+    position: relative;
+    height: .25rem;
+    background-color: $white;
+    border: none;
+    margin: .4rem 3.75rem;
+
+    &::before,
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: -1.2rem;
+      width: 2.5rem;
+      height: 2.5rem;
+    }
+
+    &::before {
+      left: -2.5rem;
+      background: url('../assets/img/PreFooterLeft.svg');
+    }
+
+    &::after {
+      right: -2.5rem;
+      background: url('../assets/img/PreFooterRight.svg');
+    }
+  }
+}
+
+
+.emtech-pre-footer-content-block,
+.emtech-pre-footer-accordion-block {
+  background-color: $gray-10;
+  color: $emt-gray;
+
+  &-hr {
+    @extend .emtech-hr;
+    margin: .4rem 3.75rem;
+  }
+}
+
+
+
 
 .mpcloud-pre-footer-accordion,
 .emtech-pre-footer-accordion {

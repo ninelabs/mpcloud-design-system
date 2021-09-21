@@ -97,6 +97,16 @@ The EMTech Billing Global Header is based on the [Bootstrap Navbar]() contains t
 
 ----
 
+#### Pre-Footer Accordion Block
+
+{% include _component-emt-pre-footer-accordion-block.html %}
+
+```html
+{% include _component-emt-pre-footer-accordion-block.html %}
+```
+
+----
+
 #### Global Footer
 
 The EMTech Billing Global Footer is a four column spread containing links to all the major pages and content sections of the website. It also includes office addresses and contact information.
