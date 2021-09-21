@@ -345,8 +345,6 @@
   }
 }
 
-
-
 .mpcloud-topic-tile,
 .emtech-topic-tile {
   &-body {
@@ -372,10 +370,6 @@
 
     @include media-breakpoint-down(sm) {
       margin: 1rem 0rem;
-    }
-
-    &.bg-contain {
-      background-size: auto 95%;
     }
 
     img {
@@ -416,4 +410,8 @@
   &-description {
     color: $emt-gray !important;
   }
+}
+
+.bg-contain {
+  background-size: auto 95%;
 }
