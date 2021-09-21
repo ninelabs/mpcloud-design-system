@@ -360,6 +360,56 @@ These are the PNG icon images used for MP Cloud Technologies.
         <img src="/assets/stock-photography/Unsplash/national-cancer-institute-701-FJcjLAQ-unsplash.jpg" class="stock-photography-img">
     </div>
   </div>
+  <!-- Added on Sept 19, 2021 -->
+  <div class="stock-photography-row">
+    <div class="stock-photography-col">
+        <img src="/assets/stock-photography/Pexels/MPCloud/pexels-rodnae-productions-6129582.jpg" class="stock-photography-img">
+    </div>
+    <div class="stock-photography-col">
+      <img src="/assets/stock-photography/Pexels/MPCloud/pexels-rodnae-productions-6129581.jpg" class="stock-photography-img">
+    </div>
+    <div class="stock-photography-col">
+      <img src="/assets/stock-photography/Pexels/MPCloud/pexels-rodnae-productions-6129445.jpg" class="stock-photography-img">
+    </div>
+    <div class="stock-photography-col">
+      <img src="/assets/stock-photography/Pexels/MPCloud/pexels-rodnae-productions-6129443.jpg" class="stock-photography-img">
+    </div>
+    <div class="stock-photography-col">
+      <img src="/assets/stock-photography/Pexels/MPCloud/pexels-rodnae-productions-6129235.jpg" class="stock-photography-img">
+    </div>
+  </div>
+  <div class="stock-photography-row">
+    <div class="stock-photography-col">
+      <img src="/assets/stock-photography/Pexels/MPCloud/pexels-rodnae-productions-6129234.jpg" class="stock-photography-img">
+    </div>
+    <div class="stock-photography-col">
+      <img src="/assets/stock-photography/Pexels/MPCloud/pexels-rodnae-productions-6129198.jpg" class="stock-photography-img">
+    </div>
+    <div class="stock-photography-col">
+      <img src="/assets/stock-photography/Pexels/MPCloud/pexels-rodnae-productions-6129159.jpg" class="stock-photography-img">
+    </div>
+    <div class="stock-photography-col">
+      <img src="/assets/stock-photography/Pexels/MPCloud/pexels-rodnae-productions-6129156.jpg" class="stock-photography-img">
+    </div>
+    <div class="stock-photography-col">
+      <img src="/assets/stock-photography/Pexels/MPCloud/pexels-rodnae-productions-6129152.jpg" class="stock-photography-img">
+    </div>
+  </div>
+  <div class="stock-photography-row">
+    <div class="stock-photography-col">
+      <img src="/assets/stock-photography/Pexels/MPCloud/pexels-rodnae-productions-6129046.jpg" class="stock-photography-img">
+    </div>
+    <div class="stock-photography-col">
+      <img src="/assets/stock-photography/Pexels/MPCloud/pexels-rodnae-productions-6129040.jpg" class="stock-photography-img">
+    </div>
+    <div class="stock-photography-col">
+      <img src="/assets/stock-photography/Pexels/MPCloud/pexels-rodnae-productions-6129038.jpg" class="stock-photography-img">
+    </div>
+    <div class="stock-photography-col">
+        <img src="/assets/stock-photography/Pexels/MPCloud/pexels-rodnae-productions-6129034.jpg" class="stock-photography-img">
+    </div>
+  </div>
+
 </div>
 
 ----
