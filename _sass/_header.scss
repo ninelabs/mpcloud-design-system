@@ -452,7 +452,8 @@ header {
 body.mpcloud-sticky-header,
 body.emtech-sticky-header {
   .mpcloud-header,
-  .emtech-header {
+  .emtech-header,
+  .header-container-wrapper {
     position: sticky;
     top: 0;
     background-color: $white;
