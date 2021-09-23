@@ -61,6 +61,7 @@ body.emtech-sticky-header .hs-button.primary {
   border: 2px solid $emt-orange;
   position: relative;
   text-decoration: none !important;
+  border-radius: .75rem;
 
   &-lg,
   &.large {
@@ -94,7 +95,7 @@ body.emtech-sticky-header .hs-button.primary {
       right: -.25rem;
       left: -.25rem;
       box-shadow: 0 0 2px 1px $emt-orange-light;
-      border-radius: .375rem;
+      border-radius: .75rem;
       z-index: 1;
     }
   }
@@ -108,20 +109,26 @@ body.emtech-sticky-header .hs-button.primary {
     right: 1px;
     left: 1px;
     border: 3px solid $emt-orange-lightest;
+    border-radius: .5rem;
     z-index: 1;
   }
 
   &-secondary {
-    color: $white;
+    color: $white !important;
     background-color: $emt-gray-darker;
     border: 2px solid $emt-gray-light;
     position: relative;
 
     &:hover,
     &:active {
-      color: $white;
+      color: $white !important;
       background-color: $emt-gray-dark;
       border-color: $emt-gray-lighter;
+    }
+
+    &:before {
+      content: '';
+      display: none !important;
     }
 
     &:focus {
@@ -136,7 +143,7 @@ body.emtech-sticky-header .hs-button.primary {
         right: -.25rem;
         left: -.25rem;
         box-shadow: 0 0 2px 1px $emt-orange-light;
-        border-radius: 6px;
+        border-radius: .75rem;
         z-index: 1;
       }
     }
