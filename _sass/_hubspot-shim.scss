@@ -16,3 +16,21 @@
  .row-fluid [class*="span"] {
      min-height: 0;
  }
+
+
+// Only show the hero on the News (Blog) landing page NOT any listing pagination pages OR blog post detail page
+body.blog--listing,
+body.blog--post {
+
+  &.blog--listing-is-page-1 {
+    #MPCloudHero {
+      display: block;
+    }
+  }
+
+  &:not(.blog--listing-is-page-1) {
+    #MPCloudHero {
+      display: none;
+    }
+  }
+}
