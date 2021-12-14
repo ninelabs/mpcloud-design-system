@@ -70,7 +70,7 @@
     @extend .page-link;
     z-index: 3;
     color: $pagination-active-color;
-    background-color: $pagination-active-bg;
+    background-color: $cloud-blue-lightest !important;
     border-color: $cloud-blue-lighter;
   }
 
