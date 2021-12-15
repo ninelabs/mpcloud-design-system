@@ -415,3 +415,33 @@
 .bg-contain {
   background-size: auto 95%;
 }
+
+.mpcloud-topic-featured-img ,
+.emtech-topic-featured-img {
+  @extend .col-12;
+  //background-image: url('/assets/stock-photography/Pexels/MPCloud/pexels-rodnae-productions-6129104.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 1.5rem;
+  margin: 1.5rem 0rem;
+
+  @include media-breakpoint-down(sm) {
+    margin: 1rem 0rem;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    opacity: 0;
+    max-height: 25.25rem;
+
+    @include media-breakpoint-up(lg) {
+      max-height: 25.25rem;
+    }
+
+    @include media-breakpoint-down(sm) {
+      max-height: 33.25rem;
+    }
+  }
+}
