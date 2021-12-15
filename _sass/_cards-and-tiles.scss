@@ -416,13 +416,14 @@
   background-size: auto 95%;
 }
 
-.mpcloud-topic-featured-img ,
+.mpcloud-topic-featured-img,
 .emtech-topic-featured-img {
   @extend .col-12;
   //background-image: url('/assets/stock-photography/Pexels/MPCloud/pexels-rodnae-productions-6129104.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
+  background-color: $gray-5;
   border-radius: 1.5rem;
   margin: 1.5rem 0rem;
 
