@@ -37,5 +37,13 @@ body.blog--post {
 
 // This is the closest parent wrapper HubSpot insert any custom module code into
 .hs_cos_wrapper_type_module {
-  //@extend .container;
+
+  .mpcloud-card-group,
+  .mpcloud-tile-group,
+  .emtech-card-group,
+  .emtech-tile-group {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
 }
