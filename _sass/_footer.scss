@@ -88,6 +88,10 @@ footer {
 
   &-row {
     @extend .row;
+
+    @include media-breakpoint-down(md) {
+      flex-direction: column;
+    }
   }
 
   &-col {
@@ -99,9 +103,17 @@ footer {
       //@extend .pl-0;
     }
 
+    &:last-child {
+      @include media-breakpoint-down(md) {
+        margin-top: 0;
+      }
+    }
+
     @include media-breakpoint-down(md) {
       width: 100%;
       padding: 0;
+      max-width: 100%;
+      margin-top: 2rem;
     }
 
     @include media-breakpoint-down(sm) {
