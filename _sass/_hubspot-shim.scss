@@ -34,3 +34,8 @@ body.blog--post {
     }
   }
 }
+
+// This is the closest parent wrapper HubSpot insert any custom module code into
+.hs_cos_wrapper_type_module {
+  @extend .container;
+}
